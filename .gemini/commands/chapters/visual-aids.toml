@@ -46,4 +46,10 @@ Strictly follow this structure for your recommendations:
 - **Finalized Table:** Full Markdown table with fact-checked data.
 - **Source Verification:** [Row/Column]: [Citation/Link].
 </table_recommendations>
+
+## 4. Asset Prompt Creation
+After providing the recommendations in the required XML format, you MUST:
+1. Ensure the directory `chapters/Chapter-[Chapter Number]/gr/assets/images` and `chapters/Chapter-[Chapter Number]/gr/assets/tables` exist (create them if necessary).
+2. Create a markdown file at `chapters/Chapter-[Chapter Number]/gr/assets/image-prompts.md`.
+3. Populate this file with a structured version of the **Visual Description** and **Finalized Table** recommendations provided above, serving as a reference for image generation.
 """
