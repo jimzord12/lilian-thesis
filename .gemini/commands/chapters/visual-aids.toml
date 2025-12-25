@@ -1,0 +1,53 @@
+description = "Analyze a chapter to recommend visual aids (Figures and Tables) based on specific quantities."
+
+prompt = """
+# Visual Aids Recommendation Task
+
+@{docs/AI-related/agents/academic-editor/index.md}
+
+## 0. Argument Validation
+**Rule:** You must receive exactly 3 arguments: [Chapter Number] [Image Quantity] [Table Quantity].
+If `{{args}}` does not contain 3 space-separated values, **HALT** and ask the user for the correct format: `/chapters:visual-aids [Chapter] [Images] [Tables]`.
+
+## 1. Parameter Extraction
+First, extract the task parameters from the arguments `{{args}}`:
+- **Chapter Number**: `run_shell_command(command="/home/jimzord-linux/projects/github/lilian/lilian-thesis/.gemini/scripts/parse_visual_aids_args.sh '{{args}}' --chapter")`
+- **Target Image Quantity (X)**: `run_shell_command(command="/home/jimzord-linux/projects/github/lilian/lilian-thesis/.gemini/scripts/parse_visual_aids_args.sh '{{args}}' --images")`
+- **Target Table Quantity (Y)**: `run_shell_command(command="/home/jimzord-linux/projects/github/lilian/lilian-thesis/.gemini/scripts/parse_visual_aids_args.sh '{{args}}' --tables")`
+
+## 2. Content Loading
+Load the completed English markdown file for the identified Chapter.
+Path: `chapters/Chapter-[Chapter Number]/en/Chapter [Chapter Number]_*.md`
+
+## 3. Analysis & Recommendation
+Analyze the loaded chapter content to identify dense technical sections that would benefit from visual representation.
+
+### Constraints
+- **Evidence-Based:** Use `google_web_search` to validate data points and technical accuracy.
+- **Academic Standard:** Adhere to IEEE/APA style for captions and labels.
+- **Hardware Accuracy:** Ensure descriptions match physical hardware mentioned (e.g., Banana Pro, LoRaWAN).
+
+### Output Format
+Strictly follow this structure for your recommendations:
+
+<image_recommendations quantity="X">
+*For each recommendation:*
+- **Location:** Section Number & Title.
+- **Placement:** Precise insertion point.
+- **Rationale:** Why text is insufficient.
+- **Type:** e.g., Block Diagram, System Architecture, Flowchart.
+- **Visual Description:** Detailed prompt for a designer, including components, flow, and style.
+- **Mermaid.js Code:** If applicable.
+- **Alt Text:** For accessibility.
+- **Caption:** **Figure [Number]:** [Title] - [Explanation]. (Source: [Author/Search])
+</image_recommendations>
+
+<table_recommendations quantity="Y">
+*For each recommendation:*
+- **Location:** Section Number & Title.
+- **Placement:** Precise insertion point.
+- **Rationale:** Why a table is better.
+- **Finalized Table:** Full Markdown table with fact-checked data.
+- **Source Verification:** [Row/Column]: [Citation/Link].
+</table_recommendations>
+"""

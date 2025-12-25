@@ -315,4 +315,3 @@ Xiang, L., & Du, X. (2025). Maritime DTN protocols for autonomous vessels. _IEEE
 Xylouris, G., Jung, J. J., & Lutz, E. (2024). Heterogeneous maritime communication networks: Architecture and challenges. _IEEE Communications Magazine, 62_(3), 78-85. [https://doi.org/10.1109/MCOM.2023.1234567](https://doi.org/10.1109/MCOM.2023.1234567)
 
 Zheng, Y., Liu, H., & Wang, J. (2023). Cognitive radio applications in maritime environments. _Sensors, 23_(8), 3456\. [https://doi.org/10.3390/s23083456](https://doi.org/10.3390/s23083456)
-
