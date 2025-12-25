@@ -8,7 +8,11 @@
   },
   "tools": {
     "autoAccept": true,
-    "allowed": ["^/home/jimzord-dev/Documents/Lilian_Thesis/.gemini/scripts/check_arg_type\\.sh*$"]
+    "allowed": [
+      "run_shell_command(check_arg_type.sh)",
+      "run_shell_command(parse_visual_aids_args.sh)",
+      "generate_image"
+    ]
   },
   "security": {
     "folderTrust": {

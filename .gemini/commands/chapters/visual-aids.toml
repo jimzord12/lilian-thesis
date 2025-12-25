@@ -24,7 +24,7 @@ Analyze the loaded chapter content to identify dense technical sections that wou
 
 ### Constraints
 - **Evidence-Based:** Use `google_web_search` to validate data points and technical accuracy.
-- **Academic Standard:** Adhere to IEEE/APA style for captions and labels.
+- **Academic Standard:** Adhere to APA style for captions and labels.
 - **Hardware Accuracy:** Ensure descriptions match physical hardware mentioned (e.g., Banana Pro, LoRaWAN).
 
 ### Output Format
@@ -34,11 +34,8 @@ Strictly follow this structure for your recommendations:
 *For each recommendation:*
 - **Location:** Section Number & Title.
 - **Placement:** Precise insertion point.
-- **Rationale:** Why text is insufficient.
 - **Type:** e.g., Block Diagram, System Architecture, Flowchart.
 - **Visual Description:** Detailed prompt for a designer, including components, flow, and style.
-- **Mermaid.js Code:** If applicable.
-- **Alt Text:** For accessibility.
 - **Caption:** **Figure [Number]:** [Title] - [Explanation]. (Source: [Author/Search])
 </image_recommendations>
 
@@ -46,7 +43,6 @@ Strictly follow this structure for your recommendations:
 *For each recommendation:*
 - **Location:** Section Number & Title.
 - **Placement:** Precise insertion point.
-- **Rationale:** Why a table is better.
 - **Finalized Table:** Full Markdown table with fact-checked data.
 - **Source Verification:** [Row/Column]: [Citation/Link].
 </table_recommendations>
