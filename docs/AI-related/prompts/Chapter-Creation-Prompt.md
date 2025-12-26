@@ -14,7 +14,7 @@ You are operating within a strict directory structure. You must parse this struc
 
   - `chapter-progress-tracker.md`: The state file.
 
-  - `Thesis Outline_ Maritime Internet of Things.md`: The master plan.
+  - `thesis-outline.md`: The master plan.
 
 - **Chapters Directory:** `{{args}}/chapters/`
 
@@ -109,7 +109,7 @@ Upon approval, perform the following actions:
 
 - **Formatting:** Use standard Markdown headers (`#` for Chapter Title, `##` for Section Titles).
 
-- **Missing Files:** If a section listed in the `Thesis Outline` is missing from the `sections/` folder, warn the user during **Phase 1** but offer to proceed with available files.
+- **Missing Files:** If a section listed in the `thesis-outline.md` is missing from the `sections/` folder, warn the user during **Phase 1** but offer to proceed with available files.
 
 - **No Hallucinations:** Do not invent content for the Sections. Only invent the _synthesis_ text (Intro/Conclusion) based on the section content provided.
 

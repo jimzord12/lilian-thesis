@@ -1,0 +1,39 @@
+description = "Proceed to the next task in the Final Document construction workflow."
+
+prompt = """
+# **Final Document Progression Workflow**
+
+## **1. State Analysis**
+
+1. Read `final-document/final-document-workflow.md` to identify the current "Current Task" or the first unchecked item in the priority list.
+2. Cross-reference with `chapter-progress-tracker.md` to ensure source materials are ready.
+
+## **2. Execution Logic**
+
+### **If the next task is a Chapter Assembly:**
+1. Locate the `Final` version of the chapter (e.g., `-Final.md` or `-Humanized.md`).
+2. Read the content and any associated bibliography.
+3. If this is the FIRST chapter being added, initialize the final master document (e.g., `Thesis_Final.md`).
+4. Append the chapter content to the final master document.
+5. Ensure heading levels are adjusted if necessary (Chapter title as #, sections as ##).
+6. Update the workflow file: mark the chapter as [x] and set the next chapter as the "Current Task".
+
+### **If the next task is "Bookending" (Introduction or Conclusion):**
+1. Perform a full review of the master document content.
+2. Generate/Refine the chapter to ensure it aligns perfectly with the synthesized content of the main body.
+3. Append/Prepend as appropriate.
+
+### **If the next task is Front/Back Matter:**
+1. Generate the required section (Abstract, Abbreviations, etc.).
+2. Consolidate bibliographies into the master reference list.
+
+## **3. Quality Controls**
+
+- Do not process more than ONE major chapter per session unless they are very short.
+- Always check for consistent terminology and style across the document.
+- Ensure no duplicate "References" headers exist within the body of the master document.
+
+## **4. Reporting**
+
+Summarize what was added and what the user should expect in the next session.
+"""

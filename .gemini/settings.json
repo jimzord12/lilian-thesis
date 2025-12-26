@@ -24,5 +24,9 @@
     "footer": {
       "hideModelInfo": true
     }
+  },
+  "model": {
+    "name": "gemini-3-flash-preview"
   }
 }
+

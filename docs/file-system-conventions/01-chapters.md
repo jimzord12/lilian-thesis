@@ -20,7 +20,7 @@ chapters/Chapter-N/
     │   ├── images/
     │   └── tables/
     ├── archive/               # Old versions or backups of the Greek text
-    └── Chapter-N_...-Humanized.md # The final, humanized Greek translation
+    └── Chapter-N-Final.md # The final, humanized Greek translation
 ```
 
 ## Naming Conventions
@@ -32,8 +32,8 @@ chapters/Chapter-N/
 
 ### Greek Content (`gr/`)
 
-- **Humanized Chapter:** `Chapter-N_...-Humanized.md`.
-  - _Note: The exact naming pattern for the Greek file may vary slightly (e.g., dashes vs underscores), but should ideally follow `Chapter-N_[Title]-Humanized.md`.\_
+- **Humanized Chapter:** `Chapter-N-Final.md`.
+  - _Note: The exact naming pattern for the Greek file may vary slightly (e.g., dashes vs underscores), but should ideally follow `Chapter-N-Final.md`._
 
 ## Assets
 

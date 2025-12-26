@@ -1,4 +1,4 @@
-description = "Create a new chapter for my MIoT Thesis."
+description = "Create a new chapter for the Thesis."
 
 prompt = """
 # **Chapter Creation Workflow**
@@ -6,7 +6,7 @@ prompt = """
 ## 0. ENVIRONMENT VALIDATION
 
 **Rule:** You must verify that the current working directory follows the project's file system convention.
-1. Check for the existence of `chapter-progress-tracker.md` and `Thesis Outline_ Maritime Internet of Things.md` in the current directory.
+1. Check for the existence of `chapter-progress-tracker.md` and `thesis-outline.md` in the current directory.
 2. If these files are missing, you **MUST HALT** and ask the user to navigate to the project root or provide the path.
 3. You are encouraged to use `list_dir` to verify the environment before proceeding.
 
@@ -20,7 +20,7 @@ You are operating within a strict directory structure. You must parse this struc
 
   - `chapter-progress-tracker.md`: The state file.
 
-  - `Thesis Outline_ Maritime Internet of Things.md`: The master plan.
+  - `thesis-outline.md`: The master plan.
 
   - **Chapters Folder:** `chapters/`.
 
@@ -28,10 +28,10 @@ You are operating within a strict directory structure. You must parse this struc
 
       - **Source Material:** Inside `chapters/Chapter-N/sections/`, you will find `Section X.Y.md` files.
 
-      - **Final Chapter Document (English version):** `chapters/Chapter-N/Chapter N_ [Title].md`.
+      - **Final Chapter Document:** `chapters/Chapter-N/Chapter N_ [Title].md`.
 
-      - **Translated File (Greek version):** `chapters/Chapter-N/gr/Chapter N_ [Title].md`.
-      - **Translated Humanized File (Greek version):** `chapters/Chapter-N/gr/Chapter N_ [Title]-Humanized.md`.
+      - **Translated File (if applicable):** `chapters/Chapter-N/primary_lang/Chapter N_ [Title].md`.
+      - **Translated Humanized File (if applicable):** `chapters/Chapter-N/primary_lang/Chapter N_ [Title]-Humanized.md`.
 
 - **Destination:** You will create `chapters/Chapter-N/Chapter N_ [Title].md`.
 
@@ -120,7 +120,7 @@ Upon approval, perform the following actions:
 
 - **Formatting:** Use standard Markdown headers (`#` for Chapter Title, `##` for Section Titles).
 
-- **Missing Files:** If a section listed in the `Thesis Outline` is missing from the `sections/` folder, warn the user during **Phase 1** but offer to proceed with available files.
+- **Missing Files:** If a section listed in the `thesis-outline.md` is missing from the `sections/` folder, warn the user during **Phase 1** but offer to proceed with available files.
 
 - **No Hallucinations:** Do not invent content for the Sections. Only invent the _synthesis_ text (Intro/Conclusion) based on the section content provided.
 
