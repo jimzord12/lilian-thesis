@@ -1,4 +1,4 @@
-description = "Proceed to the next task in the Final Document construction workflow."
+description = "Assemble the NEXT single chapter in the Final Document workflow. STOPS after one chapter."
 
 prompt = """
 # **Final Document Progression Workflow**
@@ -27,11 +27,12 @@ prompt = """
 1. Generate the required section (Abstract, Abbreviations, etc.).
 2. Consolidate bibliographies into the master reference list.
 
-## **3. Quality Controls**
+## **3. Quality Controls (STRICT ADHERENCE REQUIRED)**
 
-- Do not process more than ONE major chapter per session unless they are very short.
-- Always check for consistent terminology and style across the document.
-- Ensure no duplicate "References" headers exist within the body of the master document.
+- **STOP AFTER ONE CHAPTER:** Do NOT process more than **ONE** major chapter per session. This is a hard constraint to ensure the user can review each addition.
+- **WAIT FOR APPROVAL:** After appending a chapter and updating the workflow, stop and ask the user for confirmation before proceeding to the next one.
+- **Consistent Style:** Always check for consistent terminology and style across the document.
+- **No Duplicates:** Ensure no duplicate "References" headers exist within the body of the master document. All references belong in the master list.
 
 ## **4. Reporting**
 

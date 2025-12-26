@@ -1,0 +1,27 @@
+## Κατάλογος Συντομογραφιών
+
+| Συντομογραφία | Περιγραφή |
+| :--- | :--- |
+| **AIS** | Automatic Identification System (Σύστημα Αυτόματης Αναγνώρισης) |
+| **AUV** | Autonomous Underwater Vehicle (Αυτόνομο Υποβρύχιο Όχημα) |
+| **CAS** | Collision Avoidance System (Σύστημα Αποφυγής Σύγκρουσης) |
+| **COLREG** | International Regulations for Preventing Collisions at Sea |
+| **DLT** | Distributed Ledger Technology (Τεχνολογία Κατανεμημένου Καθολικού) |
+| **DP** | Dynamic Positioning (Δυναμική Τοποθέτηση) |
+| **ECDIS** | Electronic Chart Display and Information System |
+| **IACS** | International Association of Classification Societies |
+| **IMO** | International Maritime Organization (Διεθνής Ναυτιλιακός Οργανισμός) |
+| **IoT** | Internet of Things (Διαδίκτυο των Πραγμάτων) |
+| **ISO** | International Organization for Standardization |
+| **MASS** | Maritime Autonomous Surface Ships (Ναυτικά Αυτόνομα Επιφανειακά Πλοία) |
+| **MIoT** | Maritime Internet of Things (Θαλάσσιο Διαδίκτυο των Πραγμάτων) |
+| **NTN** | Non-Terrestrial Networks (Μη Επίγεια Δίκτυα) |
+| **OT** | Operational Technology (Επιχειρησιακή Τεχνολογία) |
+| **QKD** | Quantum Key Distribution (Κβαντική Κατανομή Κλειδιού) |
+| **SDN** | Software-Defined Networking (Δίκτυα Οριζόμενα από Λογισμικό) |
+| **UWSN** | Underwater Wireless Sensor Networks (Υποβρύχια Ασύρματα Δίκτυα Αισθητήρων) |
+| **USV** | Unmanned Surface Vehicle (Μη Επανδρωμένο Επιφανειακό Όχημα) |
+| **VSAT** | Very Small Aperture Terminal |
+
+---
+

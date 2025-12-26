@@ -1,1 +1,1 @@
-@docs/AI-related/agents/academic-editor/index.md
+@docs/AI-related/agents/strict-academic-reviewer/index.md
