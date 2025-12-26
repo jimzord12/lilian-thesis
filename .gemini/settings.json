@@ -18,5 +18,11 @@
     "folderTrust": {
       "enabled": true
     }
+  },
+  "ui": {
+    "showModelInfoInChat": true,
+    "footer": {
+      "hideModelInfo": true
+    }
   }
 }

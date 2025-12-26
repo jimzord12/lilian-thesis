@@ -133,4 +133,3 @@ _Template: "This chapter establishes the [Domain] foundation essential for the M
 [List of references in APA style, alphabetical order]
 
 - Author, A. A., & Author, B. B. (Year). Title of article. _Title of Periodical, volume number_(issue number), pages. https://doi.org/xx.xxx/yyyy
-

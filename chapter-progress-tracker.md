@@ -1,6 +1,6 @@
 # Thesis Progress Tracker
 
-- [x] **Chapter 1: Introduction and Overview**
+- [ ] **Chapter 1: Introduction and Overview**
 
   - 1.1 The Maritime Digital Transformation
   - 1.2 IoT Revolution in Ocean Industries
