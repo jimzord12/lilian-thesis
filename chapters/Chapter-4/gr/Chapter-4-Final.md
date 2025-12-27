@@ -94,11 +94,11 @@
 
 ### Τεχνικές Προκλήσεις και Προβληματισμοί
 
-Οι μετατοπισμένες και καθυστερημένες συνδέσεις (όπως το VSAT) εμποδίζουν τη διαδικασία συνεχούς επαλήθευσης και κεντρικής χάραξης πολιτικής. Θα πρέπει να υπάρχει τοπική συμμόρφωση στις αρχιτεκτονικές, με προσωρινή αποθήκευση πολιτικής για την υποστήριξη της ασφάλειας και των λειτουργιών σε περίπτωση απώλειας σύνδεσης (Li et al., 2024). Τα συστήματα ασφαλείας ναυτιλιακών OT πρέπει να είναι ανεξάρτητα. Η μικροτμηματοποίηση μηδενικής εμπιστοσύνης σε ζώνες και αγωγούς IEC 62443 θα πρέπει να διατηρεί την ακεραιότητα της ασφάλειας, αλλά να επιτρέπει τη συντήρηση και την παρακολούθηση ελεγχόμενων, ελεγχόμενων αγωγών (Rødseth et al., 2022).
+Οι μετατοπισμένες και καθυστερημένες συνδέσεις (όπως το VSAT) εμποδίζουν τη διαδικασία συνεχούς επαλήθευσης και κεντρικής χάραξης πολιτικής. Θα πρέπει να υπάρχει τοπική συμμόρφωση στις αρχιτεκτονικές, με προσωρινή αποθήκευση πολιτικής για την υποστήριξη της ασφάλειας και των λειτουργιών σε περίπτωση απώλειας σύνδεσης (Li et al., 2024). Τα συστήματα ασφαλείας ναυτιλιακών OT πρέπει να είναι ανεξάρτητα. Η μικροτμηματοποίηση μηδενικής εμπιστοσύνης σε ζώνες και αγωγούς IEC 62443 θα πρέπει να διατηρεί την ακεραιότητα της ασφάλειας, αλλά να επιτρέπει τη συντήρηση και την παρακολούθηση ελεγχόμενων, ελεγχόμενων αγωγών (Onshus et al., 2022).
 
 ### Υφιστάμενες Τεχνολογίες και Μεθοδολογικές Προσεγγίσεις
 
-Αυτό το σύστημα έχει σχεδιαστεί με χειριστήρια τοποθετημένα κοντά στις κρίσιμες περιοχές του πλοίου, π.χ. πλοήγηση, πρόωση και φορτίο. Η επαλήθευση και η εξουσιοδότηση συνεδρίας, σε συνδυασμό με την κρυπτογράφηση, προστατεύουν τις επικοινωνίες πλοίου-ξηράς και πλοίου-cloud, Rose et al., 2020. Η μικροτμηματοποίηση ορίζει λίστες επιτρεπόμενων για τις επικοινωνίες συσκευής-προς-συσκευή, ευθυγραμμιζόμενη με τις ζώνες/αγωγούς IEC 62443 για να διατηρήσει την αυτονομία ασφάλειας OT και να επιτρέψει την απομακρυσμένη πρόσβαση με τα λιγότερα δικαιώματα (Rödseth et al., 2022).
+Αυτό το σύστημα έχει σχεδιαστεί με χειριστήρια τοποθετημένα κοντά στις κρίσιμες περιοχές του πλοίου, π.χ. πλοήγηση, πρόωση και φορτίο. Η επαλήθευση και η εξουσιοδότηση συνεδρίας, σε συνδυασμό με την κρυπτογράφηση, προστατεύουν τις επικοινωνίες πλοίου-ξηράς και πλοίου-cloud, Rose et al., 2020. Η μικροτμηματοποίηση ορίζει λίστες επιτρεπόμενων για τις επικοινωνίες συσκευής-προς-συσκευή, ευθυγραμμιζόμενη με τις ζώνες/αγωγούς IEC 62443 για να διατηρήσει την αυτονομία ασφάλειας OT και να επιτρέψει την απομακρυσμένη πρόσβαση με τα λιγότερα δικαιώματα (Onshus et al., 2022).
 
 ### Εφαρμογές και Σενάρια Χρήσης
 
@@ -249,11 +249,11 @@ Jahan, M., Rahman, M. M., & Rahman, M. S. (2024). Intrusion detection in maritim
 
 O'Dwyer, G. (2023). _Maritime cyber attack database (MCAD)_ [Database]. NHL Stenden University of Applied Sciences. https://maritimecybersecurity.nl/
 
-PRECINCT Project. (2024). _The PRECINCT Ecosystem Platform for Critical Infrastructure Protection_.
+PRECINCT Project. (2024). _The PRECINCT Ecosystem Platform for Critical Infrastructure Protection_. https://dl.acm.org/doi/abs/10.1145/3664476.3670437
 
-Rødseth, H., Nesheim, H. I., & Stenumgård, P. (2022). Security and independence of process safety and control systems in offshore facilities. _Journal of Cybersecurity and Privacy, 2_(1), 1–38.
+Onshus, T., Bodsberg, L., Hauge, S., Jaatun, M. G., Lundteigen, M. A., Myklebust, T., Ottermo, M. V., Petersen, S., & Wille, E. (2022). Security and independence of process safety and control systems in the petroleum industry. _Journal of Cybersecurity and Privacy, 2_(1), 20-41. https://doi.org/10.3390/jcp2010003
 
-Rose, S., Borchert, O., Mitchell, S., & Connelly, S. (2020). _Zero Trust Architecture_ (NIST SP 800-207). National Institute of Standards and Technology.
+Rose, S., Borchert, O., Mitchell, S., & Connelly, S. (2020). _Zero Trust Architecture_ (NIST SP 800-207). National Institute of Standards and Technology. https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.SP.800-207.pdf
 
 Sahay, R., Sepulveda Estay, D. A., Meng, W., Jensen, C. D., & Barfod, M. B. (2022). A comparative risk analysis on CyberShip system with STPA-Sec, STRIDE and CORAS frameworks. _arXiv preprint arXiv:2212.10830_.
 

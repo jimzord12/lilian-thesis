@@ -57,7 +57,7 @@
 
 ### Υπάρχουσες τεχνολογίες και μεθοδολογικές προσεγγίσεις
 
-Οι προκλήσεις μετάδοσης ήχου έχουν αντιμετωπιστεί αποτελεσματικά από συστήματα ακουστικών δικτύων, τα οποία πλέον χρησιμοποιούν προσαρμοστικούς αλγόριθμους ως βασικές λειτουργικές μεθόδους. Το σύστημα μειώνει την υποβάθμιση του σήματος και επεκτείνει την εμβέλεια επικοινωνίας μέσω στρατηγικής τοποθέτησης μόντεμ και κόμβων αισθητήρων που βασίζονται σε περιβαλλοντικά μοντέλα. Οι Lyu et al. (2024) και άλλες πηγές δείχνουν ότι τα συστήματα ανίχνευσης και αφαίρεσης θορύβου με βάση τη μηχανική μάθηση έχουν γίνει τυπικές πρακτικές στην ανίχνευση σήματος, ειδικά όταν πρόκειται για δεδομένα με θόρυβο. Σύμφωνα με τους Xylouris et al. (2024) και PeerJ Computer Science (2024), η ανθεκτικότητα και η λειτουργική διάρκεια ζωής του δικτύου αισθητήρων ενισχύονται μέσω της ενσωμάτωσης ενεργειακά αποδοτικών μεθόδων δρομολόγησης και κινητών κόμβων sink. Ο τομέας των λειτουργιών αισθητήρων έχει βιώσει μια αναπτυσσόμενη αγορά ακουστικών αισθητήρων σε συνδυασμό με αναδυόμενα πρότυπα που διευκολύνουν τα συστήματα θαλάσσιας παρακολούθησης σε πραγματικό χρόνο (Research and Markets 2024; SAFE-uIoT 2024).
+Οι προκλήσεις μετάδοσης ήχου έχουν αντιμετωπιστεί αποτελεσματικά από συστήματα ακουστικών δικτύων, τα οποία πλέον χρησιμοποιούν προσαρμοστικούς αλγόριθμους ως βασικές λειτουργικές μεθόδους. Το σύστημα μειώνει την υποβάθμιση του σήματος και επεκτείνει την εμβέλεια επικοινωνίας μέσω στρατηγικής τοποθέτησης μόντεμ και κόμβων αισθητήρων που βασίζονται σε περιβαλλοντικά μοντέλα. Οι Lyu et al. (2024) και άλλες πηγές δείχνουν ότι τα συστήματα ανίχνευσης και αφαίρεσης θορύβου με βάση τη μηχανική μάθηση έχουν γίνει τυπικές πρακτικές στην ανίχνευση σήματος, ειδικά όταν πρόκειται για δεδομένα με θόρυβο. Σύμφωνα με τους Xylouris et al. (2024) και Ali et al. (2024), η ανθεκτικότητα και η λειτουργική διάρκεια ζωής του δικτύου αισθητήρων ενισχύονται μέσω της ενσωμάτωσης ενεργειακά αποδοτικών μεθόδων δρομολόγησης και κινητών κόμβων sink. Ο τομέας των λειτουργιών αισθητήρων έχει βιώσει μια αναπτυσσόμενη αγορά ακουστικών αισθητήρων σε συνδυασμό με αναδυόμενα πρότυπα που διευκολύνουν τα συστήματα θαλάσσιας παρακολούθησης σε πραγματικό χρόνο (Research and Markets 2024; SAFE-uIoT 2024).
 
 ### Εφαρμογές και Περιπτώσεις Χρήσης
 
@@ -243,15 +243,15 @@ Muhammad, A., Li F., B. C., Khan Z. U., D. E., & Khan F., F. G. (2025). Explorat
 
 Panteli, E., Santos, P. E., & Humphrey, N. (2025). AquaSignal: An integrated framework for robust underwater acoustic analysis. _arXiv preprint_. https://arxiv.org/abs/2505.14285
 
-Patterson, R. G., Foltz, G. R., Hodges, B. A., & Reeves Eyre, J. E. (2025). Uncrewed surface vehicles in the Global Ocean Observing System. _Frontiers in Marine Science, 12_, Article 1523585\. [https://doi.org/10.3389/fmars.2025.1523585](https://doi.org/10.3389/fmars.2025.1523585)
+Patterson, R. G., Foltz, G. R., Hodges, B. A., & Reeves Eyre, J. E. (2025). Uncrewed surface vehicles in the Global Ocean Observing System: A new frontier for observing and monitoring at the air–sea interface. _Frontiers in Marine Science, 12_, 1523585. https://doi.org/10.3389/fmars.2025.1523585
 
-PeerJ Computer Science. (2024). Acoustic sensors data transmission integrity and endurance with IoT. _PeerJ Computer Science_, cs-2452. [https://peerj.com/articles/cs-2452/](https://peerj.com/articles/cs-2452/)
+Ali, S., Nadeem, M., Ahmed, S., Khan, F., Khan, M., & Alharbi, A. (2024). Acoustic sensors data transmission integrity and endurance with IoT-enabled location-aware framework. _PeerJ Computer Science, 10_, e2452. https://doi.org/10.7717/peerj-cs.2452
 
-Pereira, D., et al. (2024). Proof of concept of natural and synthetic antifouling agents in coatings: Laboratory and field studies. _Marine Chemicals, 19_(4), 232–240. [https://doi.org/10.3390/marchem19040232](https://doi.org/10.3390/marchem19040232)
+Pereira, D., Almeida, J. R., Cidade, H., & Correia-da-Silva, M. (2024). Proof of concept of natural and synthetic antifouling agents in coatings. _Marine Drugs, 22_(7), 291. https://doi.org/10.3390/md22070291
 
-Prakash, N., & Zielinski, O. (2025, April 27). AI-enhanced real-time monitoring of marine pollution: Part 1—A state-of-the-art and scoping review. _Frontiers in Marine Science, 12_, 1486615\. [https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2025.1486615/full](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2025.1486615/full)
+Prakash, N., & Zielinski, O. (2025). AI-enhanced real-time monitoring of marine pollution: Part 1—A state-of-the-art and scoping review. _Frontiers in Marine Science, 12_, 1486615. https://doi.org/10.3389/fmars.2025.1486615
 
-Research and Markets. (2024). Underwater acoustic communication market report 2025\. _Research and Markets_. [https://www.researchandmarkets.com/reports/5879505](https://www.researchandmarkets.com/reports/5879505)
+Research and Markets. (2024). _Underwater acoustic communication market report 2025_. Research and Markets. https://www.researchandmarkets.com/reports/5879505
 
 SAFE-uIoT. (2024). Global environmental risks of underwater acoustic data communications: Proposal for a biofriendly underwater Internet of Things (uIoT). _SCOR International_. [https://scor-int.org/wp-content/uploads/2024/05/SAFE-uIoT_Proposal_2024.pdf](https://scor-int.org/wp-content/uploads/2024/05/SAFE-uIoT_Proposal_2024.pdf)
 

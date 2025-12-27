@@ -54,7 +54,7 @@
 
 ### Τεχνικές Προκλήσεις και Προβληματισμοί
 
-Τα NTN σε θαλάσσια περιβάλλοντα αντιμετωπίζουν αρκετές προκλήσεις, όπως ο απρόβλεπτος καιρός, η απώλεια σήματος λόγω απόστασης, τα μεταβαλλόμενα ραδιοσήματα και η μικρή διάρκεια ζωής της μπαταρίας των UAV και των κινητών πλατφορμών. Η ενσωμάτωση των NTN με συστήματα 5G ή 6G δημιουργεί επίσης προβλήματα παρεμβολών από δορυφόρους και επίγειες ζεύξεις, η εναλλαγή σημάτων κίνησης πλοίων και ο σχεδιασμός διαδρομής των UAV για τη βελτιστοποίηση της κάλυψης και τη μείωση της κατανάλωσης ενέργειας. Ένα άλλο πρόβλημα είναι η συνεργασία των συστημάτων στην ξηρά, στον αέρα και στη θάλασσα (Jung et al., 2023; Xylouris et al., 2024; Pilvik et al., 2024).
+Τα NTN σε θαλάσσια περιβάλλοντα αντιμετωπίζουν αρκετές προκλήσεις, όπως ο απρόβλεπτος καιρός, η απώλεια σήματος λόγω απόστασης, τα μεταβαλλόμενα ραδιοσήματα και η μικρή διάρκεια ζωής της μπαταρίας των UAV και των κινητών πλατφορμών. Η ενσωμάτωση των NTN με συστήματα 5G ή 6G δημιουργεί επίσης προβλήματα παρεμβολών από δορυφόρους και επίγειες ζεύξεις, η εναλλαγή σημάτων κίνησης πλοίων και ο σχεδιασμός διαδρομής των UAV για τη βελτιστοποίηση της κάλυψης και τη μείωση της κατανάλωσης ενέργειας. Ένα άλλο πρόβλημα είναι η συνεργασία των συστημάτων στην ξηρά, στον αέρα και στη θάλασσα (Jung et al., 2023; Xylouris et al., 2024; Lindenbergs et al., 2023).
 
 ### Υφιστάμενες Τεχνολογίες και Μεθοδολογικές Προσεγγίσεις
 
@@ -64,7 +64,7 @@
 
 **Εικόνα 2.1**: _Αρχιτεκτονική Ενσωματωμένου Μη Επίγειου Δικτύου (NTN) πολλαπλών επιπέδων για ναυτιλιακό 6G. Το διάγραμμα απεικονίζει την κάθετη ιεραρχία που συνδέει δορυφόρους LEO (Διαστημικό Επίπεδο) και αναμεταδότες UAV (Εναέριο Επίπεδο) με αυτόνομα σκάφη επιφανείας (Ναυτιλιακό Επίπεδο) για την εξασφάλιση καθολικής κάλυψης._
 
-Η τελευταία έκδοση της τεχνολογίας 5G και 6G προσφέρει στα πλοία εξατομικευμένα χαρακτηριστικά, όπως η τεμαχισμός δικτύου και η υποστήριξη Internet of Things (IoT) σε τεράστια κλίμακα. Σύμφωνα με τα ευρήματα της νέας έρευνας, ο συνδυασμός επίγειων ασύρματων δικτύων mesh και σύνδεσης NTN παρέχει στα πλοία και στις υπεράκτιες εγκαταστάσεις μια αξιόπιστη, ευέλικτη και οικονομικά αποδοτική επικοινωνία (Jung et al., 2023; Xylouris et al., 2024; Pilvik et al., 2024).
+Η τελευταία έκδοση της τεχνολογίας 5G και 6G προσφέρει στα πλοία εξατομικευμένα χαρακτηριστικά, όπως η τεμαχισμός δικτύου και η υποστήριξη Internet of Things (IoT) σε τεράστια κλίμακα. Σύμφωνα με τα ευρήματα της νέας έρευνας, ο συνδυασμός επίγειων ασύρματων δικτύων mesh και σύνδεσης NTN παρέχει στα πλοία και στις υπεράκτιες εγκαταστάσεις μια αξιόπιστη, ευέλικτη και οικονομικά αποδοτική επικοινωνία (Jung et al., 2023; Xylouris et al., 2024; Lindenbergs et al., 2023).
 
 ### Εφαρμογές και Σενάρια Χρήσης
 
@@ -282,9 +282,9 @@ Niknami, M., Ghafoor, H., & Koo, I. (2023). Multi-controller SDN architectures f
 
 Noto, S., Gharbaoui, M., Falcitelli, M., Martini, B., Castoldi, P., & Pagano, P. (2023). Experimental Evaluation of an IoT-Based Platform for Maritime Transport Services. _Applied System Innovation, 6_(3), 58. https://doi.org/10.3390/asi6030058
 
-Pilvik, M., Laine, T., & Matsumoto, M. (2024). 5G maritime integration: Challenges and solutions. _Maritime Technology Society Journal, 58_(2), 45-62. [https://doi.org/10.4031/MTSJ.2024.58.2.45](https://doi.org/10.4031/MTSJ.2024.58.2.45)
+Lindenbergs, A., Muehleisen, M., Payaró, M., Kõrbe Kaare, K., Zaglauer, H. W., Scholliers, J., Sadam, A., Kuhi, K., & Nykanen, L. (2023). Seamless 5G multi-hop connectivity architecture and trials for maritime applications. _Sensors, 23_(9), 4203. https://doi.org/10.3390/s23094203
 
-Pohlchuck, W., Prakash, B. R. S., Dudukovich, R., Raible, D., Tomko, B., Burleigh, S., & Herbert, T. (2024). Delay-tolerant networking performance. _APNIC Blog_. [https://blog.apnic.net/2024/03/25/delay-tolerant-networking-performance/](https://blog.apnic.net/2024/03/25/delay-tolerant-networking-performance/)
+Templin, F., Pohlchuck, W., Prakash, B. R. S., Dudukovich, R., Raible, D., Tomko, B., Burleigh, S., & Herbert, T. (2024, March 25). Delay-tolerant networking performance. _APNIC Blog_. https://blog.apnic.net/2024/03/25/delay-tolerant-networking-performance/
 
 Sanikommu, V., Marripudi, S. P., Yekkanti, H. R., Divi, R., Chandrakanth, R., & Mahindra, P. (2025). Edge computing for detection of ship and ship port from remote sensing images using YOLO. _Frontiers in Artificial Intelligence_, Article 1508664\. [https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1508664/full](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1508664/full)
 
