@@ -1,58 +1,40 @@
-# Final Document Construction Workflow
+# Final Document Assembly Workflow
 
-This document outlines the systematic process for assembling the final thesis from individual chapters and components.
+This document outlines the systematic process for assembling the final thesis from individual chapter drafts.
 
 ## **Phase 1: Preparation**
-- [x] Verify integrity of all draft chapters (2-10).
+- [x] Verify existence and final state of all completed chapters (Chapters 2-10).
 - [x] Ensure all assets (images, tables) are available in `final-document/assets/`.
-- [x] Standardize formatting (headings, citations, references) across all chapters.
+- [ ] Review `Abbreviations.md` for completeness based on chapters.
 
-## **Phase 2: Main Body Assembly (Chapters 2 to 10)**
-- [x] Assemble Chapter 2: Maritime Communication Networks.
-- [x] Assemble Chapter 3: Underwater and Surface Sensing Systems.
-- [x] Assemble Chapter 4: Maritime Cybersecurity Framework.
-- [x] Assemble Chapter 5: Autonomous Maritime Systems.
-- [x] Assemble Chapter 6: Digital Twin and Simulation Technologies.
-- [x] Assemble Chapter 7: Data Analytics and Artificial Intelligence.
-- [x] Assemble Chapter 8: Sustainability and Green Maritime IoT.
-- [x] Assemble Chapter 9: Standardization and Interoperability.
-- [x] Assemble Chapter 10: Emerging Technologies and Future Directions.
-- [ ] Assemble Chapter 5: Autonomous Maritime Systems.
-- [ ] Assemble Chapter 6: Digital Twin and Simulation Technologies.
-- [ ] Assemble Chapter 7: Data Analytics and Artificial Intelligence.
-- [ ] Assemble Chapter 8: Sustainability and Green Maritime IoT.
-- [ ] Assemble Chapter 9: Standardization and Interoperability.
-- [ ] Assemble Chapter 10: Emerging Technologies and Future Directions.
+## **Phase 2: Main Body Assembly**
+- [x] Consolidate Chapter 2: Maritime Communication Networks.
+- [x] Consolidate Chapter 3: Underwater and Surface Sensing Systems.
+- [x] Consolidate Chapter 4: Maritime Cybersecurity Framework.
+- [ ] Consolidate Chapter 5: Autonomous Maritime Systems.
+- [ ] Consolidate Chapter 6: Digital Twin and Simulation Technologies.
+- [ ] Consolidate Chapter 7: Data Analytics and Artificial Intelligence.
+- [ ] Consolidate Chapter 8: Sustainability and Green Maritime IoT.
+- [ ] Consolidate Chapter 9: Standardization and Interoperability.
+- [ ] Consolidate Chapter 10: Emerging Technologies and Future Directions.
 
 ## **Phase 3: Bookending**
-- [x] Finalize Chapter 1: Introduction and Overview.
-- [x] Finalize Chapter 11: Conclusions and Future Research Directions.
+- [ ] Finalize Chapter 1: Introduction and Overview (Deferred until main body is stable).
+- [ ] Finalize Chapter 11: Conclusions and Future Research Directions (Deferred until main body is stable).
 
 ## **Phase 4: Front & Back Matter**
-- [x] Create Title Page.
-- [x] Write Abstract (250–350 words).
-- [ ] Generate Table of Contents.
-- [ ] Compile List of Figures & Tables.
-- [x] Compile List of Abbreviations.
-- [x] Compile Bibliography (APA style).
-- [ ] Draft Appendices (if applicable).
+- [ ] Title Page.
+- [ ] Abstract (250–350 words).
+- [ ] Acknowledgements.
+- [ ] Table of Contents (Generated from final structure).
+- [ ] List of Figures & Tables.
+- [ ] Bibliography (Master References).
 
 ## **Phase 5: Polishing & Validation**
-- [ ] Cross-reference verification.
-- [ ] Final proofreading for flow and consistency.
-- [ ] Bibliography validation against in-text citations.
-- [ ] Final PDF generation and layout check.
+- [ ] Cross-chapter reference check.
+- [ ] Consistent formatting and style review.
+- [ ] Final proofreading.
+- [ ] Technical validation of citations and figures.
 
 ---
-
-## **Current Status Summary (Main Body)**
-
-Based on `chapter-progress-tracker.md`, the state of the main body chapters is as follows:
-
-| Chapter | Title | Status |
-| :--- | :--- | :--- |
-| **All Chapters** | 1 to 11 | **Assembled** |
-| **Front Matter** | Title, Abstract, Abbr | **Assembled** |
-| **Back Matter** | Bibliography | **Assembled** |
-
-**Next Step:** Final validation and PDF generation.
+**Note:** Chapters 1 and 11 are intentionally deferred to Phase 3 to ensure they accurately reflect the finalized content of the technical chapters (2-10).
