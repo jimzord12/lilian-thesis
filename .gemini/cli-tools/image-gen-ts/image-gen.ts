@@ -26,7 +26,7 @@ const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
 program
   .name('image-gen')
   .description('Generate images using OpenRouter API')
-  .argument('<prompt-file>', 'Path to a text file containing the prompt')
+  .argument('[prompt-file]', 'Path to a text file containing the prompt')
   .argument('[output-path]', 'Output path for the generated image', 'out.png')
   .option(
     '-m, --model <model>',
@@ -35,10 +35,11 @@ program
   )
   .option('-a, --aspect-ratio <ratio>', 'Aspect ratio (1:1, 16:9, 9:16, 4:3, 3:4, etc.)')
   .option('-s, --image-size <size>', 'Image size (1K, 2K, 4K) - Gemini only')
+  .option('-t, --test', 'Use a test prompt to verify that the setup is working', false)
   .parse();
 
 const options = program.opts();
-const [promptFile, outputPath] = program.args;
+let [promptFile, outputPath] = program.args;
 
 interface ImageResponse {
   choices?: Array<{
@@ -58,6 +59,9 @@ async function main() {
     console.error('Set it in .env file or export it in your shell');
     process.exit(1);
   }
+
+  // Use test prompt if specified
+  if (options.test) promptFile = path.resolve(__dirname, 'test/test-prompt.txt');
 
   // Read prompt from file
   if (!fs.existsSync(promptFile)) {
