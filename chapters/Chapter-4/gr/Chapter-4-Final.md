@@ -259,9 +259,9 @@ Sahay, R., Sepulveda Estay, D. A., Meng, W., Jensen, C. D., & Barfod, M. B. (202
 
 Stouffer, K., Pillitteri, V., Lightman, S., Abrams, M., & Hahn, A. (2023). _Guide to operational technology (OT) security_ (NIST Special Publication 800-82r3). National Institute of Standards and Technology.
 
-Surucu-Balci, E., Iris, Ç., & Balci, G. (2024). Digital information in maritime supply chains with blockchain and cloud platforms: Supply chain capabilities, barriers, and research opportunities. _Technological Forecasting and Social Change, 198_, 122978.
+Surucu-Balci, E., Iris, Ç., & Balci, G. (2024). Digital information in maritime supply chains with blockchain and cloud platforms: Supply chain capabilities, barriers, and research opportunities. Technological Forecasting and Social Change, 198, Article 122978. https://doi.org/10.1016/j.techfore.2023.122978
 
-US Coast Guard. (2024). _Cyber Trends and Insights in the Marine Environment (CTIME Report)_.
+US Coast Guard. (2024). Cyber Trends and Insights in the Marine Environment (CTIME Report). https://www.uscg.mil/Portals/0/Images/cyber/CGCYBER%202024%20CTIME.pdf
 
-Vaarandi, R., Tsiopoulos, L., Visky, G., Rehman, M. U., & Bahsi, H. (2025). Literature review: Cyber security monitoring in maritime. _arXiv_.
+Vaarandi, R., Tsiopoulos, L., Visky, G., Rehman, M. U., & Bahsi, H. (2025). A Systematic Literature Review of Cyber Security Monitoring in Maritime. arXiv. https://arxiv.org/abs/2503.18173
 
