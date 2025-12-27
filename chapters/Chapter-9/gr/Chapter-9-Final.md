@@ -188,5 +188,5 @@ Tijan, E., et al. (2019). The Single Window Concept in International Trade, Tran
 
 Vibylabs. (2025, May 19). _Software integration hell in the maritime industry_. https://www.vibylabs.com/software-integration-hell-in-the-maritime-industry/
 
-Xylouris, G., et al. (2024). _Technologies, challenges, and opportunities for maritime intelligent transportation systems_. https://iit.demokritos.gr/wp-content/uploads/2025/03/frcmn-05-1439529.pdf
+Xylouris, G., Nomikos, N., Kalafatelis, A., Giannopoulos, A., Spantideas, S., & Trakadas, P. (2024). Sailing into the future: Technologies, challenges, and opportunities for maritime communication networks in the 6G era. _Frontiers in Communications and Networks, 5_, 1439529. https://doi.org/10.3389/frcmn.2024.1439529
 

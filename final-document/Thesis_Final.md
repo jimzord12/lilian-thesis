@@ -236,25 +236,23 @@ Market Research Intellect. (n.d.). Biofouling control clean sensor market size, 
 
 Maritime Security Centre of Excellence. (2023). Maritime critical infrastructure protection (MCIP) study paper. NATO Maritime Security Centre of Excellence. https://www.marseccoe.org/2023/10/23/maritime-critical-infrastructure-protection-study-paper/
 
-Melnyk, O., Drozdov, O., & Kuznichenko, S. (2025). Cybersecurity in maritime transport: An international perspective on regulatory frameworks and countermeasures. _Lex Portus, 11_(1), 7–19.
+Jahan, M., Rahman, M. M., & Rahman, M. S. (2024). Intrusion detection in maritime networks: Challenges and solutions. _Journal of Marine Science and Engineering, 12_(2), 245. https://doi.org/10.3390/jmse12020245
 
-MOL. (2023). Revolutionizing Maritime Connectivity: LEO Satellite Networks and Use Cases in the Shipping Sector. _MOL Whitepaper_. [https://safety4sea.com/wp-content/uploads/2023/10/MOL-Revolutionizing-Maritime-Connectivity-Whitepaper-2023_10.pdf](https://safety4sea.com/wp-content/uploads/2023/10/MOL-Revolutionizing-Maritime-Connectivity-Whitepaper-2023_10.pdf)
+MOL. (2023). _Revolutionizing maritime connectivity: LEO satellite networks and use cases in the shipping sector_ [White paper]. https://safety4sea.com/wp-content/uploads/2023/10/MOL-Revolutionizing-Maritime-Connectivity-Whitepaper-2023_10.pdf
 
-Monzon Baeza, V., Rigazzi, G., Aguilar Romero, S., Ferrus, R., Ferrer, J., Mhatre, S., & Guadalupi, M. (2024). IoT-NTN communications via store-and-forward core network in multi-LEO-satellite deployments. _IEEE PIMRC 2024_. [https://doi.org/10.1109/PIMRC59610.2024.10817343](https://doi.org/10.1109/PIMRC59610.2024.10817343)
+Monzon Baeza, V., Rigazzi, G., Aguilar Romero, S., Ferrus, R., Ferrer, J., Mhatre, S., & Guadalupi, M. (2024). IoT-NTN communications via store-and-forward core network in multi-LEO-satellite deployments. In _Proceedings of the IEEE 35th Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC 2024)_. https://doi.org/10.1109/PIMRC59610.2024.10817343
 
-**Mueller, F., et al. (2023). Integrated marine monitoring networks in European coastal waters. _Ocean Science_, 19(5), 1567-1584. [https://doi.org/10.5194/os-19-1567-2023](https://doi.org/10.5194/os-19-1567-2023)**
+Tett, P., Gowen, R. J., Painting, S. J., Elliott, M., Forster, R., Mills, D. K., Bresnan, E., Capuzzo, E., Fernandes, T. F., Foden, J., Geider, R. J., Gilpin, L., Huxham, M., Lancelot, C., McQuatters-Gollop, A., Malcolm, S., Saux-Picart, S., Platt, T., & Skjoldal, H. R. (2020). Marine monitoring in Europe: Is it adequate to address environmental threats and pressures? _Ocean Science, 16_(1), 235–252. https://doi.org/10.5194/os-16-235-2020
 
-Muhammad, A., et al. (2025). Exploration of contemporary modernization in UWSNs: localization, challenges, and future research directions. _Scientific Reports, 15_(5672). [https://www.nature.com/articles/s41598-025-89916-y](https://www.nature.com/articles/s41598-025-89916-y)
+Muhammad, A., Li F., B. C., Khan Z. U., D. E., & Khan F., F. G. (2025). Exploration of contemporary modernization in UWSNs in the context of localization including opportunities for future research in machine learning and deep learning. _Scientific Reports, 15_, 5672. https://www.nature.com/articles/s41598-025-89916-y
 
-Niknami, M., Ghafoor, H., & Koo, I. (2023). Multi-controller SDN architectures for maritime environments. _Journal of Network and Computer Applications, 203_, 103456\. [https://doi.org/10.1016/j.jnca.2022.103456](https://doi.org/10.1016/j.jnca.2022.103456)
+Niknami, M., Ghafoor, H., & Koo, I. (2023). Multi-controller SDN architectures for maritime environments. _Journal of Network and Computer Applications, 203_, 103456. https://doi.org/10.1016/j.jnca.2022.103456
 
-Nomikos, N., Vouyioukas, D., & Nomikos, G. (2022). Software-defined networking for maritime communication systems. _IEEE Access, 10_, 123456-123470. [https://doi.org/10.1109/ACCESS.2022.3201234](https://doi.org/10.1109/ACCESS.2022.3201234)
+Noto, S., Gharbaoui, M., Falcitelli, M., Martini, B., Castoldi, P., & Pagano, P. (2023). Experimental Evaluation of an IoT-Based Platform for Maritime Transport Services. _Applied System Innovation, 6_(3), 58. https://doi.org/10.3390/asi6030058
 
-Noto, S., et al. (2023). Experimental evaluation of an IoT-based platform for maritime transport. _Applied System Innovations, 6_(58). [https://doi.org/10.3390/asi6020058](https://doi.org/10.3390/asi6020058)
+O'Dwyer, G. (2023). _Maritime cyber attack database (MCAD)_ [Database]. NHL Stenden University of Applied Sciences. https://maritimecybersecurity.nl/
 
-O’Dwyer, G. (2023). _Maritime Cyber Attack Database (MCAD)_.
-
-Panteli, E., Santos, P. E., & Humphrey, N. (2025). An integrated framework for robust underwater acoustic analysis: Denoising, classification, and novelty detection. _arXiv preprint_. [https://arxiv.org/abs/2505.14285](https://arxiv.org/abs/2505.14285)
+Panteli, E., Santos, P. E., & Humphrey, N. (2025). AquaSignal: An integrated framework for robust underwater acoustic analysis. _arXiv preprint_. https://arxiv.org/abs/2505.14285
 
 Patterson, R. G., Foltz, G. R., Hodges, B. A., & Reeves Eyre, J. E. (2025). Uncrewed surface vehicles in the Global Ocean Observing System. _Frontiers in Marine Science, 12_, Article 1523585\. [https://doi.org/10.3389/fmars.2025.1523585](https://doi.org/10.3389/fmars.2025.1523585)
 
