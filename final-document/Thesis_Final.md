@@ -314,17 +314,17 @@ Whitt, C., Pearlman, J., Polagye, B., Caimi, F., Muller-Karger, F., Copping, A.,
 
 Woźniak, J. (2018). netBaltic system – heterogeneous wireless network for maritime communications. Polish Maritime Research, 25(3), 14–26. https://doi.org/10.2478/pomr-2018-0050
 
-Wu, G., Liu, J., & Li, P. (2022). Review of multiple unmanned surface vessels collaborative search and hunting methods. _International Journal of Advanced Robotic Systems, 19_(2), 1-20. [https://doi.org/10.1177/17298806221091885](https://doi.org/10.1177/17298806221091885)
+Wu, G., Liu, J., & Li, P. (2022). Review of multiple unmanned surface vessels collaborative search and hunting methods. _International Journal of Advanced Robotic Systems, 19_(2), 1-20. https://doi.org/10.1177/17298806221091885
 
-Xiang, L., & Du, X. (2025). Maritime DTN protocols for autonomous vessels. _IEEE Transactions on Intelligent Transportation Systems, 26_(1), 234-248. https://doi.org/10.1109/TITS.2024.3456789
+Koukis, G., Safouri, K., & Tsaoussidis, V. (2024). All about Delay-Tolerant Networking (DTN) Contributions to Future Internet. _Future Internet, 16_(4), 129. https://doi.org/10.3390/fi16040129
 
 Xylouris, G., Nomikos, N., Kalafatelis, A., Giannopoulos, A., Spantideas, S., & Trakadas, P. (2024). Sailing into the future: Technologies, challenges, and opportunities for maritime communication networks in the 6G era. _Frontiers in Communications and Networks, 5_, 1439529. https://doi.org/10.3389/frcmn.2024.1439529
 
-Xylouris, G., Jung, J. J., & Lutz, E. (2024). Heterogeneous maritime communication networks: Architecture and challenges. _IEEE Communications Magazine, 62_(3), 78-85. https://doi.org/10.1109/MCOM.2023.1234567
+Nikolaos, N., Anastasios, G., Alexandros, K., Volkan, Ö., Panagiotis, T., & George K., K. (2024). Improving Connectivity in 6G Maritime Communication Networks With UAV Swarms. _IEEE Access, 12_, 24710-24726. https://doi.org/10.1109/access.2024.3360133
 
 Zahra, N., Khawatmi, S., & Kassab, B. A. (2025). A comprehensive survey of security challenges and modern solutions in underwater wireless sensor networks. _International Journal of Computer Applications, 187_(32), 24-33. https://doi.org/10.5120/ijca2025925570
 
-Zheng, Y., Liu, H., & Wang, J. (2023). Cognitive radio applications in maritime environments. _Sensors, 23_(8), 3456\. [https://doi.org/10.3390/s23083456](https://doi.org/10.3390/s23083456)
+Zheng, Y., Liu, H., & Wang, J. (2023). Cognitive radio applications in maritime environments. _Sensors, 23_(8), Article 3456. https://doi.org/10.3390/s23083456
 
-Zhu, R., Qian, Y., & Wang, W. (2024). Delay-aware and reliable medium access control protocols in underwater wireless sensor networks: A review. _Computer Networks, 248_, Article 109249\. [https://doi.org/10.1016/j.comnet.2024.109249](https://doi.org/10.1016/j.comnet.2024.109249)
+Zhu, R., Qian, Y., & Wang, W. (2024). Delay-aware and reliable medium access control protocols in underwater wireless sensor networks: A review. _Computer Networks, 248_, Article 109249. https://doi.org/10.1016/j.comnet.2024.109249
 
