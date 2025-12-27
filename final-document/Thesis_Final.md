@@ -1,6 +1,4 @@
-# Θαλάσσιο Διαδίκτυο των Πραγμάτων: Μια Ολοκληρωμένη Ανάλυση Δικτύων Επικοινωνίας, Αυτόνομων Συστημάτων και Αναδυόμενων Τεχνολογιών
-
-\*\*Μεταπτυχιακή Διατριβή
+# αλάσσιο Διαδίκτυο των Πραγμάτων (Maritime Internet of Things - MIoT): Μια Ολοκληρωμένη Ανάλυση Δικτύων Επικοινωνίας, Αυτόνομων Συστημάτων και Αναδυόμενων Τεχνολογιών
 
 ---
 
@@ -258,7 +256,7 @@ Noto, S., et al. (2023). Experimental evaluation of an IoT-based platform for ma
 
 O’Dwyer, G. (2023). _Maritime Cyber Attack Database (MCAD)_.
 
-Panteli, E., Santos, P. E., & Humphrey, N. (2022). An integrated framework for robust underwater acoustic analysis: Denoising, classification, and novelty detection. _arXiv preprint_. [https://arxiv.org/abs/2505.14285](https://arxiv.org/abs/2505.14285)
+Panteli, E., Santos, P. E., & Humphrey, N. (2025). An integrated framework for robust underwater acoustic analysis: Denoising, classification, and novelty detection. _arXiv preprint_. [https://arxiv.org/abs/2505.14285](https://arxiv.org/abs/2505.14285)
 
 Patterson, R. G., Foltz, G. R., Hodges, B. A., & Reeves Eyre, J. E. (2025). Uncrewed surface vehicles in the Global Ocean Observing System. _Frontiers in Marine Science, 12_, Article 1523585\. [https://doi.org/10.3389/fmars.2025.1523585](https://doi.org/10.3389/fmars.2025.1523585)
 
@@ -333,3 +331,4 @@ Zahra, N., Khawatmi, S., & Kassab, B. A. (2025). A comprehensive survey of secur
 Zheng, Y., Liu, H., & Wang, J. (2023). Cognitive radio applications in maritime environments. _Sensors, 23_(8), 3456\. [https://doi.org/10.3390/s23083456](https://doi.org/10.3390/s23083456)
 
 Zhu, R., Qian, Y., & Wang, W. (2024). Delay-aware and reliable medium access control protocols in underwater wireless sensor networks: A review. _Computer Networks, 248_, Article 109249\. [https://doi.org/10.1016/j.comnet.2024.109249](https://doi.org/10.1016/j.comnet.2024.109249)
+

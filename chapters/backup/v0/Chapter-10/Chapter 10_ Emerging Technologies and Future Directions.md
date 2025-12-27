@@ -233,4 +233,3 @@ Western Sydney University. (2025). Maritime Situational Awareness using Neuromor
 Xylouris, G., Nomikos, N., Kalafatelis, A., Giannopoulos, A., Spantideas, S., & Trakadas, P. (2024). Technologies, challenges, and opportunities for maritime communication networks in the 6G era. _Frontiers in Communications and Networks, 5_, 1439529. https://doi.org/10.3389/frcmn.2024.1439529
 
 Zetas, M., Nomikos, N., Kalafatelis, A., Xylouris, G., & Trakadas, P. (2024). Empowering 6G maritime communications with distributed intelligence and over-the-air model sharing. _Frontiers in Communications and Networks, 4_, 1280602. https://doi.org/10.3389/frcmn.2023.1280602
-
