@@ -10,7 +10,7 @@
 
 ### New Ref
 
-- [ ] Gope, P., Goudarzi, A., & Panaousis, E. (2022). Survey paper Internet of underwater things communication: Architecture, technologies, research challenges and future opportunities. _Computer Communications, 196_, 158–177. https://doi.org/10.1016/j.comcom.2022.09.023
+- [x] Gope, P., Goudarzi, A., & Panaousis, E. (2022). Survey paper Internet of underwater things communication: Architecture, technologies, research challenges and future opportunities. _Computer Communications, 196_, 158–177. https://doi.org/10.1016/j.comcom.2022.09.023
 
 ## No. 3
 
@@ -22,15 +22,15 @@
 
 ## No. 5
 
-- [ ] Baeza, V. M., Rigazzi, G., Romero, S. A., Ferrus, R., Ferrer, J., Mhatre, S., & Guadalupi, M. (2024, September). IoT-NTN communications via store-and-forward core network in multi-LEO-satellite deployments. In _2024 IEEE 35th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)_ (pp. 1-6). IEEE.
+- [x] Baeza, V. M., Rigazzi, G., Romero, S. A., Ferrus, R., Ferrer, J., Mhatre, S., & Guadalupi, M. (2024, September). IoT-NTN communications via store-and-forward core network in multi-LEO-satellite deployments. In _2024 IEEE 35th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)_ (pp. 1-6). IEEE.
 
 ### No. 6
 
-- [ ] BIMCO, CLIA, ICS, INTERCARGO, INTERTANKO, OCIMF, & IUMI. (2024). _The guidelines on cyber security onboard ships_ (5th ed.). BIMCO.
+- [x] BIMCO, CLIA, ICS, INTERCARGO, INTERTANKO, OCIMF, & IUMI. (2024). _The guidelines on cyber security onboard ships_ (5th ed.). BIMCO.
 
 ## No. 7
 
-- [ ] Chen, H., Wen, Y., Huang, Y., Xiao, C., & Sui, Z. (2025). Edge computing enabling internet of ships: A survey on architectures, emerging applications, and challenges. _IEEE Internet of Things Journal, 12_(2), 1509–1528. https://doi.org/10.1109/JIOT.2024.3491162
+- [x] Chen, H., Wen, Y., Huang, Y., Xiao, C., & Sui, Z. (2025). Edge computing enabling internet of ships: A survey on architectures, emerging applications, and challenges. _IEEE Internet of Things Journal, 12_(2), 1509–1528. https://doi.org/10.1109/JIOT.2024.3491162
 
 ## No. 8 (Requires New Ref)
 
@@ -38,7 +38,7 @@
 
 ### New Ref
 
-Xu, G., Shi, Y., Sun, X., & Shen, W. (2019). Internet of Things in marine environment monitoring: A review. _Sensors, 19_(7), 1576. https://doi.org/10.3390/s19071576
+- [x] Xu, G., Shi, Y., Sun, X., & Shen, W. (2019). Internet of Things in marine environment monitoring: A review. _Sensors, 19_(7), 1576. https://doi.org/10.3390/s19071576
 
 ## No. 9 (Requires New Ref)
 
@@ -46,8 +46,8 @@ Xu, G., Shi, Y., Sun, X., & Shen, W. (2019). Internet of Things in marine enviro
 
 ### New Ref
 
-Shang, Z., Wang, J., & Yang, Y. (2025). Maritime communication networks: A survey on architecture, key technologies, and challenges. _Computer Communications, 216_, 189–213. https://doi.org/10.1016/j.comcom.2025.108255
+- [x] Shang, Z., Wang, J., & Yang, Y. (2025). Maritime communication networks: A survey on architecture, key technologies, and challenges. _Computer Communications, 216_, 189–213. https://doi.org/10.1016/j.comcom.2025.108255
 
 ## No. 10
 
-- [ ] Industrial Cyber. (2025, July 29). _Hacktivists, nation-state hackers target global maritime infrastructure as cyberattacks, GPS spoofing surge_. https://industrialcyber.co/transport/hacktivists-nation-state-hackers-target-global-maritime-infrastructure-as-cyberattacks-gps-spoofing-surge/
+- [x] Industrial Cyber. (2025, July 29). _Hacktivists, nation-state hackers target global maritime infrastructure as cyberattacks, GPS spoofing surge_. https://industrialcyber.co/transport/hacktivists-nation-state-hackers-target-global-maritime-infrastructure-as-cyberattacks-gps-spoofing-surge/

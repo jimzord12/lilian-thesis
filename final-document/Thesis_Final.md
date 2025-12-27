@@ -158,25 +158,25 @@
 
 ## Βιβλιογραφία
 
-Abu Dhabi Ports. (2018, June 2). _Abu Dhabi Ports launches blockchain technology for trade community_. <https://www.adports.ae/abu-dhabi-ports-launches-blockchain-technology-for-trade-community/>
+Abu Dhabi Ports. (2018, June 2). _Abu Dhabi Ports launches blockchain technology for trade community_. https://www.adports.ae/abu-dhabi-ports-launches-blockchain-technology-for-trade-community/
 
-Ali, M. F., Jawad, H. M., & Abu-Saleem, K. (2019). Recent advances and future directions on underwater wireless communications. _Journal of Electrical and Automation, 114_, 35-48. [https://www.wirelesslab.ca/File/pdf_files/journals/JEA114.pdf](https://www.wirelesslab.ca/File/pdf_files/journals/JEA114.pdf)
+Gope, P., Goudarzi, A., & Panaousis, E. (2022). Survey paper Internet of underwater things communication: Architecture, technologies, research challenges and future opportunities. _Computer Communications, 196_, 158–177. https://doi.org/10.1016/j.comcom.2022.09.023
 
-Ananthi, M., Lakshmana Kumar, R., BalaAnand Muthu, & Punitha, P. (2024). Adaptive marine intelligence and sensing architecture for autonomous underwater ecosystem monitoring using AI and IoT integration. _Journal of Marine Science_. Advance online publication. [https://doi.org/10.1177/1088467X251339271](https://doi.org/10.1177/1088467X251339271)
+Ananthi, M., Lakshmana Kumar, R., BalaAnand Muthu, & Punitha, P. (2025). Adaptive marine intelligence and sensing architecture for autonomous underwater ecosystem monitoring using AI and IoT integration. _Intelligent Data Analysis: An International Journal_. Advance online publication. https://doi.org/10.1177/1088467X251339271
 
-Azad, M. A., et al. (2024). Verify and trust: A multidimensional survey of zero-trust. _Journal of Information Security and Applications, 82_, 103791.
+Azad, M. A., Abdullah, S., Arshad, J., Lallie, H., & Ahmed, Y. H. (2024). Verify and trust: A multidimensional survey of zero-trust security in the age of IoT. _Internet of Things, 27_, 101227. https://doi.org/10.1016/j.iot.2024.101227
 
 Baeza, V. M., Rigazzi, G., Romero, S. A., Ferrus, R., Ferrer, J., Mhatre, S., & Guadalupi, M. (2024, September). IoT-NTN communications via store-and-forward core network in multi-LEO-satellite deployments. In _2024 IEEE 35th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)_ (pp. 1-6). IEEE.
 
 BIMCO, CLIA, ICS, INTERCARGO, INTERTANKO, OCIMF, & IUMI. (2024). _The guidelines on cyber security onboard ships_ (5th ed.). BIMCO.
 
-Chen, H., Wen, Y., Huang, Y., Xiao, C., & Sui, Z. (2024). Edge computing enabling internet of ships: A survey on architectures, emerging applications, and challenges. _IEEE Internet of Things Journal_.
+Chen, H., Wen, Y., Huang, Y., Xiao, C., & Sui, Z. (2025). Edge computing enabling internet of ships: A survey on architectures, emerging applications, and challenges. _IEEE Internet of Things Journal, 12_(2), 1509–1528. https://doi.org/10.1109/JIOT.2024.3491162
 
-**Chen, L., et al. (2023). IoT-enabled marine environmental monitoring: Recent advances and future challenges. _Journal of Marine Science and Technology_, 28(4), 1234-1251. [https://doi.org/10.1007/s00703-023-00912-8](https://doi.org/10.1007/s00703-023-00912-8)**
+Xu, G., Shi, Y., Sun, X., & Shen, W. (2019). Internet of Things in marine environment monitoring: A review. _Sensors, 19_(7), 1576. https://doi.org/10.3390/s19071576
 
-Chen, Y., Wang, L., & Liu, J. (2020). A survey on maritime wireless communications and applications. _IEEE Communications Surveys & Tutorials, 22_(2), 1153–1181. [https://doi.org/10.1109/COMST.2020.2968714](https://doi.org/10.1109/COMST.2020.2968714)
+Shang, Z., Wang, J., & Yang, Y. (2025). Maritime communication networks: A survey on architecture, key technologies, and challenges. _Computer Communications, 216_, 189–213. https://doi.org/10.1016/j.comcom.2025.108255
 
-Cyble. (2025). _Hacktivists, nation-state hackers target global maritime infrastructure as cyberattacks, GPS spoofing surge_.
+Industrial Cyber. (2025, July 29). _Hacktivists, nation-state hackers target global maritime infrastructure as cyberattacks, GPS spoofing surge_. https://industrialcyber.co/transport/hacktivists-nation-state-hackers-target-global-maritime-infrastructure-as-cyberattacks-gps-spoofing-surge/
 
 Di Ciaccio, F., & Troisi, S. (2021). Monitoring marine environments with Autonomous Underwater Vehicles: A bibliometric analysis. _Results in Engineering, 11_, 100225\. [https://doi.org/10.1016/j.rineng.2021.100225](https://doi.org/10.1016/j.rineng.2021.100225)
 
@@ -196,7 +196,7 @@ Grosjean, V. (2024, October 17). Advanced sensors to provide real-time data for 
 
 Hoeft, M., Gierlowski, K., & Wozniak, J. (2023). Wireless Link Selection Methods for Maritime Communication Access Networks—A Deep Learning Approach. _Sensors, 23_(1), 400\. [https://doi.org/10.3390/s23010400](https://doi.org/10.3390/s23010400)
 
-Hopcraft, T., Oruc, B., & Kapalidis, E. (2024). Comprehensive analysis of maritime cybersecurity landscape—The role of frameworks and risk assessment. _Journal of Marine Science and Engineering, 12_(5), 919.
+Dimakopoulou, A., & Rantos, K. (2024). Comprehensive analysis of maritime cybersecurity landscape based on the NIST CSF v2.0. _Journal of Marine Science and Engineering, 12_(6), 919. https://doi.org/10.3390/jmse12060919
 
 IASME. (2025). _Overcoming Threats and Building Resilience: A Maritime Cyber Risk Strategy_.
 

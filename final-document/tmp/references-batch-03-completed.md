@@ -1,12 +1,22 @@
 # References Batch 03 (21-30)
 
+## No. 21
+
 - [ ] IASME. (2025, September 2). _Overcoming threats and building resilience: A maritime cyber risk strategy_. https://iasme.co.uk/articles/overcoming-threats-and-building-resilience-a-maritime-cyber-risk-strategy/
+
+## No. 22
 
 - [ ] Indian Register of Shipping. (2024). _Guidelines on maritime cyber safety_ (Revision 1). https://www.irclass.org/media/7145/irs-g-saf-02_guidelines-on-maritime-cyber-safety-rev1_march-2024.pdf
 
+## No. 23
+
 - [ ] International Maritime Organization. (2017). _Maritime cyber risk management in safety management systems_ (Resolution MSC.428(98)). https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.428(98).pdf
 
+## No. 24
+
 - [ ] Irannezhad, E. (2020). The architectural design requirements of a blockchain-based port community system. _Logistics, 4_(4), Article 30. https://doi.org/10.3390/logistics4040030
+
+## No. 25
 
 - [ ] Ibokette, A. I., Ogundare, T. O., Anyebe, A. P., Odeh, I. I., & Chinwuko, F. (2024). Mitigating maritime cybersecurity risks using AI-based intrusion detection systems and network automation during extreme environmental conditions. _International Journal of Scientific Research in Multidisciplinary Techniques, 3_(10), Article 73. https://doi.org/10.38124/ijsrmt.v3i10.73
 
@@ -18,7 +28,7 @@
 
 **This is also used in Chapter 10**
 
-Nomikos, N., Gkonis, P. K., Trakadas, P., & Salo, J. (2024). Sailing into the future: Technologies, challenges, and opportunities for maritime communication networks in the 6G era. _Frontiers in Communications and Networks, 5_, Article 1439529. https://doi.org/10.3389/frcmn.2024.1439529
+Xylouris, G., Nomikos, N., Kalafatelis, A., Giannopoulos, A., Spantideas, S., & Trakadas, P. (2024). Sailing into the future: Technologies, challenges, and opportunities for maritime communication networks in the 6G era. _Frontiers in Communications and Networks, 5_, 1439529. https://doi.org/10.3389/frcmn.2024.1439529
 
 ## No. 27
 

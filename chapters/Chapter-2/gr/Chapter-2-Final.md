@@ -252,9 +252,9 @@
 
 Baeza, V. M., Rigazzi, G., Romero, S. A., Ferrus, R., Ferrer, J., Mhatre, S., & Guadalupi, M. (2024, September). IoT-NTN communications via store-and-forward core network in multi-LEO-satellite deployments. In _2024 IEEE 35th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)_ (pp. 1-6). IEEE.
 
-Chen, H., Wen, Y., Huang, Y., Xiao, C., & Sui, Z. (2024). Edge computing enabling internet of ships: A survey on architectures, emerging applications, and challenges. _IEEE Internet of Things Journal_.
+Chen, H., Wen, Y., Huang, Y., Xiao, C., & Sui, Z. (2025). Edge computing enabling internet of ships: A survey on architectures, emerging applications, and challenges. _IEEE Internet of Things Journal, 12_(2), 1509–1528. https://doi.org/10.1109/JIOT.2024.3491162
 
-Chen, Y., Wang, L., & Liu, J. (2020). A survey on maritime wireless communications and applications. _IEEE Communications Surveys & Tutorials, 22_(2), 1153–1181. [https://doi.org/10.1109/COMST.2020.2968714](https://doi.org/10.1109/COMST.2020.2968714)
+Shang, Z., Wang, J., & Yang, Y. (2025). Maritime communication networks: A survey on architecture, key technologies, and challenges. _Computer Communications, 216_, 189–213. https://doi.org/10.1016/j.comcom.2025.108255
 
 DTN. (2022). Uncharted waters: The journey to digitalization in shipping. DTN. [https://www.dtn.com/wp-content/uploads/2022/01/wx_Shipping-Digitalization-Report.pdf](https://www.dtn.com/wp-content/uploads/2022/01/wx_Shipping-Digitalization-Report.pdf)
 

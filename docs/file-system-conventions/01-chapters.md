@@ -58,3 +58,4 @@ chapters/Chapter-N/gr/assets/
 - The `en/sections/` folder contains the atomic parts of the chapter.
 - The `en/Chapter N_ ... .md` file is typically a concatenation of these sections.
 - The `gr/` folder contains the translated work, with `archive/` storing previous iterations.
+
