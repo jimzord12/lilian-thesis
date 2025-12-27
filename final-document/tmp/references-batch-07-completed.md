@@ -34,7 +34,7 @@
 
 ### New Ref
 
-- [ ] Apprill, A., Albright, R., Berumen, M. L., DeCarlo, T. M., Fabina, N. S., Fox, M. D., Gove, J. M., Haas, A. F., Hochberg, E. J., Holbrook, S. J., Knowlton, N., Lenihan, H. S., Madin, J. S., Morrow, K. M., Nelson, C. E., Sala, E., Silbiger, N. J., Smith, J. E., Washburn, L., & Wyatt, A. S. J. (2023). Toward a new era of coral reef monitoring. _Environmental Science & Technology, 57_(7), 2603–2618. https://doi.org/10.1021/acs.est.2c05369
+- [x] Apprill, A., Albright, R., Berumen, M. L., DeCarlo, T. M., Fabina, N. S., Fox, M. D., Gove, J. M., Haas, A. F., Hochberg, E. J., Holbrook, S. J., Knowlton, N., Lenihan, H. S., Madin, J. S., Morrow, K. M., Nelson, C. E., Sala, E., Silbiger, N. J., Smith, J. E., Washburn, L., & Wyatt, A. S. J. (2023). Toward a new era of coral reef monitoring. _Environmental Science & Technology, 57_(7), 2603–2618. https://doi.org/10.1021/acs.est.2c05369
 
 ## No. 69
 
