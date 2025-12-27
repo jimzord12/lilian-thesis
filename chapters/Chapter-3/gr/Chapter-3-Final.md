@@ -34,7 +34,7 @@
 Η θαλάσσια ασφάλεια εφαρμόζεται στον έλεγχο των συνόρων, στην ανίχνευση ναρκών και στην επιτήρηση πλοίων ή θαλάσσιων ζώων (Zahra et al., 2025).
 Πιθανές κατευθύνσεις μελέτης περιλαμβάνουν τα ακόλουθα. Οι επιστήμονες καλούνται να αναπτύξουν υποβρύχιο εξοπλισμό που καταναλώνει ελάχιστη ενέργεια και είναι σε θέση να συλλέγει ενέργεια από μόνος του, συνεχίζοντας έτσι να λειτουργεί για μεγάλα χρονικά διαστήματα. Οι επιστήμονες θα βελτιώσουν επίσης την ακρίβεια του προσδιορισμού της θέσης των υποβρύχιων κόμβων και του συντονισμού τους σε τρισδιάστατα ταχέως μεταβαλλόμενα περιβάλλοντα, όπως οι κινητοί κόμβοι. Σύμφωνα με πρόσφατη μελέτη, πρέπει να αναπτυχθούν ασφαλή, ευέλικτα πρωτόκολλα, τα οποία είναι ικανά να αντιμετωπίζουν νέες επιθέσεις και επιχειρήσεις σε περιβάλλοντα που χαρακτηρίζονται από τροποποιήσεις των κόμβων και διακυμάνσεις του περιβάλλοντος.
 Το σύστημα περιλαμβάνει εξελιγμένη Τεχνητή Νοημοσύνη, πολυεπίπεδα μέτρα ασφαλείας και τυποποιημένη υποδομή για τη διευκόλυνση των πραγματικών δοκιμών και της ανάπτυξης σε μεγάλη κλίμακα, Khan et al., 2024.
-Η ακουστική επικοινωνία είναι ο πιο αποτελεσματικός τρόπος επικοινωνίας μεταξύ των θαλάσσιων συστημάτων IoT. Τα ηλεκτρομαγνητικά κύματα δεν μπορούν να φτάσουν μακριά στο νερό, επομένως τα ηχητικά κύματα χρησιμοποιούνται στην επικοινωνία. Τα ακουστικά σήματα των υποβρύχιων συστημάτων του Διαδικτύου των Πραγμάτων υποστηρίζουν βασικές θαλάσσιες δραστηριότητες, όπως η ανίχνευση και η πλοήγηση, η παρακολούθηση και η δημιουργία μελλοντικής τεχνολογίας ωκεανών. Η χρήση ακουστικής επικοινωνίας στον ωκεανό έχει αποδειχθεί ιδιαίτερα επωφελής για την ασφάλεια των λειτουργιών, την προστασία του περιβάλλοντος και την επιστημονική έρευνα, καθώς η ζήτηση για δεδομένα ωκεανών συνεχίζει να αυξάνεται (Xylouris et al., 2024; Jiang et al., 2024; SAFE-uIoT, 2024).
+Η ακουστική επικοινωνία είναι ο πιο αποτελεσματικός τρόπος επικοινωνίας μεταξύ των θαλάσσιων συστημάτων IoT. Τα ηλεκτρομαγνητικά κύματα δεν μπορούν να φτάσουν μακριά στο νερό, επομένως τα ηχητικά κύματα χρησιμοποιούνται στην επικοινωνία. Τα ακουστικά σήματα των υποβρύχιων συστημάτων του Διαδικτύου των Πραγμάτων υποστηρίζουν βασικές θαλάσσιες δραστηριότητες, όπως η ανίχνευση και η πλοήγηση, η παρακολούθηση και η δημιουργία μελλοντικής τεχνολογίας ωκεανών. Η χρήση ακουστικής επικοινωνίας στον ωκεανό έχει αποδειχθεί ιδιαίτερα επωφελής για την ασφάλεια των λειτουργιών, την προστασία του περιβάλλοντος και την επιστημονική έρευνα, καθώς η ζήτηση για δεδομένα ωκεανών συνεχίζει να αυξάνεται (Xylouris et al., 2024; SAFE-uIoT, 2024).
 
 ### Θεωρητικό Υπόβαθρο
 
@@ -57,7 +57,7 @@
 
 ### Υπάρχουσες τεχνολογίες και μεθοδολογικές προσεγγίσεις
 
-Οι προκλήσεις μετάδοσης ήχου έχουν αντιμετωπιστεί αποτελεσματικά από συστήματα ακουστικών δικτύων, τα οποία πλέον χρησιμοποιούν προσαρμοστικούς αλγόριθμους ως βασικές λειτουργικές μεθόδους. Το σύστημα μειώνει την υποβάθμιση του σήματος και επεκτείνει την εμβέλεια επικοινωνίας μέσω στρατηγικής τοποθέτησης μόντεμ και κόμβων αισθητήρων που βασίζονται σε περιβαλλοντικά μοντέλα. Οι Lyu et al. (2024) και άλλες πηγές δείχνουν ότι τα συστήματα ανίχνευσης και αφαίρεσης θορύβου με βάση τη μηχανική μάθηση έχουν γίνει τυπικές πρακτικές στην ανίχνευση σήματος, ειδικά όταν πρόκειται για δεδομένα με θόρυβο. Σύμφωνα με τους Jiang et al. (2024) και PeerJ Computer Science (2024), η ανθεκτικότητα και η λειτουργική διάρκεια ζωής του δικτύου αισθητήρων ενισχύονται μέσω της ενσωμάτωσης ενεργειακά αποδοτικών μεθόδων δρομολόγησης και κινητών κόμβων sink. Ο τομέας των λειτουργιών αισθητήρων έχει βιώσει μια αναπτυσσόμενη αγορά ακουστικών αισθητήρων σε συνδυασμό με αναδυόμενα πρότυπα που διευκολύνουν τα συστήματα θαλάσσιας παρακολούθησης σε πραγματικό χρόνο (Research and Markets 2024; SAFE-uIoT 2024).
+Οι προκλήσεις μετάδοσης ήχου έχουν αντιμετωπιστεί αποτελεσματικά από συστήματα ακουστικών δικτύων, τα οποία πλέον χρησιμοποιούν προσαρμοστικούς αλγόριθμους ως βασικές λειτουργικές μεθόδους. Το σύστημα μειώνει την υποβάθμιση του σήματος και επεκτείνει την εμβέλεια επικοινωνίας μέσω στρατηγικής τοποθέτησης μόντεμ και κόμβων αισθητήρων που βασίζονται σε περιβαλλοντικά μοντέλα. Οι Lyu et al. (2024) και άλλες πηγές δείχνουν ότι τα συστήματα ανίχνευσης και αφαίρεσης θορύβου με βάση τη μηχανική μάθηση έχουν γίνει τυπικές πρακτικές στην ανίχνευση σήματος, ειδικά όταν πρόκειται για δεδομένα με θόρυβο. Σύμφωνα με τους Xylouris et al. (2024) και PeerJ Computer Science (2024), η ανθεκτικότητα και η λειτουργική διάρκεια ζωής του δικτύου αισθητήρων ενισχύονται μέσω της ενσωμάτωσης ενεργειακά αποδοτικών μεθόδων δρομολόγησης και κινητών κόμβων sink. Ο τομέας των λειτουργιών αισθητήρων έχει βιώσει μια αναπτυσσόμενη αγορά ακουστικών αισθητήρων σε συνδυασμό με αναδυόμενα πρότυπα που διευκολύνουν τα συστήματα θαλάσσιας παρακολούθησης σε πραγματικό χρόνο (Research and Markets 2024; SAFE-uIoT 2024).
 
 ### Εφαρμογές και Περιπτώσεις Χρήσης
 
@@ -199,7 +199,7 @@
 
 ### Τεχνολογικά εμπόδια σήμερα
 
-- Οι περιορισμοί εύρους ζώνης και καθυστέρησης επικοινωνίας στα υποβρύχια περιβάλλοντα εξακολουθούν να περιορίζουν τη μεταφορά δεδομένων σε πραγματικό χρόνο, ειδικά τα δεδομένα αισθητήρων υψηλής ανάλυσης και το βίντεο που απαιτούνται σε λεπτομερή περιβαλλοντική έρευνα (Jiang et al., 2024; Whitt et al., 2020).
+- Οι περιορισμοί εύρους ζώνης και καθυστέρησης επικοινωνίας στα υποβρύχια περιβάλλοντα εξακολουθούν να περιορίζουν τη μεταφορά δεδομένων σε πραγματικό χρόνο, ειδικά τα δεδομένα αισθητήρων υψηλής ανάλυσης και το βίντεο που απαιτούνται σε λεπτομερή περιβαλλοντική έρευνα (Xylouris et al., 2024; Whitt et al., 2020).
 - Η περίοδος λειτουργίας των αυτόνομων υποβρύχιων οχημάτων και των δικτύων αισθητήρων εξ αποστάσεως περιορίζεται από την κατάσταση της τεχνολογίας των μπαταριών, η οποία εισάγει επίσης βασικούς περιορισμούς στις μακροπρόθεσμες αποστολές παρακολούθησης και την χωρική κάλυψη (Verma et al., 2021; Khan et al., 2024).
 - Οι ελλείψεις τυποποίησης στα πρωτόκολλα επικοινωνίας αισθητήρων και στις μορφές δεδομένων εμποδίζουν τη συμβατότητα διαφορετικών συστημάτων ανίχνευσης και κατασκευαστών, δημιουργώντας έτσι προβλήματα ενσωμάτωσης σε ολοκληρωμένα δίκτυα θαλάσσιας ανίχνευσης (Mueller et al., 2023; Xu et al., 2019).
   Δεν υπάρχουν πολλές εφαρμογές μεγάλης κλίμακας, καθώς οι τεχνολογίες ανίχνευσης έχουν δοκιμαστεί σε εργαστηριακά περιβάλλοντα ή μικρές εφαρμογές, αντί για ολόκληρα ωκεάνια λειτουργικά σενάρια που απαιτούν τη συμμετοχή πολλαπλών ομάδων και πόρων (Muhammad et al., 2025; Smith et al., 2024).
@@ -225,13 +225,11 @@ Xu, G., Shi, Y., Sun, X., & Shen, W. (2019). Internet of Things in marine enviro
 
 Di Ciaccio, F., & Troisi, S. (2021). Monitoring marine environments with Autonomous Underwater Vehicles: A bibliometric analysis. _Results in Engineering, 11_, 100225\. [https://doi.org/10.1016/j.rineng.2021.100225](https://doi.org/10.1016/j.rineng.2021.100225)
 
-Grosjean, V. (2024, October 17). Advanced sensors to provide real-time data for marine technology test ranges. _Ocean Science Technology News_. [https://www.oceansciencetechnology.com/news/advanced-sensors-to-provide-real-time-data-for-marine-technology-test-ranges/](https://www.oceansciencetechnology.com/news/advanced-sensors-to-provide-real-time-data-for-marine-technology-test-ranges/)
+Grosjean, V. (2024, October 17). Advanced sensors to provide real-time data for marine technology test ranges. _Ocean Science Technology News_. https://www.oceansciencetechnology.com/news/advanced-sensors-to-provide-real-time-data-for-marine-technology-test-ranges/
 
-Jiang, P., Liu, W., & Wang, Q. (2024). A dynamic routing scheme for underwater acoustic sensor networks in submarine disaster applications. _Frontiers in Marine Science, 11_, 1400586\. [https://doi.org/10.3389/fmars.2024.1400586](https://doi.org/10.3389/fmars.2024.1400586)
+Kang, Z., Li, Z., & Wang, H. (2024). Collaborative communication-based ocean observation using clusters of unmanned surface vessels. _Frontiers in Marine Science, 11_, Article 1388617. https://doi.org/10.3389/fmars.2024.1388617
 
-Kang, Z., Li, Z., & Wang, H. (2024). Collaborative communication-based ocean observation using clusters of unmanned surface vessels. _Frontiers in Marine Science, 11_, Article 1388617\. [https://doi.org/10.3389/fmars.2024.1388617](https://doi.org/10.3389/fmars.2024.1388617)
-
-Khan, S. U., Khan, S., & Imran, M. (2024). Energy-efficient routing protocols for UWSNs: A review. _Journal of King Saud University – Computer and Information Sciences_. [https://www.sciencedirect.com/science/article/pii/S1319157824002179](https://www.sciencedirect.com/science/article/pii/S1319157824002179)
+Khan, S. U., Khan, S., & Imran, M. (2024). Energy-efficient routing protocols for UWSNs: A review. _Journal of King Saud University – Computer and Information Sciences_. https://www.sciencedirect.com/science/article/pii/S1319157824002179
 
 Lavanya, P., et al. (2025). Real-Time Ocean Monitoring and Early Warning Systems With IoT. _Journal of Ocean and Internet of Things Innovations_. [https://journals.stmjournals.com/joiti/article=2025/view=195499/](https://journals.stmjournals.com/joiti/article=2025/view=195499/)
 
@@ -277,11 +275,11 @@ Verma, J., et al. (2021). Recent developments in energy storage systems for mari
 
 Whitt, C., et al. (2020). Future vision for autonomous ocean observations. _Frontiers in Marine Science, 7_, 697\.
 
-Wu, G., Liu, J., & Li, P. (2022). Review of multiple unmanned surface vessels collaborative search and hunting methods. _International Journal of Advanced Robotic Systems, 19_(2), 1-20. [https://doi.org/10.1177/17298806221091885](https://doi.org/10.1177/17298806221091885)
+Wu, G., Liu, J., & Li, P. (2022). Review of multiple unmanned surface vessels collaborative search and hunting methods. _International Journal of Advanced Robotic Systems, 19_(2), 1-20. https://doi.org/10.1177/17298806221091885
 
-Xylouris, G., et al. (2024). Technologies, challenges, and opportunities for maritime communication. _Frontiers in Marine Science, 5_, 1439529\. [https://doi.org/10.3389/frcmn.05.1439529](https://doi.org/10.3389/frcmn.05.1439529)
+Xylouris, G., Nomikos, N., Kalafatelis, A., Giannopoulos, A., Spantideas, S., & Trakadas, P. (2024). Sailing into the future: Technologies, challenges, and opportunities for maritime communication networks in the 6G era. _Frontiers in Communications and Networks, 5_, 1439529. https://doi.org/10.3389/frcmn.2024.1439529
 
-Zahra, N., Khawatmi, S., & Kassab, B. A. (2025). A comprehensive survey of security challenges and modern solutions in underwater wireless sensor networks. _International Journal of Computer Applications, 187_(32), 24-33. [https://doi.org/10.5120/ijca2025925570](https://doi.org/10.5120/ijca2025925570)
+Zahra, N., Khawatmi, S., & Kassab, B. A. (2025). A comprehensive survey of security challenges and modern solutions in underwater wireless sensor networks. _International Journal of Computer Applications, 187_(32), 24-33. https://doi.org/10.5120/ijca2025925570
 
 Zhu, R., Qian, Y., & Wang, W. (2024). Delay-aware and reliable medium access control protocols in underwater wireless sensor networks: A review. _Computer Networks, 248_, Article 109249\. [https://doi.org/10.1016/j.comnet.2024.109249](https://doi.org/10.1016/j.comnet.2024.109249)
 

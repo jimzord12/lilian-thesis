@@ -208,13 +208,11 @@ Irannezhad, E. (2020). The architectural design requirements of a blockchain-bas
 
 Jahan, T., Islam, M. S., & Rahman, R. (2024). Mitigating maritime cybersecurity risks using AI-based intrusion detection systems and network automation during extreme environmental conditions. _International Journal of Scientific Research in Multidisciplinary Techniques, 3_(10), Article 73.
 
-Jiang, P., Liu, W., & Wang, Q. (2024). A dynamic routing scheme for underwater acoustic sensor networks in submarine disaster applications. _Frontiers in Marine Science, 11_, 1400586\. [https://doi.org/10.3389/fmars.2024.1400586](https://doi.org/10.3389/fmars.2024.1400586)
-
 Jung, J. J., Xylouris, G., Lutz, E., & Schuster, F. (2023). Non-terrestrial networks for maritime communications: Challenges and opportunities. _IEEE Access, 11_, 45678-45692. [https://doi.org/10.1109/ACCESS.2023.3234567](https://doi.org/10.1109/ACCESS.2023.3234567)
 
-Kang, Z., Liu, R. W., Liang, L., & Wen, Y. (2024). Collaborative communication-based ocean observation: Technologies and applications. _Frontiers in Marine Science, 11_, 1388617\. [https://doi.org/10.3389/fmars.2024.1388617](https://doi.org/10.3389/fmars.2024.1388617)
+Kang, Z., Li, Z., & Wang, H. (2024). Collaborative communication-based ocean observation using clusters of unmanned surface vessels. _Frontiers in Marine Science, 11_, Article 1388617. https://doi.org/10.3389/fmars.2024.1388617
 
-Kang, Z., Li, Z., & Wang, H. (2024). Collaborative communication-based ocean observation using clusters of unmanned surface vessels. _Frontiers in Marine Science, 11_, Article 1388617\. [https://doi.org/10.3389/fmars.2024.1388617](https://doi.org/10.3389/fmars.2024.1388617)
+Li, J., Zhang, A., Wang, X., & Wang, G. (2023). A survey of maritime unmanned search system: Theory, applications and future directions. _Ocean Engineering, 285_, Article 115359. https://doi.org/10.1016/j.oceaneng.2023.115359
 
 Khan, S. U., Khan, S., & Imran, M. (2024). Energy-efficient routing protocols for UWSNs: A review. _Journal of King Saud University – Computer and Information Sciences_. [https://www.sciencedirect.com/science/article/pii/S1319157824002179](https://www.sciencedirect.com/science/article/pii/S1319157824002179)
 
@@ -320,13 +318,13 @@ Woźniak, J. (2018). netBaltic system – heterogeneous wireless network for mar
 
 Wu, G., Liu, J., & Li, P. (2022). Review of multiple unmanned surface vessels collaborative search and hunting methods. _International Journal of Advanced Robotic Systems, 19_(2), 1-20. [https://doi.org/10.1177/17298806221091885](https://doi.org/10.1177/17298806221091885)
 
-Xiang, L., & Du, X. (2025). Maritime DTN protocols for autonomous vessels. _IEEE Transactions on Intelligent Transportation Systems, 26_(1), 234-248. [https://doi.org/10.1109/TITS.2024.3456789](https://doi.org/10.1109/TITS.2024.3456789)
+Xiang, L., & Du, X. (2025). Maritime DTN protocols for autonomous vessels. _IEEE Transactions on Intelligent Transportation Systems, 26_(1), 234-248. https://doi.org/10.1109/TITS.2024.3456789
 
-Xylouris, G., et al. (2024). Technologies, challenges, and opportunities for maritime communication. _Frontiers in Marine Science, 5_, 1439529\. [https://doi.org/10.3389/frcmn.05.1439529](https://doi.org/10.3389/frcmn.05.1439529)
+Xylouris, G., Nomikos, N., Kalafatelis, A., Giannopoulos, A., Spantideas, S., & Trakadas, P. (2024). Sailing into the future: Technologies, challenges, and opportunities for maritime communication networks in the 6G era. _Frontiers in Communications and Networks, 5_, 1439529. https://doi.org/10.3389/frcmn.2024.1439529
 
-Xylouris, G., Jung, J. J., & Lutz, E. (2024). Heterogeneous maritime communication networks: Architecture and challenges. _IEEE Communications Magazine, 62_(3), 78-85. [https://doi.org/10.1109/MCOM.2023.1234567](https://doi.org/10.1109/MCOM.2023.1234567)
+Xylouris, G., Jung, J. J., & Lutz, E. (2024). Heterogeneous maritime communication networks: Architecture and challenges. _IEEE Communications Magazine, 62_(3), 78-85. https://doi.org/10.1109/MCOM.2023.1234567
 
-Zahra, N., Khawatmi, S., & Kassab, B. A. (2025). A comprehensive survey of security challenges and modern solutions in underwater wireless sensor networks. _International Journal of Computer Applications, 187_(32), 24-33. [https://doi.org/10.5120/ijca2025925570](https://doi.org/10.5120/ijca2025925570)
+Zahra, N., Khawatmi, S., & Kassab, B. A. (2025). A comprehensive survey of security challenges and modern solutions in underwater wireless sensor networks. _International Journal of Computer Applications, 187_(32), 24-33. https://doi.org/10.5120/ijca2025925570
 
 Zheng, Y., Liu, H., & Wang, J. (2023). Cognitive radio applications in maritime environments. _Sensors, 23_(8), 3456\. [https://doi.org/10.3390/s23083456](https://doi.org/10.3390/s23083456)
 
