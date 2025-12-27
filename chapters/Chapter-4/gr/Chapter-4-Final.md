@@ -235,15 +235,15 @@ Irannezhad, E. (2020). The architectural design requirements of a blockchain-bas
 
 Jahan, T., Islam, M. S., & Rahman, R. (2024). Mitigating maritime cybersecurity risks using AI-based intrusion detection systems and network automation during extreme environmental conditions. _International Journal of Scientific Research in Multidisciplinary Techniques, 3_(10), Article 73.
 
-Li, M., Zhou, J., Chattopadhyay, S., & Goh, M. (2024). Maritime cybersecurity: A comprehensive review. _arXiv preprint arXiv:2409.11417_.
+Li, M., Zhou, J., Chattopadhyay, S., & Goh, M. (2024). Maritime cybersecurity: A comprehensive review. arXiv preprint arXiv:2409.11417.
 
-Liebetrau, T. (2023). Critical maritime infrastructure protection: What’s the trouble? _Marine Policy, 155_, 105772.
+Liebetrau, T. (2023). Critical maritime infrastructure protection: What's the trouble? Marine Policy, 155, 105772.
 
-Liu, J., Chen, X., Wang, Y., & Lam, J. S. L. (2023). Blockchain technology in maritime supply chains. _International Journal of Production Research, 61_(11), 3543–3559.
+Liu, J., Zhang, H., & Zhen, L. (2023). Blockchain technology in maritime supply chains: Applications, architecture and challenges. International Journal of Production Research, 61(11), 3547–3563. https://doi.org/10.1080/00207543.2022.2078248
 
-MARSEC-COE, Maritime Security Centre of Excellence. (2023). _Maritime Critical Infrastructure Protection (MCIP)_.
+Maritime Security Centre of Excellence. (2023). Maritime critical infrastructure protection (MCIP) study paper. NATO Maritime Security Centre of Excellence. https://www.marseccoe.org/2023/10/23/maritime-critical-infrastructure-protection-study-paper/
 
-Maritime industry accelerates shift toward digital trade. (2025, January 30). _Offshore Energy_.
+Maritime industry accelerates shift toward digital trade. (2025, June 15). Offshore Energy. https://www.offshore-energy.biz/maritime-industry-accelerates-shift-toward-digital-trade/
 
 Melnyk, O., Drozdov, O., & Kuznichenko, S. (2025). Cybersecurity in maritime transport: An international perspective on regulatory frameworks and countermeasures. _Lex Portus, 11_(1), 7–19.
 

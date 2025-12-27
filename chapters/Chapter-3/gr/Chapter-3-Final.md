@@ -233,9 +233,9 @@ Khan, S. U., Khan, S., & Imran, M. (2024). Energy-efficient routing protocols fo
 
 Lavanya, P., et al. (2025). Real-Time Ocean Monitoring and Early Warning Systems With IoT. _Journal of Ocean and Internet of Things Innovations_. [https://journals.stmjournals.com/joiti/article=2025/view=195499/](https://journals.stmjournals.com/joiti/article=2025/view=195499/)
 
-Lyu, Y., Cheng, X., & Wang, Y. (2024). Automatic modulation identification for underwater acoustic signals based on the space–time neural network. _Frontiers in Marine Science, 11_, 1334134\. [https://doi.org/10.3389/fmars.2024.1334134](https://doi.org/10.3389/fmars.2024.1334134)
+Lyu, Y., Cheng, X., & Wang, Y. (2024). Automatic modulation identification for underwater acoustic signals based on the space–time neural network. Frontiers in Marine Science, 11, 1334134. https://doi.org/10.3389/fmars.2024.1334134
 
-Market Research Intellect. (2025, January 20). Biofouling control clean sensor market size and projections. [https://www.marketresearchintellect.com/product/biofouling-control-clean-sensor-market/](https://www.marketresearchintellect.com/product/biofouling-control-clean-sensor-market/)
+Market Research Intellect. (n.d.). Biofouling control clean sensor market size, share & industry trends analysis 2033. Retrieved December 27, 2025, from https://www.marketresearchintellect.com/product/biofouling-control-clean-sensor-market/
 
 **Mueller, F., et al. (2023). Integrated marine monitoring networks in European coastal waters. _Ocean Science_, 19(5), 1567-1584. [https://doi.org/10.5194/os-19-1567-2023](https://doi.org/10.5194/os-19-1567-2023)**
 
