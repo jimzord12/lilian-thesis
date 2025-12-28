@@ -16,7 +16,7 @@ This document outlines the systematic process for assembling the final thesis fr
 - [x] Consolidate Chapter 7: Data Analytics and Artificial Intelligence.
 - [x] Consolidate Chapter 8: Sustainability and Green Maritime IoT.
 - [x] Consolidate Chapter 9: Standardization and Interoperability.
-- [ ] Consolidate Chapter 10: Emerging Technologies and Future Directions.
+- [x] Consolidate Chapter 10: Emerging Technologies and Future Directions.
 
 ## **Phase 3: Bookending**
 - [ ] Finalize Chapter 1: Introduction and Overview (Deferred until main body is stable).
