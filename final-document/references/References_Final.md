@@ -2,11 +2,6 @@
 
 > **Total References**: 237
 > **Source Files**:
->
-> - final-document/references/chapters-1/prepared-references-1.md
-> - final-document/references/chapters-2-10/prepared-references-2-10.md
->   **Generated**: 28/12/2025
->   **Duplicates Removed**: 2
 
 ---
 

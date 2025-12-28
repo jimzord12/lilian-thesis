@@ -109,23 +109,29 @@ smith2023:
 
 ---
 
-## Reference Validator
+## Reference Validator (v2.0)
 
-## Features
+### Features
 
-- **Crossref API validation** - Verifies references against the Crossref academic database
+- **Multi-source verification** - Validates against Crossref, Semantic Scholar, and live URLs
+- **Crossref API validation** - Verifies references against the Crossref academic database (checks up to 5 candidates)
+- **Semantic Scholar fallback** - Secondary academic API for broader coverage
 - **Live URL/DOI checking** - Uses Playwright to verify that links are accessible
+- **Enhanced metadata extraction** - Checks multiple page selectors (citation_title, og:title, etc.)
 - **Similarity scoring** - Compares titles to detect mismatches
-- **Detailed reports** - Generates Markdown reports with verification status
+- **Confidence scoring** - Three-level confidence system (high/medium/low) with detailed signals
+- **Rate limiting** - Built-in API rate limiting to prevent blocking
+- **Caching** - Avoids duplicate lookups for the same reference
+- **Detailed reports** - Generates Markdown reports with verification status and confidence levels
 
-## Installation
+### Installation
 
 ```bash
 npm install
 npx playwright install chromium
 ```
 
-## Usage
+### Usage
 
 **From the project root:**
 
@@ -159,7 +165,7 @@ From ref-tools directory:
 npx tsx verify-references.ts ../../../final-document/references/refs.md -o report.md
 ```
 
-## Validation Status
+### Validation Status
 
 | Status        | Icon | Description                        |
 | ------------- | ---- | ---------------------------------- |
@@ -167,7 +173,23 @@ npx tsx verify-references.ts ../../../final-document/references/refs.md -o repor
 | `suspicious`  | ⚠️   | Partial match or title discrepancy |
 | `broken_link` | ❌   | URL/DOI unreachable or returns 404 |
 
-## Reference Format
+### Confidence Levels
+
+| Confidence | Icon | Description                                     |
+| ---------- | ---- | ----------------------------------------------- |
+| `high`     | 🟢   | DOI verified + strong title match + year match  |
+| `medium`   | 🟡   | Partial signals (title match OR year confirmed) |
+| `low`      | 🔴   | Weak or no signals                              |
+
+### Verification Cascade
+
+The validator uses a multi-source approach for better reliability:
+
+1. **Crossref** (primary) - Checks up to 5 candidates, picks best match
+2. **Semantic Scholar** (fallback) - Used if Crossref is inconclusive
+3. **Playwright** (URL verification) - Verifies live URLs/DOIs with enhanced metadata extraction
+
+### Reference Format
 
 References should be in list format with standard academic citation style:
 
@@ -175,10 +197,17 @@ References should be in list format with standard academic citation style:
 - Author, A. (2024). Title of the paper. _Journal Name_. https://doi.org/10.xxxx/xxxxx
 ```
 
-## Output
+### Output
 
 The tool generates a Markdown report containing:
 
 - Summary statistics (verified/suspicious/broken)
-- Detailed findings for each reference
+- Confidence level breakdown (high/medium/low)
+- Detailed findings for each reference with signals
 - Match scores and metadata from sources
+
+### Running Tests
+
+```bash
+npm test
+```

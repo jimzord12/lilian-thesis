@@ -1,0 +1,11 @@
+// metadata.typ
+#let titleEnglish = "Maritime Internet of Things: A Comprehensive Analysis of Communication Networks, Autonomous Systems, and Emerging Technologies"
+#let titleGreek = "Θαλάσσιο Διαδίκτυο των Πραγμάτων: Μια Ολοκληρωμένη Ανάλυση Δικτύων Επικοινωνίας, Αυτόνομων Συστημάτων και Αναδυόμενων Τεχνολογιών"
+#let author = "[Placeholder for Author Name]"
+#let supervisor = "[Placeholder for Supervisor Name]"
+#let university = "[Placeholder for University Name]"
+#let degree = "[Placeholder for Degree]"
+#let program = "[Placeholder for Program]"
+#let startDate = "Δεκέμβριος 2025"
+#let submissionDate = "Δεκέμβριος 2025"
+#let examiner = "[Placeholder for Examiner Name]"
