@@ -6,37 +6,41 @@ _Subtitle: A Comprehensive Analysis of Communication Networks, Autonomous System
 
 ## **Front Matter**
 
-- **Title Page:** Thesis Title, Author, University, Date.
+- **Title Page (Greek):** Τίτλος, Συγγραφέας, Επιβλέπων, Πανεπιστήμιο, Ημερομηνία.
 
-- **Abstract:** A high-level summary of the entire review (250–350 words). It must state that this is a _Systematic Review_ aimed at consolidating fragmented knowledge into a unified taxonomy.
+- **Title Page (English):** Title, Author, Supervisor, University, Date.
 
-- **Acknowledgements**
+- **Declaration of Originality, Copyright, and Anti-plagiarism:** Formal statements as per university template.
 
-- **Table of Contents**
+- **Acknowledgements** (Optional)
 
-- **List of Figures & Tables**
+- **Abstract & Keywords (English):** 250–350 words.
 
-- **List of Abbreviations:** Critical for this thesis (e.g., MIoT, SDN, NTN, USV, AUV, COLREG).
+- **Περίληψη & Λέξεις-Κλειδιά (Greek):** 250–300 words.
 
-- **Declaration of Originality**
+- **Table of Contents:** Up to 3 levels of depth.
+
+- **List of Figures**
+
+- **List of Tables**
+
+- **List of Abbreviations & Terms:** (Ευρετήρια Όρων και Συντομογραφιών).
+
+- **Alphabetical Index of Terms:** (Αλφαβητικό Ευρετήριο Όρων).
 
 ---
 
-## **Chapter 1: Introduction and Overview**
+## **Chapter 1: Introduction (Εισαγωγή)**
 
-- **1.1 The Maritime Digital Transformation:** From analog shipping to "Maritime 4.0."
+- **1.1 Subject (Αντικείμενο):** From analog shipping to "Maritime 4.0" and the MIoT scope.
 
-- **1.2 IoT Revolution in Ocean Industries:** Defining MIoT and its scope.
+- **1.2 Purpose and Goals (Σκοπός και στόχοι):** Specific research questions and the goal of the systematic review.
 
-- **1.3 Research Scope and Objectives:** Explicitly stating the goal is to provide a comprehensive _state-of-the-art review_ and taxonomy.
+- **1.3 Methodology (Μεθοδολογία):** Search strategy, databases (IEEE, Scopus), inclusion/exclusion criteria.
 
-- **1.4 Review Methodology:** (Crucial for a Review Thesis)
+- **1.4 Innovation (Καινοτομία):** Contribution to new knowledge/taxonomy.
 
-  - _Search Strategy:_ Keywords used, databases accessed (IEEE, Scopus).
-
-  - _Inclusion/Exclusion:_ "Papers from 2020–2025," "English language only."
-
-- **1.5 Thesis Structure:** A roadmap of the following chapters.
+- **1.5 Structure (Δομή):** Roadmap of the following chapters.
 
 ---
 
@@ -184,25 +188,25 @@ _(Moved here to bridge "Technology" with "Policy")_
 
 ---
 
-## **Chapter 11: Conclusions**
+## **Chapter 11: Conclusions (Συμπεράσματα)**
 
 - **11.1 Summary of Key Findings:** Recap the "State of the Art" across all layers.
 
 - **11.2 The Integrated MIoT Vision:** Synthesis of how Chapters 2-10 fit together.
 
-- **11.3 Integration Challenges:** The difficulty of making these disparate systems work as one.
+- **11.3 Limitations and Challenges:** Critical assessment of the study and technical hurdles.
 
-- **11.4 Research Gaps and Opportunities:** Final roadmap for future researchers.
+- **11.4 Future Research Directions:** Gaps and opportunities for future exploration.
 
-- **11.5 Policy and Regulatory Implications:** Recommendations for bodies like the IMO.
+- **11.5 Recommendations:** Policy and regulatory implications (IMO/ITU).
 
 ---
 
 ## **Back Matter**
 
-- **References:** Comprehensive bibliography in APA style.
+- **Bibliography - References - Internet Sources:** (Βιβλιογραφία-Αναφορές-Διαδικτυακές Πηγές).
 
-- **Appendices:** (Optional)
+- **Appendices:**
 
   - _Appendix A:_ List of key Maritime IoT datasets.
 

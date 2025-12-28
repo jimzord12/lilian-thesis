@@ -1,6 +1,6 @@
 {
   "name": "ref-tools",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "CLI tools for academic reference management: validation, verification, and format conversion",
   "main": "index.js",
   "bin": {
@@ -11,7 +11,7 @@
     "validate": "tsx verify-references.ts",
     "filter": "tsx filter-report.ts",
     "convert": "tsx convert-to-hayagriva.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --import tsx --test verify-references.test.ts"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,7 @@
     "mdast-util-from-markdown": "^2.0.2",
     "mdast-util-to-string": "^4.0.0",
     "node-fetch": "^3.3.2",
+    "p-limit": "^6.2.0",
     "playwright": "^1.57.0",
     "playwright-chromium": "^1.57.0",
     "string-similarity": "^4.0.4"

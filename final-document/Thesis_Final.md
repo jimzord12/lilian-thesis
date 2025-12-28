@@ -1,28 +1,44 @@
 # Maritime Internet of Things: A Comprehensive Analysis of Communication Networks, Autonomous Systems, and Emerging Technologies
 
+---
+
+## [Placeholder for Title Page (Greek)]
+**Τίτλος:** Θαλάσσιο Διαδίκτυο των Πραγμάτων: Μια Ολοκληρωμένη Ανάλυση Δικτύων Επικοινωνίας, Αυτόνομων Συστημάτων και Αναδυόμενων Τεχνολογιών
+**Συγγραφέας:** [Placeholder for Author Name]
+**Επιβλέπων:** [Placeholder for Supervisor Name]
+**Πανεπιστήμιο:** [Placeholder for University Name]
+**Ημερομηνία:** Δεκέμβριος 2025
+
+---
+
+## [Placeholder for Title Page (English)]
+**Title:** Maritime Internet of Things: A Comprehensive Analysis of Communication Networks, Autonomous Systems, and Emerging Technologies
+**Author:** [Placeholder for Author Name]
+**Supervisor:** [Placeholder for Supervisor Name]
+**University:** [Placeholder for University Name]
+**Date:** December 2025
+
+---
+
+## [Placeholder for Declaration of Originality, Copyright, and Anti-plagiarism]
+Δηλώνω υπεύθυνα ότι η παρούσα διπλωματική εργασία είναι προϊόν δικής μου πνευματικής προσπάθειας και δεν αποτελεί προϊόν λογοκλοπής...
+[Placeholder for full formal text]
+
+---
+
+## Περίληψη
+
+[Placeholder for Greek Summary (250-300 λέξεις)]
+
+**Λέξεις-Κλειδιά:** Θαλάσσιο Διαδίκτυο των Πραγμάτων (MIoT), Αυτόνομα Πλοία, Κυβερνοασφάλεια, Δίκτυα 6G, Ψηφιακά Δίδυμα.
+
+---
+
 ## Abstract
 
 [Placeholder for Abstract]
 
-## Acknowledgements
-
-[Placeholder for Acknowledgements]
-
-## Table of Contents
-
-[To be generated]
-
-## List of Figures & Tables
-
-[To be generated]
-
-## List of Abbreviations
-
-[To be generated from Abbreviations.md]
-
-## Declaration of Originality
-
-[Placeholder for Declaration]
+**Keywords:** Maritime Internet of Things (MIoT), Autonomous Ships, Cybersecurity, 6G Networks, Digital Twins.
 
 ---
 
@@ -118,7 +134,19 @@
 
 ## **1.3: Σκοπός και Αντικείμενο της Έρευνας**
 
-Ο κύριος στόχος αυτής της διατριβής είναι η παροχή μιας ολοκληρωμένης επισκόπησης της τρέχουσας κατάστασης (state-of-the-art) στον τομέα του Θαλάσσιου Διαδικτύου των Πραγμάτων (MIoT). Η έρευνα επικεντρώνεται στην ενοποίηση αποσπασματικών γνώσεων σε μια ενιαία ταξινόμηση, καλύπτοντας τα δίκτυα επικοινωνίας, τα συστήματα ανίχνευσης, την αυτονομία, την κυβερνοασφάλεια και τις αναδυόμενες τεχνολογίες. Συγκεκριμένα, η εργασία στοχεύει:
+Ο κύριος στόχος αυτής της διατριβής είναι η παροχή μιας ολοκληρωμένης επισκόπησης της τρέχουσας κατάστασης (state-of-the-art) στον τομέα του Θαλάσσιου Διαδικτύου των Πραγμάτων (MIoT). Η έρευνα επικεντρώνεται στην ενοποίηση αποσπασματικών γνώσεων σε μια ενιαία ταξινόμηση, καλύπτοντας τα δίκτυα επικοινωνίας, τα συστήματα ανίχνευσης, την αυτονομία, την κυβερνοασφάλεια και τις αναδυόμενες τεχνολογίες.
+
+Προκειμένου να επιτευχθεί αυτός ο στόχος, η διατριβή πραγματεύεται τα ακόλουθα κεντρικά ερευνητικά ερωτήματα:
+
+1. **ΕΕ1:** Πώς μπορούν οι ποικίλες επικοινωνιακές απαιτήσεις του MIoT—από τις δορυφορικές ζεύξεις υψηλού εύρους ζώνης έως τα υποβρύχια ακουστικά κανάλια χαμηλής ισχύος—να ενσωματωθούν σε μια ανθεκτική, ετερογενή αρχιτεκτονική δικτύου οριζόμενη από λογισμικό;
+2. **ΕΕ2:** Ποιος είναι ο ρόλος των αυτόνομων επιφανειακών και υποβρύχιων οχημάτων (MASS/AUVs) στην ενίσχυση της ναυτιλιακής επίγνωσης κατάστασης και ποιες είναι οι αλγοριθμικές προϋποθέσεις για τον ασφαλή, πολυπρακτορικό συντονισμό τους;
+3. **ΕΕ3:** Πώς οι τεχνολογίες Ψηφιακού Διδύμου γεφυρώνουν το χάσμα μεταξύ των φυσικών ναυτιλιακών στοιχείων και της εικονικής προσομοίωσης, και ποιες είναι οι επιπτώσεις στην προγνωστική συντήρηση και τη βελτιστοποίηση της απόδοσης των πλοίων;
+4. **ΕΕ4:** Με ποιους τρόπους μπορούν η Τεχνητή Νοημοσύνη και η Ανάλυση Μεγάλων Δεδομένων να εφαρμοστούν στη ναυτιλιακή εφοδιαστική και την ανίχνευση ανωμαλιών για τη βελτίωση της επιχειρησιακής διαφάνειας και ασφάλειας;
+5. **ΕΕ5:** Ποιες είναι οι θεμελιώδεις κυβερνοαπειλές που αντιμετωπίζει η συγκλίνουσα ναυτιλιακή υποδομή IT/OT και πώς μια προσέγγιση "ασφάλειας εκ σχεδιασμού" (security-by-design) με χρήση Μηδενικής Εμπιστοσύνης και Blockchain μπορεί να αντιμετωπίσει αυτές τις ευπάθειες;
+6. **ΕΕ6:** Πώς συμβάλλει το MIoT στις πρωτοβουλίες "Πράσινης Ναυτιλίας", ειδικότερα στην παρακολούθηση των εκπομπών, την ανίχνευση της ρύπανσης και τη βελτιστοποίηση της ενεργειακής κατανάλωσης μέσω έξυπνης ανίχνευσης;
+7. **ΕΕ7:** Ποια είναι τα εμπόδια στην παγκόσμια τυποποίηση και τη σημασιολογική διαλειτουργικότητα στον ναυτιλιακό τομέα και πώς μπορούν τα παλαιά (legacy) συστήματα να εναρμονιστούν με τα αναδυόμενα πλαίσια MIoT;
+
+Ειδικότερα, η εργασία στοχεύει:
 
 - Στην ανάλυση των τεχνολογικών πυλώνων που υποστηρίζουν το MIoT.
 - Στον εντοπισμό των κρίσιμων προκλήσεων και των ερευνητικών κενών.
@@ -2592,5 +2620,17 @@
 - Zheng, Y., Liu, H., & Wang, J. (2023). _Cognitive radio applications in maritime environments_. Sensors, 23(8), 3456. https://doi.org/10.3389/fmars.2025.1702294
 - Zhou, F., Yu, K., Xie, W., Lyu, J., Zheng, Z., & Zhou, S. (2024). Digital twin-enabled smart maritime logistics management in the context of Industry 5.0. _IEEE Access, 12_, 10920–10931. https://doi.org/10.1109/ACCESS.2024.3354838
 - Zhu, R., Qian, Y., & Wang, W. (2024). _Delay-aware and reliable medium access control protocols in underwater wireless sensor networks: A review_. Computer Networks, 248, Article 109249. https://doi.org/10.1016/j.comnet.2024.110631
-- Zuo, G., Huang, S., Chen, M., Yang, S., Lin, Y., Yang, J., & Li, C. (2024). Sensor-fusion based navigation for autonomous mobile robot. _Sensors, 25_(4), 1248. https://doi.org/10.3390/s25041248
+## Alphabetical Index of Terms
+
+[Placeholder for Alphabetical Index of Terms]
+
+---
+
+# Παραρτήματα (Appendices)
+
+## Παράρτημα Α: Maritime IoT Datasets
+[Placeholder for List of key Maritime IoT datasets]
+
+## Παράρτημα Β: Regulations Summary
+[Placeholder for Summary of relevant IMO/ITU regulations]
 

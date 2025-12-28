@@ -2,8 +2,10 @@ import { program } from 'commander';
 import { fromMarkdown } from 'mdast-util-from-markdown';
 import { toString } from 'mdast-util-to-string';
 import fetch from 'node-fetch';
+import { createHash } from 'node:crypto';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import pLimit from 'p-limit';
 import { chromium } from 'playwright';
 import * as stringSimilarity from 'string-similarity';
 import { fileURLToPath } from 'url';
@@ -20,9 +22,11 @@ export interface RefMetadata {
 export interface ValidationResult {
   ref: RefMetadata;
   status: 'verified' | 'suspicious' | 'broken_link' | 'error';
-  source: 'crossref' | 'playwright' | 'none';
+  source: 'crossref' | 'semantic_scholar' | 'playwright' | 'none';
   matchScore: number;
   details: string;
+  confidence: 'high' | 'medium' | 'low';
+  signals: string[];
   metadata?: {
     title?: string;
     authors?: string[];
@@ -31,65 +35,246 @@ export interface ValidationResult {
   };
 }
 
+// Cache for avoiding duplicate lookups
+const resultCache = new Map<string, ValidationResult>();
+
+// Rate limiters for API calls
+const crossrefLimiter = pLimit(1);
+const semanticScholarLimiter = pLimit(1);
+
+const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
+export function getCacheKey(ref: RefMetadata): string {
+  const input = ref.doi || ref.title.toLowerCase().trim();
+  return createHash('md5').update(input).digest('hex');
+}
+
+export function getCachedResult(ref: RefMetadata): ValidationResult | null {
+  const key = getCacheKey(ref);
+  return resultCache.get(key) || null;
+}
+
+export function setCachedResult(ref: RefMetadata, result: ValidationResult): void {
+  const key = getCacheKey(ref);
+  resultCache.set(key, result);
+}
+
+export function clearCache(): void {
+  resultCache.clear();
+}
+
 export async function verifyWithCrossref(ref: RefMetadata): Promise<ValidationResult | null> {
-  try {
-    let queryUrl = '';
-    if (ref.doi) {
-      // Extract DOI part (e.g. 10.1016/j.fishres.2024.106777)
-      const doiMatch = ref.doi.match(/10\.\d{4,}\/[^\s)]+/);
-      if (doiMatch) {
-        queryUrl = `https://api.crossref.org/works/${doiMatch[0]}`;
+  return crossrefLimiter(async () => {
+    await delay(1000); // Rate limit: 1 request per second
+
+    try {
+      let queryUrl = '';
+      let isDOILookup = false;
+
+      if (ref.doi) {
+        // Extract DOI part (e.g. 10.1016/j.fishres.2024.106777)
+        const doiMatch = ref.doi.match(/10\.\d{4,}\/[^\s)]+/);
+        if (doiMatch) {
+          queryUrl = `https://api.crossref.org/works/${doiMatch[0]}`;
+          isDOILookup = true;
+        }
       }
-    }
 
-    if (!queryUrl) {
-      const query = encodeURIComponent(`${ref.title} ${ref.authors.join(' ')}`);
-      queryUrl = `https://api.crossref.org/works?query=${query}&rows=1`;
-    }
+      if (!queryUrl) {
+        // Use title-specific query for better results, fetch 5 candidates
+        const query = encodeURIComponent(ref.title);
+        queryUrl = `https://api.crossref.org/works?query.title=${query}&rows=5`;
+      }
 
-    const response = await fetch(queryUrl, {
-      headers: { 'User-Agent': 'RefValidator/1.0 (mailto:academic-reviewer@example.com)' },
-    });
+      const response = await fetch(queryUrl, {
+        headers: { 'User-Agent': 'RefValidator/2.0 (mailto:academic-reviewer@example.com)' },
+      });
 
-    if (!response.ok) {
-      console.log(`Crossref API error: ${response.status} for ${queryUrl}`);
+      if (!response.ok) {
+        console.log(`Crossref API error: ${response.status} for ${queryUrl}`);
+        return null;
+      }
+
+      const data: any = await response.json();
+
+      let bestMatch: { item: any; score: number } = { item: null, score: 0 };
+
+      if (isDOILookup) {
+        // Direct DOI lookup - single result
+        bestMatch = { item: data.message, score: 1.0 };
+      } else {
+        // Search results - find best match among candidates
+        const items = data.message.items || [];
+        for (const item of items) {
+          const fetchedTitle = (Array.isArray(item.title) ? item.title[0] : item.title) || '';
+          const score = stringSimilarity.compareTwoStrings(
+            ref.title.toLowerCase(),
+            fetchedTitle.toLowerCase()
+          );
+          if (score > bestMatch.score) {
+            bestMatch = { item, score };
+          }
+        }
+      }
+
+      if (!bestMatch.item) return null;
+
+      const item = bestMatch.item;
+      const fetchedTitle = (Array.isArray(item.title) ? item.title[0] : item.title) || '';
+      const fetchedAuthors = item.author?.map((a: any) => `${a.family}, ${a.given}`) || [];
+      const fetchedYear = item.issued?.['date-parts']?.[0]?.[0]?.toString() || '';
+
+      // Calculate title score for DOI lookups
+      const titleScore = isDOILookup
+        ? stringSimilarity.compareTwoStrings(ref.title.toLowerCase(), fetchedTitle.toLowerCase())
+        : bestMatch.score;
+
+      // Calculate confidence signals
+      const signals: string[] = [];
+      let confidenceScore = 0;
+
+      if (isDOILookup && titleScore > 0.7) {
+        signals.push('DOI verified in Crossref');
+        confidenceScore += 40;
+      }
+      if (titleScore > 0.8) {
+        signals.push('Strong title match (>80%)');
+        confidenceScore += 30;
+      } else if (titleScore > 0.6) {
+        signals.push('Moderate title match (>60%)');
+        confidenceScore += 15;
+      }
+      if (fetchedYear === ref.year) {
+        signals.push('Year confirmed');
+        confidenceScore += 15;
+      }
+      if (fetchedAuthors.length > 0 && ref.authors.length > 0) {
+        // Check if any author surnames match
+        const refSurnames = ref.authors.map(a => a.split(',')[0].toLowerCase().trim());
+        const fetchedSurnames = fetchedAuthors.map((a: string) =>
+          a.split(',')[0].toLowerCase().trim()
+        );
+        const authorOverlap = refSurnames.filter(s => fetchedSurnames.includes(s)).length;
+        if (authorOverlap > 0) {
+          signals.push(`${authorOverlap} author(s) matched`);
+          confidenceScore += 15;
+        }
+      }
+
+      const confidence: 'high' | 'medium' | 'low' =
+        confidenceScore >= 70 ? 'high' : confidenceScore >= 40 ? 'medium' : 'low';
+
+      return {
+        ref,
+        status: titleScore > 0.7 ? 'verified' : 'suspicious',
+        source: 'crossref',
+        matchScore: titleScore,
+        confidence,
+        signals,
+        details:
+          titleScore > 0.7
+            ? 'High confidence match found in Crossref.'
+            : `Partial match found (Score: ${(titleScore * 100).toFixed(1)}%).`,
+        metadata: {
+          title: fetchedTitle,
+          authors: fetchedAuthors,
+          year: fetchedYear,
+          journal: item['container-title']?.[0],
+        },
+      };
+    } catch (e: any) {
+      console.log(`Crossref exception: ${e.message}`);
       return null;
     }
+  });
+}
 
-    const data: any = await response.json();
-    const item = ref.doi ? data.message : data.message.items?.[0];
+export async function verifyWithSemanticScholar(
+  ref: RefMetadata
+): Promise<ValidationResult | null> {
+  return semanticScholarLimiter(async () => {
+    await delay(1000); // Rate limit: 1 request per second
 
-    if (!item) return null;
+    try {
+      const query = encodeURIComponent(ref.title);
+      const response = await fetch(
+        `https://api.semanticscholar.org/graph/v1/paper/search?query=${query}&fields=title,authors,year,externalIds,venue&limit=5`,
+        {
+          headers: { 'User-Agent': 'RefValidator/2.0' },
+        }
+      );
 
-    const fetchedTitle = (Array.isArray(item.title) ? item.title[0] : item.title) || '';
-    const fetchedAuthors = item.author?.map((a: any) => `${a.family}, ${a.given}`) || [];
-    const fetchedYear = item.issued?.['date-parts']?.[0]?.[0]?.toString() || '';
+      if (!response.ok) {
+        console.log(`Semantic Scholar API error: ${response.status}`);
+        return null;
+      }
 
-    const titleScore = stringSimilarity.compareTwoStrings(
-      ref.title.toLowerCase(),
-      fetchedTitle.toLowerCase()
-    );
+      const data: any = await response.json();
+      const papers = data.data || [];
 
-    return {
-      ref,
-      status: titleScore > 0.7 ? 'verified' : 'suspicious',
-      source: 'crossref',
-      matchScore: titleScore,
-      details:
-        titleScore > 0.7
-          ? 'High confidence match found in Crossref.'
-          : `Partial match found (Score: ${(titleScore * 100).toFixed(1)}%).`,
-      metadata: {
-        title: fetchedTitle,
-        authors: fetchedAuthors,
-        year: fetchedYear,
-        journal: item['container-title']?.[0],
-      },
-    };
-  } catch (e: any) {
-    console.log(`Crossref exception: ${e.message}`);
-    return null;
-  }
+      if (papers.length === 0) return null;
+
+      // Find best match
+      let bestMatch: { paper: any; score: number } = { paper: null, score: 0 };
+      for (const paper of papers) {
+        const score = stringSimilarity.compareTwoStrings(
+          ref.title.toLowerCase(),
+          (paper.title || '').toLowerCase()
+        );
+        if (score > bestMatch.score) {
+          bestMatch = { paper, score };
+        }
+      }
+
+      if (!bestMatch.paper || bestMatch.score < 0.5) return null;
+
+      const paper = bestMatch.paper;
+      const fetchedAuthors = paper.authors?.map((a: any) => a.name) || [];
+      const fetchedYear = paper.year?.toString() || '';
+
+      // Calculate confidence
+      const signals: string[] = ['Found in Semantic Scholar'];
+      let confidenceScore = 20;
+
+      if (bestMatch.score > 0.8) {
+        signals.push('Strong title match (>80%)');
+        confidenceScore += 30;
+      }
+      if (fetchedYear === ref.year) {
+        signals.push('Year confirmed');
+        confidenceScore += 15;
+      }
+      if (paper.externalIds?.DOI) {
+        signals.push('DOI available');
+        confidenceScore += 15;
+      }
+
+      const confidence: 'high' | 'medium' | 'low' =
+        confidenceScore >= 60 ? 'high' : confidenceScore >= 35 ? 'medium' : 'low';
+
+      return {
+        ref,
+        status: bestMatch.score > 0.7 ? 'verified' : 'suspicious',
+        source: 'semantic_scholar',
+        matchScore: bestMatch.score,
+        confidence,
+        signals,
+        details:
+          bestMatch.score > 0.7
+            ? 'Match found in Semantic Scholar.'
+            : `Partial match in Semantic Scholar (Score: ${(bestMatch.score * 100).toFixed(1)}%).`,
+        metadata: {
+          title: paper.title,
+          authors: fetchedAuthors,
+          year: fetchedYear,
+          journal: paper.venue,
+        },
+      };
+    } catch (e: any) {
+      console.log(`Semantic Scholar exception: ${e.message}`);
+      return null;
+    }
+  });
 }
 
 export async function verifyWithPlaywright(
@@ -103,6 +288,8 @@ export async function verifyWithPlaywright(
       status: 'suspicious',
       source: 'none',
       matchScore: 0,
+      confidence: 'low',
+      signals: [],
       details: 'No URL or DOI available for verification.',
     };
   }
@@ -142,6 +329,8 @@ export async function verifyWithPlaywright(
         status: 'broken_link',
         source: 'playwright',
         matchScore: 0,
+        confidence: 'high',
+        signals: ['Page indicates content is missing'],
         details: `Page loaded but content indicates it is missing (Found "not found" keywords). Title: "${pageTitle}"`,
         metadata: {
           title: pageTitle,
@@ -149,29 +338,117 @@ export async function verifyWithPlaywright(
       };
     }
 
-    const titleScore = stringSimilarity.compareTwoStrings(
+    // Check multiple metadata selectors for better title extraction
+    const titleSelectors = [
+      'meta[name="citation_title"]',
+      'meta[property="og:title"]',
+      'meta[name="dc.title"]',
+      'h1.article-title',
+      'h1.title',
+      '.document-title',
+      'h1',
+    ];
+
+    let bestTitleScore = 0;
+    let foundTitle = pageTitle;
+
+    for (const selector of titleSelectors) {
+      try {
+        const title = await page.$eval(selector, (el: any) => el.content || el.textContent || '');
+        if (title && title.trim()) {
+          const score = stringSimilarity.compareTwoStrings(
+            ref.title.toLowerCase(),
+            title.toLowerCase().trim()
+          );
+          if (score > bestTitleScore) {
+            bestTitleScore = score;
+            foundTitle = title.trim();
+          }
+        }
+      } catch {
+        // Selector not found, continue
+      }
+    }
+
+    // Also compare with page title
+    const pageTitleScore = stringSimilarity.compareTwoStrings(
       ref.title.toLowerCase(),
       pageTitle.toLowerCase()
     );
+    if (pageTitleScore > bestTitleScore) {
+      bestTitleScore = pageTitleScore;
+      foundTitle = pageTitle;
+    }
 
+    // Check for DOI match on page
+    let doiVerified = false;
+    if (ref.doi) {
+      try {
+        const pageDOI = await page.$eval(
+          'meta[name="citation_doi"], meta[name="dc.identifier"], meta[property="citation_doi"]',
+          (el: any) => el.content || ''
+        );
+        const refDoiPart = ref.doi.match(/10\.\d{4,}\/[^\s)]+/)?.[0];
+        if (refDoiPart && pageDOI.includes(refDoiPart)) {
+          doiVerified = true;
+        }
+      } catch {
+        // DOI meta not found
+      }
+    }
+
+    // Extract additional metadata
     const metaAuthor = await page
-      .$eval('meta[name="author"], meta[name="citation_author"]', (el: any) => el.content)
+      .$eval(
+        'meta[name="author"], meta[name="citation_author"], meta[name="dc.creator"]',
+        (el: any) => el.content
+      )
       .catch(() => '');
     const metaDate = await page
-      .$eval('meta[name="date"], meta[name="citation_publication_date"]', (el: any) => el.content)
+      .$eval(
+        'meta[name="date"], meta[name="citation_publication_date"], meta[name="dc.date"]',
+        (el: any) => el.content
+      )
       .catch(() => '');
+
+    // Calculate confidence
+    const signals: string[] = ['URL/DOI accessible'];
+    let confidenceScore = 10;
+
+    if (doiVerified) {
+      signals.push('DOI verified on page');
+      confidenceScore += 40;
+    }
+    if (bestTitleScore > 0.8) {
+      signals.push('Strong title match (>80%)');
+      confidenceScore += 30;
+    } else if (bestTitleScore > 0.5) {
+      signals.push('Moderate title match (>50%)');
+      confidenceScore += 15;
+    }
+    if (metaDate && ref.year && metaDate.includes(ref.year)) {
+      signals.push('Year confirmed');
+      confidenceScore += 10;
+    }
+
+    const confidence: 'high' | 'medium' | 'low' =
+      confidenceScore >= 50 ? 'high' : confidenceScore >= 25 ? 'medium' : 'low';
+
+    // Use higher threshold for verified status
+    const isVerified = doiVerified || bestTitleScore > 0.5;
 
     return {
       ref,
-      status: titleScore > 0.4 ? 'verified' : 'suspicious',
+      status: isVerified ? 'verified' : 'suspicious',
       source: 'playwright',
-      matchScore: titleScore,
-      details:
-        titleScore > 0.4
-          ? 'URL/DOI live and title matches browser page title.'
-          : `URL/DOI live but page title discrepancy. Found: "${pageTitle}"`,
+      matchScore: bestTitleScore,
+      confidence,
+      signals,
+      details: isVerified
+        ? `URL/DOI live and content matches. Best title match: "${foundTitle.substring(0, 60)}..."`
+        : `URL/DOI live but content discrepancy. Found: "${foundTitle.substring(0, 60)}..."`,
       metadata: {
-        title: pageTitle,
+        title: foundTitle,
         year: metaDate,
         authors: metaAuthor ? [metaAuthor] : [],
       },
@@ -182,6 +459,8 @@ export async function verifyWithPlaywright(
       status: 'broken_link',
       source: 'playwright',
       matchScore: 0,
+      confidence: 'high',
+      signals: ['Failed to reach URL'],
       details: `Failed to reach URL/DOI: ${e.message}`,
     };
   } finally {
@@ -255,6 +534,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
       traverse(tree);
 
       console.log(`Found ${references.length} references. Starting validation...`);
+      console.log('Using multi-source verification: Crossref → Semantic Scholar → Playwright\n');
 
       const browser = await chromium.launch();
       const results: ValidationResult[] = [];
@@ -263,44 +543,100 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
         const ref = references[i];
         console.log(`[${i + 1}/${references.length}] Checking: ${ref.title.substring(0, 50)}...`);
 
-        let result = await verifyWithCrossref(ref);
+        // Check cache first
+        const cached = getCachedResult(ref);
+        if (cached) {
+          console.log(`  → Cache hit`);
+          results.push(cached);
+          continue;
+        }
 
-        if (!result || result.status === 'suspicious') {
+        let result: ValidationResult | null = null;
+
+        // Step 1: Try Crossref first
+        result = await verifyWithCrossref(ref);
+        if (result && result.status === 'verified' && result.confidence === 'high') {
+          console.log(`  → Crossref: ${result.status} (${result.confidence} confidence)`);
+          setCachedResult(ref, result);
+          results.push(result);
+          continue;
+        }
+
+        // Step 2: Try Semantic Scholar as fallback
+        const ssResult = await verifyWithSemanticScholar(ref);
+        if (ssResult && ssResult.status === 'verified') {
+          console.log(
+            `  → Semantic Scholar: ${ssResult.status} (${ssResult.confidence} confidence)`
+          );
+          // Prefer Semantic Scholar if it's verified and Crossref was suspicious
+          if (!result || result.status === 'suspicious') {
+            result = ssResult;
+          }
+        }
+
+        // Step 3: If still not verified or need URL check, use Playwright
+        if (!result || result.status === 'suspicious' || result.confidence === 'low') {
           const pwResult = await verifyWithPlaywright(ref, browser);
-          // If Crossref had a partial match but Playwright is a broken link, prefer Crossref info
-          if (result && pwResult.status === 'broken_link') {
-            // keep crossref result
-          } else {
+          console.log(`  → Playwright: ${pwResult.status} (${pwResult.confidence} confidence)`);
+
+          // Choose best result
+          if (pwResult.status === 'verified' && pwResult.confidence !== 'low') {
+            result = pwResult;
+          } else if (pwResult.status === 'broken_link') {
+            // If URL is broken but we have API verification, keep API result
+            if (!result || result.status === 'suspicious') {
+              result = pwResult;
+            }
+          } else if (!result) {
             result = pwResult;
           }
         }
 
-        results.push(result!);
+        // Combine signals from multiple sources if we checked multiple
+        if (result) {
+          setCachedResult(ref, result);
+          results.push(result);
+        }
       }
 
       await browser.close();
+      clearCache(); // Clear cache after run
 
       // Generate Report
       let report = `# Reference Validation Report\n\nGenerated on: ${new Date().toLocaleString()}\n\n`;
-      report += `## Summary\n- Total: ${results.length}\n`;
-      report += `- Verified: ${results.filter(r => r.status === 'verified').length}\n`;
-      report += `- Suspicious: ${results.filter(r => r.status === 'suspicious').length}\n`;
-      report += `- Broken Links: ${results.filter(r => r.status === 'broken_link').length}\n\n`;
+      report += `## Summary\n`;
+      report += `- **Total:** ${results.length}\n`;
+      report += `- **Verified:** ${results.filter(r => r.status === 'verified').length}\n`;
+      report += `- **Suspicious:** ${results.filter(r => r.status === 'suspicious').length}\n`;
+      report += `- **Broken Links:** ${results.filter(r => r.status === 'broken_link').length}\n\n`;
+
+      // Confidence breakdown
+      report += `### Confidence Levels\n`;
+      report += `- High Confidence: ${results.filter(r => r.confidence === 'high').length}\n`;
+      report += `- Medium Confidence: ${results.filter(r => r.confidence === 'medium').length}\n`;
+      report += `- Low Confidence: ${results.filter(r => r.confidence === 'low').length}\n\n`;
 
       report += `## Detailed Findings\n\n`;
       results.forEach((r, idx) => {
         const statusIcon = r.status === 'verified' ? '✅' : r.status === 'suspicious' ? '⚠️' : '❌';
+        const confidenceIcon =
+          r.confidence === 'high' ? '🟢' : r.confidence === 'medium' ? '🟡' : '🔴';
         report += `### ${idx + 1}. ${statusIcon} ${r.ref.title}\n`;
         report += `- **Status:** ${r.status}\n`;
+        report += `- **Confidence:** ${confidenceIcon} ${r.confidence}\n`;
         report += `- **Source:** ${r.source}\n`;
         report += `- **Match Score:** ${(r.matchScore * 100).toFixed(1)}%\n`;
         report += `- **Details:** ${r.details}\n`;
+        if (r.signals && r.signals.length > 0) {
+          report += `- **Signals:** ${r.signals.join(', ')}\n`;
+        }
         if (r.metadata) {
           report += `- **Found Metadata:**\n`;
           if (r.metadata.title) report += `  - Title: ${r.metadata.title}\n`;
           if (r.metadata.authors?.length)
             report += `  - Authors: ${r.metadata.authors.join('; ')}\n`;
           if (r.metadata.year) report += `  - Year: ${r.metadata.year}\n`;
+          if (r.metadata.journal) report += `  - Journal: ${r.metadata.journal}\n`;
         }
         report += `- **Original Text:** \`${r.ref.originalText}\`\n\n`;
       });
@@ -310,9 +646,8 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
         ? options.output
         : path.resolve(baseCwd, options.output);
       fs.writeFileSync(outputPath, report);
-      console.log(`Validation complete. Report written to ${outputPath}`);
+      console.log(`\nValidation complete. Report written to ${outputPath}`);
     });
 
   program.parse();
 }
-
