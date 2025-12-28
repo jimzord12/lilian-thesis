@@ -11,7 +11,7 @@ This document outlines the systematic process for assembling the final thesis fr
 - [x] Consolidate Chapter 2: Maritime Communication Networks.
 - [x] Consolidate Chapter 3: Underwater and Surface Sensing Systems.
 - [x] Consolidate Chapter 4: Maritime Cybersecurity Framework.
-- [ ] Consolidate Chapter 5: Autonomous Maritime Systems.
+- [x] Consolidate Chapter 5: Autonomous Maritime Systems.
 - [ ] Consolidate Chapter 6: Digital Twin and Simulation Technologies.
 - [ ] Consolidate Chapter 7: Data Analytics and Artificial Intelligence.
 - [ ] Consolidate Chapter 8: Sustainability and Green Maritime IoT.
