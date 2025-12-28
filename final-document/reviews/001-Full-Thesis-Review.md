@@ -72,8 +72,8 @@ The thesis provides a comprehensive and systematic analysis of the Maritime Inte
 
 ## 5. Optional enhancements
 
-- **Visual Aids**: Some tables (e.g., Table 3.1 and 4.1) are very dense. Consider breaking them into smaller thematic tables or ensuring high-quality formatting in the final PDF export.
-- **Cross-Referencing**: Add internal links (e.g., `[βλ. Ενότητα 2.1](#21-δίκτυα-που-ορίζονται-από-λογισμικό-sdn-σε-ναυτιλιακά-περιβάλλοντα)`) to improve navigation in the digital version.
+- **Visual Aids** (I will not add this): Some tables (e.g., Table 3.1 and 4.1) are very dense. Consider breaking them into smaller thematic tables or ensuring high-quality formatting in the final PDF export.
+- **Cross-Referencing** (Added it!): Add internal links (e.g., `[βλ. Ενότητα 2.1](#21-δίκτυα-που-ορίζονται-από-λογισμικό-sdn-σε-ναυτιλιακά-περιβάλλοντα)`) to improve navigation in the digital version.
 
 ## 6. Reproducibility checklist
 
