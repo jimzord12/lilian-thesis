@@ -1,6 +1,6 @@
 # Thesis Progress Tracker
 
-- [ ] **Chapter 1: Introduction and Overview**
+- [x] **Chapter 1: Introduction and Overview**
 
   - 1.1 The Maritime Digital Transformation
   - 1.2 IoT Revolution in Ocean Industries
@@ -85,7 +85,7 @@
   - 10.4 Maritime Augmented Reality Applications
   - 10.5 Distributed Ledger Technology for Shipping
 
-- [ ] **Chapter 11: Conclusions and Future Research Directions**
+- [x] **Chapter 11: Conclusions and Future Research Directions**
   - 11.1 Summary of Key Findings
   - 11.2 Integration Challenges and Solutions
   - 11.3 Research Gaps and Opportunities

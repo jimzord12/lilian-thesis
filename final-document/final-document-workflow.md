@@ -19,8 +19,8 @@ This document outlines the systematic process for assembling the final thesis fr
 - [x] Consolidate Chapter 10: Emerging Technologies and Future Directions.
 
 ## **Phase 3: Bookending**
-- [ ] Finalize Chapter 1: Introduction and Overview (Deferred until main body is stable).
-- [ ] Finalize Chapter 11: Conclusions and Future Research Directions (Deferred until main body is stable).
+- [x] Finalize Chapter 1: Introduction and Overview.
+- [x] Finalize Chapter 11: Conclusions and Future Research Directions.
 
 ## **Phase 4: Front & Back Matter**
 - [ ] Title Page.

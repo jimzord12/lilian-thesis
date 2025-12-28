@@ -9,8 +9,8 @@ import { program } from 'commander';
 import type { Code, Heading, Image, Link, List, ListItem, Root, Table } from 'mdast';
 import { fromMarkdown } from 'mdast-util-from-markdown';
 import { gfmFromMarkdown } from 'mdast-util-gfm';
-import { gfm } from 'micromark-extension-gfm';
 import { toString as mdastToString } from 'mdast-util-to-string';
+import { gfm } from 'micromark-extension-gfm';
 import * as fs from 'node:fs/promises';
 import * as path from 'node:path';
 
