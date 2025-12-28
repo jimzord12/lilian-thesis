@@ -15,7 +15,7 @@ The thesis provides a comprehensive and systematic analysis of the Maritime Inte
 
 ### 1. Severity: Critical
 
-- **Status**: Not Resolved yet (Reviewer should skip it or now)
+- **Status**: Not Resolved yet (Reviewer should skip it for now)
 - **Location**: Lines 3–23
 - **Description**: Mandatory front-matter sections are currently empty placeholders.
 - **Evidence**: `[Placeholder for Abstract]`, `[ToC to be generated]`, `[Placeholder for Acknowledgements]`.
@@ -56,10 +56,18 @@ The thesis provides a comprehensive and systematic analysis of the Maritime Inte
 ## 4. Minor issues
 
 1. **Location: Line 1906**: Duplicate bibliography header.
+
+   - **Status**: Fixed, requires verification by Reviewer
    - **Fix**: Remove the `## Βιβλιογραφία` header at line 1906, as a full bibliography exists at the end of the document.
+
 2. **Location: Chapter 2 vs Chapter 5 Headers**: Inconsistent header formatting.
+
+   - **Status**: Fixed, requires verification by Reviewer
    - **Fix**: Standardize all section headers to use bolding and a colon/dash consistently (e.g., `## **5.1 Ναυτικά Αυτόνομα Επιφανειακά Πλοία (MASS)**`).
+
 3. **Location: Acronym Consistency**: Mixing Greek and English acronyms (OT vs ΟΤ, IT vs ΠΤ).
+
+   - **Status**: Fixed, requires verification by Reviewer
    - **Fix**: Use a consistent convention. If Greek is the primary language, use the Greek acronym first and provide the English in parentheses upon first mention, then stick to one throughout.
 
 ## 5. Optional enhancements
