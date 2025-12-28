@@ -15,6 +15,7 @@ The thesis provides a comprehensive and systematic analysis of the Maritime Inte
 
 ### 1. Severity: Critical
 
+- **Status**: Not Resolved yet (Reviewer should skip it or now)
 - **Location**: Lines 3–23
 - **Description**: Mandatory front-matter sections are currently empty placeholders.
 - **Evidence**: `[Placeholder for Abstract]`, `[ToC to be generated]`, `[Placeholder for Acknowledgements]`.
@@ -30,6 +31,7 @@ The thesis provides a comprehensive and systematic analysis of the Maritime Inte
 
 ### 3. Severity: Major
 
+- **Status**: Fixed, requires verification by Reviewer
 - **Location**: Chapter 3, Lines 411–609
 - **Description**: Missing H2 headers for sections 3.1, 3.2, 3.3, 3.4, and 3.6, resulting in orphaned and repeated H3 headers.
 - **Evidence**: `### Θεωρητικό Υπόβαθρο` is repeated at lines 411, 440, 476, 496, 523, and 561 without preceding `## 3.X` headers.
@@ -37,6 +39,7 @@ The thesis provides a comprehensive and systematic analysis of the Maritime Inte
 
 ### 4. Severity: Major
 
+- **Status**: Probably Fixed, requires verification by Reviewer
 - **Location**: Lines 1519 and 1569 (Chapter 4)
 - **Description**: Broken image links due to path discrepancies.
 - **Evidence**: `![Figure 4.2](assets/images/S4.2/001/image.png)` does not exist. Actual path is `assets/images/S4.2-Image-002/Chapter-4-002.png`.
@@ -44,6 +47,7 @@ The thesis provides a comprehensive and systematic analysis of the Maritime Inte
 
 ### 5. Severity: Major
 
+- **Status**: Probably Fixed, requires verification by Reviewer
 - **Location**: Throughout the document (e.g., Chapter 3)
 - **Description**: Substandard linguistic quality appearing as unrefined machine translation.
 - **Evidence**: "Οι ενότητες στις ενότητες συνδυάζονται για να αναλύσουν..." (Line 419).
