@@ -227,7 +227,7 @@ export function parseReference(text: string): RefMetadata {
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   program
-    .name('ref-validator')
+    .name('ref-tools')
     .description('Verify references against Crossref and live URLs')
     .argument('<file>', 'Markdown file containing references')
     .option('-o, --output <file>', 'Output report file', 'ref-validation-report.md')

@@ -1,14 +1,16 @@
 {
-  "name": "ref-validator",
+  "name": "ref-tools",
   "version": "1.0.0",
-  "description": "CLI tool to validate academic references against Crossref and live URLs",
+  "description": "CLI tools for academic reference management: validation, verification, and format conversion",
   "main": "index.js",
   "bin": {
-    "ref-validator": "./verify-references.ts"
+    "ref-tools": "./verify-references.ts",
+    "convert-to-hayagriva": "./convert-to-hayagriva.ts"
   },
   "scripts": {
     "validate": "tsx verify-references.ts",
     "filter": "tsx filter-report.ts",
+    "convert": "tsx convert-to-hayagriva.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
