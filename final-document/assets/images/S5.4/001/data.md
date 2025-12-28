@@ -1,38 +1,28 @@
-**Location:** Section 5.4 (Multi-Agent Cooperation in Fleets)
+**Location:** Section 6.4.1.1 (Dolphin 1)
 
-**Placement:** Insert near the paragraph discussing "Swarm Intelligence (SI)" and the three fundamental rules.
+**Placement:** Insert after the paragraph ending with "...εξασφαλίζοντας την παράλληλη σύνδεση μεταξύ αλλαγών του πλοίου και αναβάθμισης του ψηφιακού πρωτοτύπου (Xia et al, 2024)."
 
-**Figure 5.2:** Swarm Intelligence Rules for Autonomous Fleet Coordination - Visualizing the Reynolds' Boids principles applied to maritime vessels.
+**Figure 6.1:** Virtual-Physical Mapping Model of the Dolphin 1 Autonomous Ship. The diagram illustrates the synchronization between the physical vessel and its digital twin, highlighting the coordinate systems used for kinematic alignment. (Source: Adapted from Xia et al., 2024)
 
+**(Greek Version)** Εικόνα 6.1: Μοντέλο Εικονικής-Φυσικής Αντιστοίχισης του Αυτόνομου Πλοίου Dolphin 1. Το διάγραμμα απεικονίζει τον συγχρονισμό μεταξύ του φυσικού σκάφους και του ψηφιακού διδύμου του, επισημαίνοντας τα συστήματα συντεταγμένων που χρησιμοποιούνται για την κινηματική ευθυγράμμιση. (Πηγή: Προσαρμογή από Xia et al., 2024)
 ---
 
 ## Generation Prompt
 
-**Type:** Conceptual Infographic / Diagram
+**Type:** System Architecture Diagram
 
-**Style:** Modern, illustrative, easy to understand. Using boat icons/silhouettes instead of generic triangles/boids.
+**Style:** Technical illustration / Schematic
 
 **Components to Include:**
+- **Left Panel (Physical Entity):** The physical Dolphin 1 vessel at sea. Labels: Mass ($m$), Inertia ($I$), Thruster Forces ($T$), Environmental Loads (Waves/Wind).
+- **Right Panel (Digital Entity):** The "Virtual Dolphin 1" wireframe model. Labels: 3D Geometric Model, Hydrodynamic Coefficients.
+- **Center/Connection:** A bi-directional data flow arrow labeled "Real-time Synchronization".
+- **Coordinate Systems:**
+    - **Geodetic System ($O_g-X_gY_gZ_g$):** Fixed to the earth (Latitude, Longitude).
+    - **Body-fixed System ($O_b-X_bY_bZ_b$):** Attached to the ship (Surge, Sway, Heave, Roll, Pitch, Yaw).
 
-- Three distinct panels or sections, each illustrating one rule:
-  1.  **Separation (Collision Avoidance):** Show a central boat steering _away_ from crowding neighbors to maintain a safe distance. Use small arrows to show repulsive force.
-  2.  **Alignment (Velocity Matching):** Show a central boat adjusting its heading/speed to _match_ the average direction of its neighbors. Use parallel arrows to show shared direction.
-  3.  **Cohesion (Flock Centering):** Show a central boat steering _towards_ the average position (center of mass) of the local group. Use inward arrows towards a center point.
+**Visual Flow:** Left (Physical) <-> Center (Sync) <-> Right (Digital). Coordinate axes should be clearly superimposed on the ship illustrations.
 
-**Visual Flow:**
+**Color Scheme:** Blue tones for the physical/sea environment, Green/Wireframe style for the digital twin. High contrast for labels.
 
-- Horizontal layout (Panel 1 | Panel 2 | Panel 3).
-- Each panel should clearly label the rule (Separation, Alignment, Cohesion).
-- Use a "Hero" boat (e.g., blue) interacting with "Neighbor" boats (e.g., gray).
-
-**Color Scheme:**
-
-- **Boats:** Blue (Self) and Gray (Neighbors).
-- **Force Vectors/Arrows:**
-  - _Separation:_ Red (danger/avoid).
-  - _Alignment:_ Green (safe/flow).
-  - _Cohesion:_ Orange or Purple (grouping).
-- **Water:** Light blue background.
-
-**Additional Notes:** The text references "Russell & Norvig, 2021" for these rules. Ensure the visualization clearly distinguishes between the _direction_ (Alignment) and the _position_ (Cohesion) adjustments.
-
+**Additional Notes:** Ensure the notation ($O_g, O_b$) matches standard kinematic diagrams.

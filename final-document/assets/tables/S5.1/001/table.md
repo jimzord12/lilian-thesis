@@ -1,35 +1,40 @@
-**Location:** Section 5.1 (Maritime Autonomous Surface Ships (MASS))
+**Location:** Section 6.1.1.2 (Η κλίμακα Έξι Επιπέδων)
 
-**Placement:** Insert after the paragraph describing the four levels of autonomy defined by the IMO.
+**Placement:** Insert after the paragraph describing Level 5 and before Section 6.1.2.
 
-**Table 5.1:** IMO Degrees of Autonomy for Maritime Autonomous Surface Ships (MASS)
+**Table 6.1:** Levels of Digital Twin Autonomy for Autonomous Surface Vessels.
 
 ---
 
 ## English Version
 
-| Degree       | Description                                          | Seafarer Presence/Control                                                                                                                              |
-| :----------- | :--------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Degree 1** | Ship with automated processes and decision support.  | Seafarers are on board to operate and control shipboard systems and functions. Some operations may be automated.                                       |
-| **Degree 2** | Remotely controlled ship with seafarers on board.    | The ship is controlled and operated from another location, but seafarers are on board to take control and operate the shipboard systems and functions. |
-| **Degree 3** | Remotely controlled ship without seafarers on board. | The ship is controlled and operated from another location. There are no seafarers on board.                                                            |
-| **Degree 4** | Fully autonomous ship.                               | The operating system of the ship is able to make decisions and determine actions by itself.                                                            |
+| Level | Designation  | Modeling Type | Data Connection               | Key Function                                          |
+| :---: | :----------- | :------------ | :---------------------------- | :---------------------------------------------------- |
+| **0** | Standalone   | Offline       | None                          | 3D geometric representation, design visualization.    |
+| **1** | Descriptive  | Online        | One-way (Physical to Digital) | Situational awareness, sensor monitoring.             |
+| **2** | Diagnostic   | Online        | One-way (Physical to Digital) | Condition monitoring, fault diagnosis.                |
+| **3** | Predictive   | Online        | One-way (Physical to Digital) | Forecasting future states, predictive maintenance.    |
+| **4** | Prescriptive | Online        | One-way (Physical to Digital) | Decision support, operational recommendations.        |
+| **5** | Autonomous   | Online        | Two-way (Closed Loop)         | Autonomous control, collision avoidance, self-action. |
 
 ---
 
 ## Greek Version (Ελληνική Έκδοση)
 
-| Επίπεδο       | Περιγραφή                                                        | Παρουσία/Έλεγχος Ναυτικών                                                                                                                     |
-| :------------ | :--------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Επίπεδο 1** | Πλοίο με αυτοματοποιημένες διαδικασίες και υποστήριξη αποφάσεων. | Οι ναυτικοί βρίσκονται στο πλοίο για να χειρίζονται και να ελέγχουν τα συστήματα. Ορισμένες λειτουργίες ενδέχεται να είναι αυτοματοποιημένες. |
-| **Επίπεδο 2** | Τηλεχειριζόμενο πλοίο με ναυτικούς στο πλοίο.                    | Το πλοίο ελέγχεται και λειτουργεί από άλλη τοποθεσία, αλλά οι ναυτικοί βρίσκονται στο πλοίο για να αναλάβουν τον έλεγχο αν χρειαστεί.         |
-| **Επίπεδο 3** | Τηλεχειριζόμενο πλοίο χωρίς ναυτικούς στο πλοίο.                 | Το πλοίο ελέγχεται και λειτουργεί από άλλη τοποθεσία. Δεν υπάρχουν ναυτικοί στο πλοίο.                                                        |
-| **Επίπεδο 4** | Πλήρως αυτόνομο πλοίο.                                           | Το λειτουργικό σύστημα του πλοίου είναι σε θέση να λαμβάνει αποφάσεις και να καθορίζει ενέργειες μόνο του.                                    |
+**Πίνακας 6.1:** Επίπεδα Αυτονομίας Ψηφιακού Διδύμου για Αυτόνομα Επιφανειακά Πλοία.
+
+| Επίπεδο | Ονομασία                    | Τύπος Μοντελοποίησης     | Σύνδεση Δεδομένων               | Βασική Λειτουργία                                              |
+| :-----: | :-------------------------- | :----------------------- | :------------------------------ | :------------------------------------------------------------- |
+|  **0**  | Αυτόνομο (Standalone)       | Offline (Εκτός σύνδεσης) | Καμία                           | Τρισδιάστατη γεωμετρική αναπαράσταση, οπτικοποίηση σχεδιασμού. |
+|  **1**  | Περιγραφικό (Descriptive)   | Online (Εντός σύνδεσης)  | Μονόδρομη (Φυσικό προς Ψηφιακό) | Επίγνωση κατάστασης, παρακολούθηση αισθητήρων.                 |
+|  **2**  | Διαγνωστικό (Diagnostic)    | Online                   | Μονόδρομη (Φυσικό προς Ψηφιακό) | Παρακολούθηση κατάστασης, διάγνωση σφαλμάτων.                  |
+|  **3**  | Προγνωστικό (Predictive)    | Online                   | Μονόδρομη (Φυσικό προς Ψηφιακό) | Πρόβλεψη μελλοντικών καταστάσεων, προγνωστική συντήρηση.       |
+|  **4**  | Καθοδηγητικό (Prescriptive) | Online                   | Μονόδρομη (Φυσικό προς Ψηφιακό) | Υποστήριξη λήψης αποφάσεων, επιχειρησιακές συστάσεις.          |
+|  **5**  | Αυτόνομο (Autonomous)       | Online                   | Αμφίδρομη (Κλειστός Βρόχος)     | Αυτόνομος έλεγχος, αποφυγή συγκρούσεων, αυτενέργεια.           |
 
 ---
 
 ## Source Verification
 
-- **All Rows:** International Maritime Organization (IMO). (2021). _Regulatory Scoping Exercise for the Use of Maritime Autonomous Surface Ships (MASS)_.
-- **Definitions:** UNCTAD. (2024). _Autonomous Ships_. https://unctad.org/
+- **Rows 0-5:** Menges, D., & Rasheed, A. (2024). _Digital Twin for Autonomous Surface Vessels: Enabler for Safe Maritime Navigation_. arXiv:2411.03465.
 

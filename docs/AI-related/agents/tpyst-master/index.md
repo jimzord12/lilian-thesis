@@ -5,4 +5,5 @@
 @docs/AI-related/agents/tpyst-master/academic.md
 @docs/AI-related/agents/tpyst-master/visuals.md
 @docs/AI-related/agents/tpyst-master/constraints.md
+@docs/AI-related/agents/tpyst-master/templates/llm-consumption-guide.md
 ```
