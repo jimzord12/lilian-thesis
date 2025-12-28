@@ -18,7 +18,7 @@ If `{{args}}` does not contain a valid chapter number (1-11), **HALT** and ask t
 
 Before proceeding, verify you are in the correct project root:
 1. Check for existence of `chapter-progress-tracker.md` in the current directory.
-2. Verify the chapter directory exists: `chapters/Chapter-{{args}}/gr/`.
+2. Verify the chapter directory exists: `chapters/Chapter-{{args}}/gr/Chapter-{{args}}-Final.md`.
 3. If validation fails, **HALT** and notify the user.
 
 ## 2. Asset Discovery
@@ -26,21 +26,21 @@ Before proceeding, verify you are in the correct project root:
 ### 2.1 Locate the Target Chapter File
 
 Find the Greek chapter markdown file to edit:
-- **Path Pattern:** `chapters/Chapter-{{args}}/gr/Chapter*-Humanized.md` or `chapters/Chapter-{{args}}/gr/Chapter*.md`
-- **Priority:** Use the `-Humanized.md` version if it exists; otherwise, use the base Greek file.
+- **Path Pattern:** `chapters/Chapter-{{args}}/gr/Chapter-{{args}}-Final.md`
 
 ### 2.2 Scan Image Assets
 
 Search for all image assets in:
 **Path:** `chapters/Chapter-{{args}}/gr/assets/images/`
 
-For each section folder (`S[N].[M]/`) found:
+You will need to list the existing directories. For each section folder (`S[N].[M]/`) found:
 1. List all numbered subfolders (`001/`, `002/`, etc.)
 2. Check if `image.png` exists (skip if not generated yet)
 3. Read the `data.md` file to extract:
    - **Location:** Section reference
    - **Placement:** Where to insert the figure
    - **Greek Caption:** The `(Greek Version)` or `Εικόνα` caption
+   - **Note:** In case you cannot find the Greek version, create it on the spot by translating the English caption to Greek.
 
 ### 2.3 Scan Table Assets
 
@@ -53,6 +53,7 @@ For each section folder (`S[N].[M]/`) found:
    - **Location:** Section reference
    - **Placement:** Where to insert the table
    - **Greek Version:** The full table content in Greek
+   - **Note:** Again, in case you cannot find the Greek version, create it on the spot by translating the English caption to Greek.
 
 ## 3. User Confirmation
 
