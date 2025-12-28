@@ -3,6 +3,7 @@
 ---
 
 ## [Placeholder for Title Page (Greek)]
+
 **Τίτλος:** Θαλάσσιο Διαδίκτυο των Πραγμάτων: Μια Ολοκληρωμένη Ανάλυση Δικτύων Επικοινωνίας, Αυτόνομων Συστημάτων και Αναδυόμενων Τεχνολογιών
 **Συγγραφέας:** [Placeholder for Author Name]
 **Επιβλέπων:** [Placeholder for Supervisor Name]
@@ -12,6 +13,7 @@
 ---
 
 ## [Placeholder for Title Page (English)]
+
 **Title:** Maritime Internet of Things: A Comprehensive Analysis of Communication Networks, Autonomous Systems, and Emerging Technologies
 **Author:** [Placeholder for Author Name]
 **Supervisor:** [Placeholder for Supervisor Name]
@@ -20,25 +22,91 @@
 
 ---
 
-## [Placeholder for Declaration of Originality, Copyright, and Anti-plagiarism]
-Δηλώνω υπεύθυνα ότι η παρούσα διπλωματική εργασία είναι προϊόν δικής μου πνευματικής προσπάθειας και δεν αποτελεί προϊόν λογοκλοπής...
-[Placeholder for full formal text]
+## Δήλωση Πνευματικών Δικαιωμάτων και Λογοκλοπής
+
+Με την παρούσα δηλώνω υπεύθυνα ότι:
+
+1. Η παρούσα διπλωματική εργασία αποτελεί προϊόν δικής μου αποκλειστικά πνευματικής προσπάθειας και δεν παραβιάζει τα δικαιώματα πνευματικής ιδιοκτησίας τρίτων μερών.
+2. Όλες οι πηγές που χρησιμοποιήθηκαν, συμπεριλαμβανομένων κειμένων, δεδομένων, εικόνων και διαγραμμάτων, έχουν αναγνωριστεί πλήρως και παρατίθενται με ακρίβεια στις βιβλιογραφικές αναφορές, σύμφωνα με τους κανόνες της ακαδημαϊκής δεοντολογίας.
+3. Κανένα μέρος της εργασίας αυτής δεν αποτελεί προϊόν λογοκλοπής ή αθέμιτης αντιγραφής από άλλες δημοσιευμένες ή μη πηγές.
+4. Η εργασία δεν έχει υποβληθεί στο παρελθόν, εν όλω ή εν μέρει, για την απόκτηση οποιουδήποτε άλλου ακαδημαϊκού τίτλου σε άλλο ίδρυμα ή τμήμα.
+
+Αποδέχομαι ότι οποιαδήποτε διαπίστωση παραβίασης των παραπάνω μπορεί να οδηγήσει στην ακύρωση της εργασίας και στην επιβολή των προβλεπόμενων κυρώσεων σύμφωνα με τον εσωτερικό κανονισμό του Πανεπιστημίου.
+
+---
+
+## Ευχαριστίες (Acknowledgements)
+
+[Placeholder for Acknowledgements]
 
 ---
 
 ## Περίληψη
 
-[Placeholder for Greek Summary (250-300 λέξεις)]
+Η ναυτιλιακή βιομηχανία βιώνει έναν βαθύ ψηφιακό μετασχηματισμό, εξελισσόμενη από τις παραδοσιακές λειτουργίες προς το πρότυπο της «Ναυτιλίας 4.0». Κεντρικό ρόλο σε αυτή την εξέλιξη κατέχει το Θαλάσσιο Διαδίκτυο των Πραγμάτων (Maritime Internet of Things - MIoT), ένα σύνθετο οικοσύστημα που ενσωματώνει προηγμένες τεχνολογίες ανίχνευσης, επικοινωνίας και νοημοσύνης για την ενίσχυση της επιχειρησιακής αποδοτικότητας, της ασφάλειας και της βιωσιμότητας. Η παρούσα διατριβή παρέχει μια ολοκληρωμένη ανάλυση του τοπίου του MIoT, εξερευνώντας συστηματικά την πολυεπίπεδη αρχιτεκτονική του—από τη φυσική αντίληψη υποβρύχιων και επιφανειακών περιβαλλόντων έως την εικονική νοημοσύνη υψηλού επιπέδου που καθοδηγείται από τα Ψηφιακά Δίδυμα και την Τεχνητή Νοημοσύνη.
 
-**Λέξεις-Κλειδιά:** Θαλάσσιο Διαδίκτυο των Πραγμάτων (MIoT), Αυτόνομα Πλοία, Κυβερνοασφάλεια, Δίκτυα 6G, Ψηφιακά Δίδυμα.
+Η έρευνα διερευνά το κρίσιμο επίπεδο συνδεσιμότητας, αξιολογώντας την ενσωμάτωση των Δικτύων που Ορίζονται από Λογισμικό (SDN), των Μη Επίγειων Δικτύων (NTN) και τη μετάβαση προς το 6G για την υπέρβαση των μοναδικών προκλήσεων της θαλάσσιας γεωγραφικής απομόνωσης. Επιπλέον, εξετάζει τον ρόλο των αυτόνομων συστημάτων, συμπεριλαμβανομένων των Αυτόνομων Ναυτιλιακών Πλοίων Επιφανείας (MASS) και των Υποβρύχιων Ασύρματων Δικτύων Αισθητήρων (UWSNs), στη μείωση του ανθρώπινου σφάλματος—της κύριας αιτίας ναυτικών ατυχημάτων. Η μελέτη πραγματεύεται επίσης την επιτακτική ανάγκη για «Εμπιστοσύνη» εντός του οικοσυστήματος MIoT, αναλύοντας στιβαρά πλαίσια κυβερνοασφάλειας και πρωτοβουλίες «πράσινου» IoT που στοχεύουν στη μείωση του ανθρακικού αποτυπώματος του κλάδου και στη διασφάλιση της ρυθμιστικής συμμόρφωσης με τα πρότυπα των IMO/ITU.
+
+Συνθέτοντας τις εξελίξεις αιχμής στους τομείς των επικοινωνιών, της ανίχνευσης και της ανάλυσης δεδομένων, η διατριβή αυτή συνεισφέρει μια νέα ταξινόμηση και έναν στρατηγικό οδικό χάρτη για την απρόσκοπτη ενσωμάτωση των τεχνολογιών IoT σε ναυτιλιακά περιβάλλοντα. Τα ευρήματα υπογραμμίζουν ότι η επιτυχής εφαρμογή του MIoT απαιτεί μια ολιστική προσέγγιση που εξισορροπεί την τεχνική καινοτομία με την αυστηρή τυποποίηση και την κυβερνοασφάλεια. Τελικά, η εργασία αυτή χρησιμεύει ως θεμελιώδης πόρος για ερευνητές και φορείς του κλάδου που πλοηγούνται στις πολυπλοκότητες του ψηφιακού ωκεανού, παρέχοντας γνώσεις για αναδυόμενες τάσεις όπως η νευρομορφική υπολογιστική και οι κβαντικές επικοινωνίες.
+
+**Λέξεις-Κλειδιά:** Θαλάσσιο Διαδίκτυο των Πραγμάτων (MIoT), Αυτόνομα Πλοία, Κυβερνοασφάλεια, Δίκτυα 6G, Ψηφιακά Δίδυμα, Ναυτιλία 4.0, Βιωσιμότητα.
 
 ---
 
 ## Abstract
 
-[Placeholder for Abstract]
+The maritime industry is undergoing a profound digital transformation, evolving from traditional operations towards the "Maritime 4.0" paradigm. Central to this evolution is the Maritime Internet of Things (MIoT), a sophisticated ecosystem that integrates advanced sensing, communication, and intelligence technologies to enhance operational efficiency, safety, and sustainability. This thesis provides a comprehensive analysis of the MIoT landscape, systematically exploring its multi-layered architecture—from the physical perception of underwater and surface environments to the high-level virtual intelligence driven by Digital Twins and Artificial Intelligence.
 
-**Keywords:** Maritime Internet of Things (MIoT), Autonomous Ships, Cybersecurity, 6G Networks, Digital Twins.
+The research investigates the critical connectivity layer, evaluating the integration of Software-Defined Networks (SDN), Non-Terrestrial Networks (NTN), and the transition towards 6G to overcome the unique challenges of maritime geographical isolation. Furthermore, it examines the role of autonomous systems, including Maritime Autonomous Surface Ships (MASS) and Underwater Wireless Sensor Networks (UWSNs), in reducing human error—the primary cause of maritime accidents. The study also addresses the imperative of "Trust" within the MIoT ecosystem, analyzing robust cybersecurity frameworks and green IoT initiatives aimed at reducing the industry's carbon footprint and ensuring regulatory compliance with IMO/ITU standards.
+
+By synthesizing state-of-the-art developments across communication, sensing, and data analytics, this thesis contributes a novel taxonomy and a strategic roadmap for the seamless integration of IoT technologies in maritime environments. The findings underscore that the successful implementation of MIoT requires a holistic approach that balances technical innovation with rigorous standardization and cybersecurity. Ultimately, this work serves as a foundational resource for researchers and industry stakeholders navigating the complexities of the digital ocean, providing insights into emerging trends such as neuromorphic computing and quantum communications that will define the future of maritime operations.
+
+**Keywords:** Maritime Internet of Things (MIoT), Autonomous Ships, Cybersecurity, 6G Networks, Digital Twins, Maritime 4.0, Sustainability.
+
+---
+
+## Πίνακας Περιεχομένων (Table of Contents)
+
+[Placeholder for ToC to be generated by Typst]
+
+---
+
+## Κατάλογος Εικόνων (List of Figures)
+
+[Placeholder for LoF to be generated by Typst]
+
+---
+
+## Κατάλογος Πινάκων (List of Tables)
+
+[Placeholder for LoT to be generated by Typst]
+
+---
+
+## Κατάλογος Συντομογραφιών (List of Abbreviations)
+
+| Συντομογραφία | Περιγραφή |
+| :--- | :--- |
+| **AIS** | Automatic Identification System (Σύστημα Αυτόματης Αναγνώρισης) |
+| **AUV** | Autonomous Underwater Vehicle (Αυτόνομο Υποβρύχιο Όχημα) |
+| **CAS** | Collision Avoidance System (Σύστημα Αποφυγής Σύγκρουσης) |
+| **COLREG** | International Regulations for Preventing Collisions at Sea |
+| **DLT** | Distributed Ledger Technology (Τεχνολογία Κατανεμημένου Καθολικού) |
+| **DP** | Dynamic Positioning (Δυναμική Τοποθέτηση) |
+| **ECDIS** | Electronic Chart Display and Information System |
+| **IACS** | International Association of Classification Societies |
+| **IMO** | International Maritime Organization (Διεθνής Ναυτιλιακός Οργανισμός) |
+| **IoT** | Internet of Things (Διαδίκτυο των Πραγμάτων) |
+| **ISO** | International Organization for Standardization |
+| **MASS** | Maritime Autonomous Surface Ships (Ναυτικά Αυτόνομα Επιφανειακά Πλοία) |
+| **MIoT** | Maritime Internet of Things (Θαλάσσιο Διαδίκτυο των Πραγμάτων) |
+| **NTN** | Non-Terrestrial Networks (Μη Επίγεια Δίκτυα) |
+| **OT** | Operational Technology (Επιχειρησιακή Τεχνολογία) |
+| **QKD** | Quantum Key Distribution (Κβαντική Κατανομή Κλειδιού) |
+| **SDN** | Software-Defined Networking (Δίκτυα Οριζόμενα από Λογισμικό) |
+| **UWSN** | Underwater Wireless Sensor Networks (Υποβρύχια Ασύρματα Δίκτυα Αισθητήρων) |
+| **USV** | Unmanned Surface Vehicle (Μη Επανδρωμένο Επιφανειακό Όχημα) |
+| **VSAT** | Very Small Aperture Terminal |
 
 ---
 
@@ -2620,17 +2688,54 @@
 - Zheng, Y., Liu, H., & Wang, J. (2023). _Cognitive radio applications in maritime environments_. Sensors, 23(8), 3456. https://doi.org/10.3389/fmars.2025.1702294
 - Zhou, F., Yu, K., Xie, W., Lyu, J., Zheng, Z., & Zhou, S. (2024). Digital twin-enabled smart maritime logistics management in the context of Industry 5.0. _IEEE Access, 12_, 10920–10931. https://doi.org/10.1109/ACCESS.2024.3354838
 - Zhu, R., Qian, Y., & Wang, W. (2024). _Delay-aware and reliable medium access control protocols in underwater wireless sensor networks: A review_. Computer Networks, 248, Article 109249. https://doi.org/10.1016/j.comnet.2024.110631
-## Alphabetical Index of Terms
 
-[Placeholder for Alphabetical Index of Terms]
+## Αλφαβητικό Ευρετήριο Όρων (Alphabetical Index of Terms)
+
+- **Αλυσίδα Μπλοκ (Blockchain):** Τεχνολογία κατανεμημένου καθολικού για την εξασφάλιση της ακεραιότητας των δεδομένων.
+- **Αυτόνομα Ναυτιλιακά Πλοία Επιφανείας (MASS):** Πλοία που μπορούν να λειτουργήσουν ανεξάρτητα από την ανθρώπινη παρέμβαση σε διάφορα επίπεδα.
+- **Αυτόνομο Υποβρύχιο Όχημα (AUV):** Ρομποτικό όχημα που κινείται υποβρυχίως χωρίς σύνδεση με σκάφος επιφανείας.
+- **Βαθιά Μάθηση (Deep Learning):** Υποσύνολο της μηχανικής μάθησης που βασίζεται σε πολυεπίπεδα νευρωνικά δίκτυα.
+- **Βιορρύπανση (Biofouling):** Η συσσώρευση θαλάσσιων οργανισμών σε υποβρύχιες επιφάνειες και αισθητήρες.
+- **Δίκτυα 6G (6G Networks):** Η επόμενη γενιά ασύρματων επικοινωνιών που υπόσχεται υπερ-συνδεσιμότητα και μηδενική καθυστέρηση.
+- **Δίκτυα Ανεκτικά σε Καθυστερήσεις (DTN):** Αρχιτεκτονική δικτύου σχεδιασμένη για περιβάλλοντα με διακοπτόμενη συνδεσιμότητα.
+- **Δίκτυα Οριζόμενα από Λογισμικό (SDN):** Προσέγγιση στη δικτύωση που επιτρέπει τον κεντρικό, προγραμματιζόμενο έλεγχο της κίνησης.
+- **Δυναμική Τοποθέτηση (Dynamic Positioning):** Σύστημα ελέγχου που διατηρεί τη θέση και την πορεία ενός πλοίου χρησιμοποιώντας τους δικούς του προωθητήρες.
+- **Επαυξημένη Πραγματικότητα (Augmented Reality):** Τεχνολογία που υπερθέτει ψηφιακές πληροφορίες στο φυσικό οπτικό πεδίο του χρήστη.
+- **Θαλάσσιο Διαδίκτυο των Πραγμάτων (MIoT):** Το δίκτυο των διασυνδεδεμένων αντικειμένων και συστημάτων στον ναυτιλιακό τομέα.
+- **Κυβερνοασφάλεια (Cybersecurity):** Το σύνολο των πρακτικών και τεχνολογιών για την προστασία δικτύων και δεδομένων από επιθέσεις.
+- **Μη Επίγεια Δίκτυα (NTN):** Επικοινωνιακά δίκτυα που περιλαμβάνουν δορυφόρους και εναέρια μέσα (UAVs).
+- **Μη Επανδρωμένο Όχημα Επιφανείας (USV):** Σκάφος που λειτουργεί στην επιφάνεια του νερού χωρίς πλήρωμα.
+- **Μηδενική Εμπιστοσύνη (Zero Trust):** Μοντέλο ασφαλείας που απαιτεί συνεχή επαλήθευση για κάθε αίτημα πρόσβασης.
+- **Μηχανική Μάθηση (Machine Learning):** Κλάδος της τεχνητής νοημοσύνης που επιτρέπει στα συστήματα να μαθαίνουν από δεδομένα.
+- **Ναυτιλία 4.0 (Maritime 4.0):** Ο ψηφιακός μετασχηματισμός της ναυτιλίας μέσω του αυτοματισμού και της ανταλλαγής δεδομένων.
+- **Νευρομορφική Υπολογιστική (Neuromorphic Computing):** Σχεδιασμός υπολογιστικών συστημάτων που μιμούνται τη δομή του ανθρώπινου εγκεφάλου.
+- **Σύστημα Αποφυγής Σύγκρουσης (Collision Avoidance System):** Τεχνολογία που βοηθά τα πλοία να εντοπίζουν και να αποφεύγουν εμπόδια.
+- **Τεχνητή Νοημοσύνη (Artificial Intelligence):** Η προσομοίωση της ανθρώπινης νοημοσύνης από υπολογιστικά συστήματα.
+- **Υποβρύχιο Ασύρματο Δίκτυο Αισθητήρων (UWSN):** Δίκτυο αισθητήρων που επικοινωνούν ασύρματα κάτω από την επιφάνεια της θάλασσας.
+- **Υπολογιστική Άκρων (Edge Computing):** Επεξεργασία δεδομένων κοντά στην πηγή παραγωγής τους (π.χ. επί του πλοίου).
+- **Ψηφιακό Δίδυμο (Digital Twin):** Εικονικό αντίγραφο ενός φυσικού αντικειμένου ή συστήματος που ενημερώνεται σε πραγματικό χρόνο.
 
 ---
 
 # Παραρτήματα (Appendices)
 
 ## Παράρτημα Α: Maritime IoT Datasets
-[Placeholder for List of key Maritime IoT datasets]
 
-## Παράρτημα Β: Regulations Summary
-[Placeholder for Summary of relevant IMO/ITU regulations]
+1. **Marine Cadastre AIS Data:** Παρέχει εκτενή αρχεία AIS για τα παράκτια ύδατα των ΗΠΑ, χρήσιμα για τη μοντελοποίηση της κυκλοφορίας και την ανίχνευση ανωμαλιών.
+2. **Global Fishing Watch (GFW):** Δημόσια διαθέσιμο σύνολο δεδομένων για την παρακολούθηση της παγκόσμιας αλιευτικής δραστηριότητας μέσω AIS και δορυφορικών εικόνων.
+3. **Ship Hull Biofouling Image Dataset:** Οπτικά δεδομένα για την εκπαίδευση μοντέλων AI στην ανίχνευση βιορρύπανσης σε υποβρύχιες επιφάνειες.
+4. **Watermark Benchmark:** Σύνολο δεδομένων για τη δοκιμή της απόδοσης ακουστικών μόντεμ σε διάφορες υποβρύχιες συνθήκες (ακουστική επικοινωνία).
+5. **Maritime Cyber Attack Database (MCAD):** Επιμελημένη βάση δεδομένων κυβερνοπεριστατικών που επηρεάζουν τον ναυτιλιακό τομέα (NHL Stenden University).
+6. **Ocean Networks Canada (ONC):** Δεδομένα αισθητήρων σε πραγματικό χρόνο από υποβρύχια παρατηρητήρια για την περιβαλλοντική παρακολούθηση.
+7. **Argos Data:** Παγκόσμιο σύστημα συλλογής δεδομένων και εντοπισμού θέσης για την ωκεανογραφική έρευνα.
+
+## Παράρτημα Β: Σύνοψη Σχετικών Κανονισμών IMO/ITU
+
+1. **IMO MASS Code:** Το επερχόμενο ρυθμιστικό πλαίσιο για τα Αυτόνομα Ναυτιλιακά Πλοία Επιφανείας, το οποίο καθορίζει τα επίπεδα αυτονομίας και τις απαιτήσεις ασφαλούς λειτουργίας.
+2. **IMO Resolution MSC.428(98):** Επιβάλλει την ενσωμάτωση της διαχείρισης κυβερνοκινδύνων στα Συστήματα Διαχείρισης Ασφάλειας (SMS) των πλοίων από την 1η Ιανουαρίου 2021.
+3. **MARPOL Annex VI (Reg. 23 & 25 - CII/EEXI):** Κανονισμοί για την πρόληψη της ατμοσφαιρικής ρύπανσης από τα πλοία, συμπεριλαμβανομένων των δεικτών έντασης άνθρακα και ενεργειακής αποδοτικότητας.
+4. **SOLAS Chapter V:** Απαιτήσεις για την ασφάλεια της ναυσιπλοΐας, περιλαμβάνοντας την υποχρεωτική χρήση AIS και συστημάτων LRIT.
+5. **ITU-R M.1371-5:** Τεχνικά χαρακτηριστικά για το Σύστημα Αυτόματης Αναγνώρισης (AIS) με χρήση πολλαπλής πρόσβασης διαίρεσης χρόνου (TDMA).
+6. **IACS UR E26 & E27:** Ενοποιημένες απαιτήσεις για την κυβερνοανθεκτικότητα των πλοίων (E26) και του εξοπλισμού επί του σκάφους (E27), υποχρεωτικές για νέα συμβόλαια ναυπήγησης από το 2024.
+7. **FAL Convention:** Πλαίσιο για τη διευκόλυνση της διεθνούς ναυτιλιακής κίνησης, που απαιτεί την ηλεκτρονική ανταλλαγή δεδομένων μέσω συστημάτων «Ενιαίας Θυρίδας».
 
