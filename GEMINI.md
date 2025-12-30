@@ -1,1 +1,1 @@
-@docs/AI-related/agents/strict-academic-reviewer/index.md
+@docs/AI-related/agents/tpyst-master/index.md

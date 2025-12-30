@@ -42,8 +42,53 @@ Typst uses a specific import format for community packages:
 // or import everything:
 #import "@preview/package-name:version": *
 ```
+
+---
+
+## FAQ: Why Doesn’t “Contents” Appear in PDF Sidebar?
+
+Typst’s `#outline()` draws a Table of Contents (TOC) by _listing existing headings_, but it doesn’t itself create a structural `heading`, so most PDF readers won’t show “Contents” as a bookmark in the sidebar. PDF sidebar entries are created from `heading` elements (and their bookmark-related settings), not from arbitrary generated content.
+
+### What’s happening
+
+- `#outline()` generates a TOC by collecting occurrences of a target element (by default, `heading`) and rendering them as a list on the page.
+- PDF bookmarks/outline sidebar are driven by `heading` metadata, especially the `outlined` / `bookmarked` behavior.
+- Therefore, a TOC created “purely via `#outline()`” can appear on the page but not appear as a top-level PDF bookmark unless there’s an explicit `heading` for it.
+
+### The reliable fix
+
+Add a real heading before the outline, and tell the outline not to generate its own title:
+
+```typst
+= Contents <toc>
+#outline(title: none)
+```
+
+Setting `title: none` removes the outline’s built-in title heading, while your manual `= Contents` heading becomes the bookmark shown in the PDF sidebar.
+
+### Common variants
+
+- Unnumbered “Contents” heading, still bookmarkable:
+
+```typst
+#heading(numbering: none)[Contents]
+#outline(title: none)
+```
+
+This works because heading numbering is separate from whether the element becomes a PDF bookmark.
+
+- Hide “Contents” from Typst’s _TOC list_ but keep it as a PDF bookmark:
+
+```typst
+#heading(outlined: false, bookmarked: true, numbering: none)[Contents]
+#outline(title: none)
+```
+
+`outlined` controls inclusion in Typst’s outline listings, while `bookmarked` controls inclusion in the exported PDF’s bookmark outline.
+
+### Quick checklist
+
+- Want “Contents” visible in PDF sidebar? Ensure there is an actual `heading` for it.
+- Want to avoid duplicate “Contents” titles on the page? Use `#outline(title: none)`.
+- Need fine control (in TOC vs in PDF bookmarks)? Use `outlined` and `bookmarked` explicitly on the heading.
 ````
-
-```
-
-```

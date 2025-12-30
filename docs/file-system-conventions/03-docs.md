@@ -12,7 +12,10 @@ docs/
 ├── file-system-conventions/ # Modularized file system conventions
 │   ├── 00-overview.md
 │   ├── 01-chapters.md
-│   └── ...
+│   ├── 02-final-document.md
+│   ├── 03-docs.md
+│   ├── 04-gemini.md
+│   └── 05-typst.md
 ├── Chapter_Template.md      # Template for creating new chapters
 ├── File-System-Convention.md # Index for conventions (Entry Point)
 └── how-to-use-workflow.md   # User guides for workflows

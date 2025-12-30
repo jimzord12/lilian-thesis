@@ -294,11 +294,91 @@ export async function verifyWithPlaywright(
     };
   }
 
+  // Check if URL points to a PDF or other downloadable file
+  const isPdfUrl =
+    targetUrl.toLowerCase().endsWith('.pdf') ||
+    targetUrl.toLowerCase().includes('.pdf?') ||
+    targetUrl.toLowerCase().includes('/pdf/');
+
+  // For PDF URLs, use HEAD request to verify accessibility instead of Playwright
+  if (isPdfUrl) {
+    try {
+      const headResponse = await fetch(targetUrl, {
+        method: 'HEAD',
+        headers: {
+          'User-Agent':
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+        },
+        redirect: 'follow',
+      });
+
+      if (headResponse.ok) {
+        const contentType = headResponse.headers.get('content-type') || '';
+        const contentLength = headResponse.headers.get('content-length');
+        const signals = ['PDF URL accessible via HEAD request'];
+
+        if (contentType.includes('pdf')) {
+          signals.push('Content-Type confirmed as PDF');
+        }
+        if (contentLength) {
+          const sizeMB = (parseInt(contentLength, 10) / (1024 * 1024)).toFixed(2);
+          signals.push(`File size: ${sizeMB} MB`);
+        }
+
+        return {
+          ref,
+          status: 'verified',
+          source: 'playwright',
+          matchScore: 1.0,
+          confidence: 'high',
+          signals,
+          details: `PDF file is accessible and downloadable (HTTP ${headResponse.status}).`,
+          metadata: {
+            title: ref.title,
+          },
+        };
+      } else {
+        return {
+          ref,
+          status: 'broken_link',
+          source: 'playwright',
+          matchScore: 0,
+          confidence: 'high',
+          signals: ['PDF URL returned error status'],
+          details: `PDF URL returned HTTP ${headResponse.status}: ${headResponse.statusText}`,
+        };
+      }
+    } catch (e: any) {
+      return {
+        ref,
+        status: 'broken_link',
+        source: 'playwright',
+        matchScore: 0,
+        confidence: 'high',
+        signals: ['Failed to reach PDF URL'],
+        details: `Failed to verify PDF URL: ${e.message}`,
+      };
+    }
+  }
+
   const context = await browser.newContext({
     userAgent:
       'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+    acceptDownloads: true, // Enable download handling
   });
   const page = await context.newPage();
+
+  // Track if a download starts (indicates file exists but triggers download instead of page load)
+  let downloadStarted = false;
+  let downloadInfo: { suggestedFilename?: string } = {};
+
+  page.on('download', (download: any) => {
+    downloadStarted = true;
+    downloadInfo.suggestedFilename = download.suggestedFilename();
+    // Cancel the download to avoid saving files
+    download.cancel().catch(() => {});
+  });
+
   try {
     await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 45000 });
     // Small delay to allow any client-side redirects or title updates
@@ -454,6 +534,26 @@ export async function verifyWithPlaywright(
       },
     };
   } catch (e: any) {
+    // Check if the error was due to a download starting (file exists but triggers download)
+    if (downloadStarted || (e.message && e.message.includes('Download is starting'))) {
+      const signals = ['File download triggered (resource exists)'];
+      if (downloadInfo.suggestedFilename) {
+        signals.push(`Filename: ${downloadInfo.suggestedFilename}`);
+      }
+      return {
+        ref,
+        status: 'verified',
+        source: 'playwright',
+        matchScore: 1.0,
+        confidence: 'high',
+        signals,
+        details: `URL points to a downloadable file (likely PDF or document). File exists and is accessible.`,
+        metadata: {
+          title: downloadInfo.suggestedFilename || ref.title,
+        },
+      };
+    }
+
     return {
       ref,
       status: 'broken_link',
@@ -651,3 +751,4 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
 
   program.parse();
 }
+

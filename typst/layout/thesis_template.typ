@@ -139,11 +139,15 @@
   }
 
   // TOC
-  outline(indent: auto)
+  heading(outlined: false, bookmarked: true, numbering: none)[Πίνακας Περιεχομένων]
+  outline(title: none, indent: auto)
   
   // LOF/LOT
-  outline(title: [Κατάλογος Εικόνων], target: figure.where(kind: image))
-  outline(title: [Κατάλογος Πινάκων], target: figure.where(kind: table))
+  heading(outlined: false, bookmarked: true, numbering: none)[Κατάλογος Εικόνων]
+  outline(title: none, target: figure.where(kind: image))
+
+  heading(outlined: false, bookmarked: true, numbering: none)[Κατάλογος Πινάκων]
+  outline(title: none, target: figure.where(kind: table))
   
   // Abbreviations
   if abbreviations != none {

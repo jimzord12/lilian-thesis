@@ -45,6 +45,7 @@ interface ParsedReference {
   year: string;
   month?: string;
   day?: string;
+  noDate?: boolean; // True when "n.d." was explicitly specified
   title: string;
   containerTitle?: string;
   volume?: string;
@@ -180,15 +181,20 @@ function splitMultipleAuthors(str: string): string[] {
  * Parse date from APA format
  * Handles: "(2023)", "(2023, May 15)", "(n.d.)", "(2023a)"
  */
-function parseDate(dateStr: string): { year: string; month?: string; day?: string } {
-  const result: { year: string; month?: string; day?: string } = { year: '' };
+function parseDate(dateStr: string): {
+  year: string;
+  month?: string;
+  day?: string;
+  noDate?: boolean;
+} {
+  const result: { year: string; month?: string; day?: string; noDate?: boolean } = { year: '' };
 
   // Remove parentheses
   const clean = dateStr.replace(/[()]/g, '').trim();
 
   // Handle "n.d." (no date)
   if (clean.toLowerCase() === 'n.d.') {
-    return { year: '' };
+    return { year: '', noDate: true };
   }
 
   // Match year with optional letter suffix (e.g., 2023a, 2023b)
@@ -362,16 +368,33 @@ function parseReference(line: string): ParsedReference | null {
 
   const warnings: string[] = [];
 
-  // Pattern to match APA format: Authors. (Year). Title. Rest...
-  // More flexible pattern to handle various formats
-  const apaPattern = /^(.+?)\.\s*\(([^)]+)\)\.\s*(.+)$/;
-  const match = text.match(apaPattern);
+  // APA role designations that appear in parentheses before the date
+  // e.g., (Ed.), (Eds.), (Trans.), (Dir.), (Narrator), (Host), etc.
+  const roleDesignations =
+    /\((Eds?|Trans|Dir|Narrator|Host|Producer|Writer|Compiler|Illustrator)\.?\)/gi;
 
-  if (!match) {
+  // Pattern to match APA format with optional role designation:
+  // Authors (Role). (Year). Title. Rest...  OR  Authors. (Year). Title. Rest...
+  // We need to find the date parentheses which contains a year (4 digits) or "n.d."
+  const dateParenPattern = /\((\d{4}[a-z]?(?:,\s*[A-Za-z]+(?:\s+\d{1,2})?)?|n\.d\.)\)\.\s*/i;
+  const dateMatch = text.match(dateParenPattern);
+
+  if (!dateMatch) {
     return null;
   }
 
-  const [, authorPart, datePart, rest] = match;
+  // Find where the date parentheses starts
+  const dateStartIndex = text.indexOf(dateMatch[0]);
+  const beforeDate = text.slice(0, dateStartIndex).trim();
+  const datePart = dateMatch[1];
+  const rest = text.slice(dateStartIndex + dateMatch[0].length);
+
+  // Extract author part by removing trailing role designation and period
+  // e.g., "Karakostas, B., & Katsoulakos, T. (Eds.)." -> "Karakostas, B., & Katsoulakos, T."
+  let authorPart = beforeDate.replace(/\.\s*$/, ''); // Remove trailing period
+  authorPart = authorPart.replace(roleDesignations, '').trim(); // Remove role designation
+  authorPart = authorPart.replace(/\.\s*$/, ''); // Remove any remaining trailing period
+
   const authors = parseAuthors(authorPart);
   const date = parseDate(`(${datePart})`);
 
@@ -456,6 +479,7 @@ function parseReference(line: string): ParsedReference | null {
     year: date.year,
     month: date.month,
     day: date.day,
+    noDate: date.noDate,
     title,
     containerTitle,
     volume,
@@ -505,9 +529,11 @@ function toHayagriva(ref: ParsedReference, existingKeys: Set<string>): Conversio
   const dateStr = formatHayagrivaDate({ year: ref.year, month: ref.month, day: ref.day });
   if (dateStr) {
     entry.date = dateStr;
-  } else {
+  } else if (!ref.noDate) {
+    // Only warn if n.d. was NOT explicitly specified
     warnings.push('No date detected');
   }
+  // Note: When ref.noDate is true, we intentionally omit the date field (APA "n.d." = no date)
 
   // Add URL
   if (ref.url) {
@@ -520,7 +546,7 @@ function toHayagriva(ref: ParsedReference, existingKeys: Set<string>): Conversio
   }
 
   // Add parent (container) info for articles
-  if (ref.containerTitle || ref.volume || ref.issue || ref.publisher) {
+  if (ref.containerTitle || ref.volume || ref.issue) {
     entry.parent = {};
 
     if (ref.containerTitle) {
@@ -537,10 +563,11 @@ function toHayagriva(ref: ParsedReference, existingKeys: Set<string>): Conversio
     if (ref.issue) {
       entry.parent.issue = ref.issue;
     }
+  }
 
-    if (ref.publisher && !ref.containerTitle) {
-      entry.publisher = ref.publisher;
-    }
+  // Add publisher (separate from parent)
+  if (ref.publisher) {
+    entry.publisher = ref.publisher;
   }
 
   // Add page range

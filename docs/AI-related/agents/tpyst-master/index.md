@@ -1,4 +1,3 @@
-```markdown
 @docs/AI-related/agents/tpyst-master/identity.md
 @docs/AI-related/agents/tpyst-master/syntax.md
 @docs/AI-related/agents/tpyst-master/scripting.md
@@ -6,4 +5,5 @@
 @docs/AI-related/agents/tpyst-master/visuals.md
 @docs/AI-related/agents/tpyst-master/constraints.md
 @docs/AI-related/agents/tpyst-master/templates/llm-consumption-guide.md
-```
+@docs/AI-related/partials/environment.md
+@docs/AI-related/partials/file-system-conventions.md

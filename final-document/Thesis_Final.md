@@ -85,28 +85,28 @@ By synthesizing state-of-the-art developments across communication, sensing, and
 
 ## Κατάλογος Συντομογραφιών (List of Abbreviations)
 
-| Συντομογραφία | Περιγραφή |
-| :--- | :--- |
-| **AIS** | Automatic Identification System (Σύστημα Αυτόματης Αναγνώρισης) |
-| **AUV** | Autonomous Underwater Vehicle (Αυτόνομο Υποβρύχιο Όχημα) |
-| **CAS** | Collision Avoidance System (Σύστημα Αποφυγής Σύγκρουσης) |
-| **COLREG** | International Regulations for Preventing Collisions at Sea |
-| **DLT** | Distributed Ledger Technology (Τεχνολογία Κατανεμημένου Καθολικού) |
-| **DP** | Dynamic Positioning (Δυναμική Τοποθέτηση) |
-| **ECDIS** | Electronic Chart Display and Information System |
-| **IACS** | International Association of Classification Societies |
-| **IMO** | International Maritime Organization (Διεθνής Ναυτιλιακός Οργανισμός) |
-| **IoT** | Internet of Things (Διαδίκτυο των Πραγμάτων) |
-| **ISO** | International Organization for Standardization |
-| **MASS** | Maritime Autonomous Surface Ships (Ναυτικά Αυτόνομα Επιφανειακά Πλοία) |
-| **MIoT** | Maritime Internet of Things (Θαλάσσιο Διαδίκτυο των Πραγμάτων) |
-| **NTN** | Non-Terrestrial Networks (Μη Επίγεια Δίκτυα) |
-| **OT** | Operational Technology (Επιχειρησιακή Τεχνολογία) |
-| **QKD** | Quantum Key Distribution (Κβαντική Κατανομή Κλειδιού) |
-| **SDN** | Software-Defined Networking (Δίκτυα Οριζόμενα από Λογισμικό) |
-| **UWSN** | Underwater Wireless Sensor Networks (Υποβρύχια Ασύρματα Δίκτυα Αισθητήρων) |
-| **USV** | Unmanned Surface Vehicle (Μη Επανδρωμένο Επιφανειακό Όχημα) |
-| **VSAT** | Very Small Aperture Terminal |
+| Συντομογραφία | Περιγραφή                                                                  |
+| :------------ | :------------------------------------------------------------------------- |
+| **AIS**       | Automatic Identification System (Σύστημα Αυτόματης Αναγνώρισης)            |
+| **AUV**       | Autonomous Underwater Vehicle (Αυτόνομο Υποβρύχιο Όχημα)                   |
+| **CAS**       | Collision Avoidance System (Σύστημα Αποφυγής Σύγκρουσης)                   |
+| **COLREG**    | International Regulations for Preventing Collisions at Sea                 |
+| **DLT**       | Distributed Ledger Technology (Τεχνολογία Κατανεμημένου Καθολικού)         |
+| **DP**        | Dynamic Positioning (Δυναμική Τοποθέτηση)                                  |
+| **ECDIS**     | Electronic Chart Display and Information System                            |
+| **IACS**      | International Association of Classification Societies                      |
+| **IMO**       | International Maritime Organization (Διεθνής Ναυτιλιακός Οργανισμός)       |
+| **IoT**       | Internet of Things (Διαδίκτυο των Πραγμάτων)                               |
+| **ISO**       | International Organization for Standardization                             |
+| **MASS**      | Maritime Autonomous Surface Ships (Ναυτικά Αυτόνομα Επιφανειακά Πλοία)     |
+| **MIoT**      | Maritime Internet of Things (Θαλάσσιο Διαδίκτυο των Πραγμάτων)             |
+| **NTN**       | Non-Terrestrial Networks (Μη Επίγεια Δίκτυα)                               |
+| **OT**        | Operational Technology (Επιχειρησιακή Τεχνολογία)                          |
+| **QKD**       | Quantum Key Distribution (Κβαντική Κατανομή Κλειδιού)                      |
+| **SDN**       | Software-Defined Networking (Δίκτυα Οριζόμενα από Λογισμικό)               |
+| **UWSN**      | Underwater Wireless Sensor Networks (Υποβρύχια Ασύρματα Δίκτυα Αισθητήρων) |
+| **USV**       | Unmanned Surface Vehicle (Μη Επανδρωμένο Επιφανειακό Όχημα)                |
+| **VSAT**      | Very Small Aperture Terminal                                               |
 
 ---
 
@@ -1720,7 +1720,7 @@ By synthesizing state-of-the-art developments across communication, sensing, and
 
 ### Εφαρμογές και Σενάρια Χρήσης
 
-Τα πλαίσια MCIP αποδεικνύονται επίσης αποτελεσματικά στις λειτουργίες ασφάλειας λιμένων και στην ανθεκτικότητα των υποβρυχίων καλωδίων, καθώς και στην προστασία των γραμμών εφοδιασμού ενέργειας, όπως οι τερματικοί σταθμοί LNG (MARSEC-COE, 2023). Η εμπειρία του περιστατικού με την Maersk έχει οδηγήσει στην εφαρμογή ισχυρών συστημάτων δημιουργίας αντιγράφων ασφαλείας και διατομεακών ασκήσεων στον κυβερνοχώρο (PRECINCT, 2024). Τα αυτοματοποιημένα συστήματα ανίχνευσης απειλών και χαρτογράφησης κινδύνου βάσει δεδομένων είναι ικανά να επιτρέψουν στους οργανισμούς να ανταποκρίνονται προληπτικά στις μεταβαλλόμενες απειλές (O'Dwyer, 2023). Οι μελέτες περιπτώσεων καταδεικνύουν τα πλεονεκτήματα της συνεργασίας μεταξύ οργανισμών του δημόσιου τομέα και ιδιωτικών φορέων εκμετάλλευσης και διεθνών οργανισμών για την έγκαιρη αντιμετώπιση καταστάσεων έκτακτης ανάγκης και την προστασία του διεθνούς εμπορίου (Liebetrau, 2023).
+Τα πλαίσια MCIP αποδεικνύονται επίσης αποτελεσματικά στις λειτουργίες ασφάλειας λιμένων και στην ανθεκτικότητα των υποβρυχίων καλωδίων, καθώς και στην προστασία των γραμμών εφοδιασμού ενέργειας, όπως οι τερματικοί σταθμοί LNG (MARSEC-COE, 2023). Η εμπειρία του περιστατικού με την Maersk έχει οδηγήσει στην εφαρμογή ισχυρών συστημάτων δημιουργίας αντιγράφων ασφαλείας και διατομεακών ασκήσεων στον κυβερνοχώρο (PRECINCT, 2024). Τα αυτοματοποιημένα συστήματα ανίχνευσης απειλών και χαρτογράφησης κινδύνου βάσει δεδομένων είναι ικανά να επιτρέψουν στους οργανισμούς να ανταποκρίνονται προληπτικά στις μεταβαλλόμενες απειλές (Pijpker et al., 2023). Οι μελέτες περιπτώσεων καταδεικνύουν τα πλεονεκτήματα της συνεργασίας μεταξύ οργανισμών του δημόσιου τομέα και ιδιωτικών φορέων εκμετάλλευσης και διεθνών οργανισμών για την έγκαιρη αντιμετώπιση καταστάσεων έκτακτης ανάγκης και την προστασία του διεθνούς εμπορίου (Liebetrau, 2023).
 
 ### Μελλοντικές Κατευθύνσεις και Ερευνητικά Κενά
 
@@ -2470,7 +2470,7 @@ By synthesizing state-of-the-art developments across communication, sensing, and
 - Barbara Rita, B., Elena, C., & Daniela, F. (2019). _A Survey on Digital Twin: Definitions, Characteristics, Applications, and Design Implications_. https://doi.org/10.1109/access.2019.2953499
 - Battineni, G., Chintalapudi, N., Ricci, G., Ruocco, C., & Amenta, F. (2024). Exploring the integration of artificial intelligence (AI) and augmented reality (AR) in maritime medicine. _Artificial Intelligence Review, 57_, 100. https://doi.org/10.1007/s10462-024-10735-0
 - Belabyad, M., Kontovas, C., Pyne, R., et al. (2025). The human element in autonomous shipping: A study on skills and competency requirements. _WMU Journal of Maritime Affairs, 24_, 575–605. https://doi.org/10.1007/s13437-025-00366-9
-- BigDataOcean. (n.d.). _BigDataOcean platform_. Holistic S.A. https://www.holisticsa.gr/bigdataocean-platform
+- BigDataOcean. (2022). _BigDataOcean platform_. Holistic S.A. https://www.holisticsa.gr/bigdataocean-platform
 - BIMCO, CLIA, ICS, INTERCARGO, INTERTANKO, OCIMF, & IUMI. (2024). _The guidelines on cyber security onboard ships_ (5th ed.). BIMCO. https://www.maritimeglobalsecurity.org/media/g3qlxdaw/2024-11-14-guidelines_on_cyber_security-v5-final.pdf
 - Blanco-Novoa, Ó., Fernandez-Carames, T. M., Fraga-Lamas, P., & Vilar-Montesinos, M. (2024). A practical evaluation of commercial industrial augmented reality systems in an Industry 4.0 shipyard. _IEEE Access, 6_, 13358-13375. https://doi.org/10.1109/ACCESS.2018.2802699
 - Borja, Á., Elliott, M., Andersen, J. H., & Mazik, K. (2025). Publishing datasets, using artificial intelligence to help with metadata, can enhance ocean sustainability research and management. _Frontiers in Ocean Sustainability, 2_, Article 1522648. https://doi.org/10.3389/focsu.2025.1522648
@@ -2553,12 +2553,11 @@ By synthesizing state-of-the-art developments across communication, sensing, and
 - Li, X., et al. (2020). Deep-learning-based information mining from ocean remote-sensing imagery. _Frontiers in Marine Science, 7_, 135. https://doi.org/10.3389/fmars.2020.00135
 - Li, J., Zhang, A., Wang, X., & Wang, G. (2023). A survey of maritime unmanned search system: Theory, applications and future directions. _Ocean Engineering, 285_, Article 115359. https://doi.org/10.1016/j.oceaneng.2023.115359
 - Li, M., Zhou, J., Chattopadhyay, S., & Goh, M. (2024). Maritime cybersecurity: A comprehensive review. _arXiv_. https://doi.org/10.48550/arXiv.2409.11417
-- Liang, M., Wang, K., & Liu, Y. (2024). Unsupervised maritime anomaly detection for intelligent surveillance systems. _Knowledge-Based Systems, 294_, 110415. https://doi.org/10.1016/j.knosys.2024.110415
+- Liang, M., Wang, K., & Liu, Y. (2024). Unsupervised maritime anomaly detection for intelligent surveillance systems. _Knowledge-Based Systems_, 294, 110415. https://doi.org/10.1016/j.knosys.2023.111313
 - Liebetrau, T. (2023). Critical maritime infrastructure protection: What's the trouble? _Marine Policy, 155_, 105772. https://doi.org/10.1016/j.marpol.2023.105772
 - Lin, H.-M., Ge, Y., Pang, A.-C., & Pathmasuntharam, J. S. (2010). Performance study on delay tolerant networks in maritime communication environments. In _OCEANS'10 IEEE SYDNEY_ (pp. 1–6). IEEE. https://doi.org/10.1109/OCEANSSYD.2010.5603627
 - Lindenbergs, A., Muehleisen, M., Payaró, M., Kõrbe Kaare, K., Zaglauer, H. W., Scholliers, J., Sadam, A., Kuhi, K., & Nykanen, L. (2023). Seamless 5G multi-hop connectivity architecture and trials for maritime applications. _Sensors, 23_(9), 4203. https://doi.org/10.3390/s23094203
-- Liu, J., Chen, X., & Wang, S. (2023). Blockchain technology in maritime supply chains. _International Journal of Production Research, 61_(15), 4810–4833. https://doi.org/10.1080/00207543.2022.2106433
-- Liu, J., Zhang, H., & Zhen, L. (2023). Blockchain technology in maritime supply chains: Applications, architecture and challenges. _International Journal of Production Research, 61_(11), 3547–3563. https://doi.org/10.1080/00207543.2022.2078248
+- Liu, J., Chen, X., & Wang, S. (2023). Blockchain technology in maritime supply chains. _International Journal of Production Research_, 61(15), 4810–4833. https://doi.org/10.1080/00207543.2021.1930239
 - Liu, T., Liu, J., & Xu, H. (2025). A multi-population multi-objective maritime inventory routing optimization algorithm with three-level dynamic encoding. _Scientific Reports, 15_(1). https://doi.org/10.1038/s41598-025-86091-y
 - Liu, K., Ding, S., Yan, L., Sun, J., Wu, S., Han, S., Li, F., & Zhou, L. (2025). COLREGs-compliant autonomous collision avoidance and improved adaptive LOS-based motion control for USVs in complex waters. _Ocean Engineering, 318_, 120127. https://doi.org/10.1016/j.oceaneng.2024.120127
 - Logan, D., Liam, B., & Susanne, W. (2021). _Advancing the State of Maritime Cybersecurity Guidelines to Improve the Resilience of the Maritime Transportation System_. https://doi.org/10.1109/csr51186.2021.9527922
@@ -2590,10 +2589,9 @@ By synthesizing state-of-the-art developments across communication, sensing, and
 - Muhammad, A., Li, F., B. C., Khan, Z. U., D. E., & Khan, F., F. G. (2025). Exploration of contemporary modernization in UWSNs in the context of localization including opportunities for future research in machine learning and deep learning. _Scientific Reports, 15_, 5672. https://doi.org/10.1038/s41598-025-89916-y
 - Mushtaq, M. U., Venter, H., Singh, A., & Owais, M. (2025). Advances in energy harvesting for sustainable wireless sensor networks: Challenges and opportunities. _Hardware, 3_(1), 1. https://doi.org/10.3390/hardware3010001
 - Niknami, N., Srinivasan, A., St. Germain, K., & Wu, J. (2023). _Maritime Communications—Current State and the Future Potential with SDN and SDR_. Network, 3(4), 563-584. https://doi.org/10.3390/network3040025
-- Niknami, M., Ghafoor, H., & Koo, I. (2023). _Multi-controller SDN architectures for maritime environments_. Journal of Network and Computer Applications, 203, 103456. https://doi.org/10.1016/j.jnca.2022.103456
 - Nikolaos, N., Anastasios, G., Alexandros, K., Volkan, Ö., Panagiotis, T., & George, K. K. (2024). Improving connectivity in 6G maritime communication networks with UAV swarms. _IEEE Access, 12_, 24710-24726. https://doi.org/10.1109/access.2024.3360133
 - Noto, S., Gharbaoui, M., Falcitelli, M., Martini, B., Castoldi, P., & Pagano, P. (2023). Experimental evaluation of an IoT-based platform for maritime transport services. _Applied System Innovation, 6_(3), 58. https://doi.org/10.3390/asi6030058
-- O'Dwyer, G. (2023). _Maritime cyber attack database (MCAD)_ [Database]. NHL Stenden University of Applied Sciences. https://maritimecybersecurity.nl/
+- Pijpker, J., McCombie, S., Johnson, S., Loves, R., & Makrakis, G. M. (2024). An Open-Source Database of Cyberattacks on the Maritime Transportation System. _Preprints_. https://doi.org/10.20944/preprints202410.1996.v1
 - Offshore Energy. (2025, June 15). _Maritime industry accelerates shift toward digital trade_. https://www.offshore-energy.biz/maritime-industry-accelerates-shift-toward-digital-trade/
 - Ogunlesi, C. D. (2023). _Implementation of maritime single window: Selected case studies_ (Master’s thesis, World Maritime University). Maritime Commons. https://commons.wmu.se/cgi/viewcontent.cgi?article=3279&context=all_dissertations
 - Onshus, T., Bodsberg, L., Hauge, S., Jaatun, M. G., Lundteigen, M. A., Myklebust, T., Ottermo, M. V., Petersen, S., & Wille, E. (2022). Security and independence of process safety and control systems in the petroleum industry. _Journal of Cybersecurity and Privacy, 2_(1), 20-41. https://doi.org/10.3390/jcp2010003
@@ -2627,7 +2625,7 @@ By synthesizing state-of-the-art developments across communication, sensing, and
 - Sahay, R., Sepulveda Estay, D. A., Meng, W., Jensen, C. D., & Barfod, M. B. (2022). A comparative risk analysis on CyberShip system with STPA-Sec, STRIDE and CORAS frameworks. _arXiv_. https://doi.org/10.48550/arXiv.2212.10830
 - Sahoo, B. N., Thomas, P. J., Thomas, P., & Greve, M. M. (2025). Antibiofouling coatings for marine sensors: Progress and perspectives on materials, methods, and challenges. _ACS Sensors, 10_(3), 471–489. https://doi.org/10.1021/acssensors.4c02670
 - Saidu, Y., Shuhidan, S. M., Aliyu, D. A., Abdul Aziz, I., & Adamu, S. (2025). Convergence of blockchain, IoT, and AI for enhanced traceability systems: A comprehensive review. _IEEE Access, 13_, 16838–16865. https://doi.org/10.1109/access.2025.3528035
-- Sangprasert, N. (2025). A smart marine debris management system for clear oceans. _Cleaner Waste Systems, 11_, 100262. https://doi.org/10.1016/j.clwas.2025.100262
+- Sangprasert, N. (2025). A Smart Marine Debris Management System for a sustainable coastal city: An IoT-based application Author links open overlay panel. _Cleaner Waste Systems_, 11, 100262. https://doi.org/10.1016/j.clwas.2025.100262
 - Sanikommu, V., Marripudi, S. P., Yekkanti, H. R., Divi, R., Chandrakanth, R., & Mahindra, P. (2025). Edge computing for detection of ship and ship port from remote sensing images using YOLO. _Frontiers in Artificial Intelligence_, Article 1508664. https://doi.org/10.3389/frai.2025.1508664
 - Savva, C., Koidis, C., Achillas, C., Mertzanakis, C., Koumpakis, D.-A., Michailidou, A. V., & Vlachokostas, C. (2025). User-Friendly, Real-Time LCA Tool for Dynamic Sustainability Assessment and Support of EPD Schemes Towards Circular Bioenergy Pathways. Sustainability, 17(18), 8106. [https://doi.org/10.3390/su17188106](https://doi.org/10.3390/su17188106)
 - SCOR (Scientific Committee on Oceanic Research). (2024). _Global environmental risks of underwater acoustic data: Towards a biofriendly underwater Internet of Things (uIoT)_. https://scor-int.org/wp-content/uploads/2024/05/SAFE-uIoT_Proposal_2024.pdf
@@ -2687,7 +2685,7 @@ By synthesizing state-of-the-art developments across communication, sensing, and
 - Zhao, Q., et al. (2024). Applications of deep learning in physical oceanography: A comprehensive review. _Frontiers in Marine Science_. https://doi.org/10.3389/fmars.2024.1396322
 - Zheng, Y., Liu, H., & Wang, J. (2023). _Cognitive radio applications in maritime environments_. Sensors, 23(8), 3456. https://doi.org/10.3389/fmars.2025.1702294
 - Zhou, F., Yu, K., Xie, W., Lyu, J., Zheng, Z., & Zhou, S. (2024). Digital twin-enabled smart maritime logistics management in the context of Industry 5.0. _IEEE Access, 12_, 10920–10931. https://doi.org/10.1109/ACCESS.2024.3354838
-- Zhu, R., Qian, Y., & Wang, W. (2024). _Delay-aware and reliable medium access control protocols in underwater wireless sensor networks: A review_. Computer Networks, 248, Article 109249. https://doi.org/10.1016/j.comnet.2024.110631
+- Zhu, R., Qian, Y., & Wang, W. (2024). Delay-aware and reliable medium access control protocols for UWSNs: Features, protocols, and classification. _Computer Networks_, 252, Article 110631. https://doi.org/10.1016/j.comnet.2024.110631
 
 ## Αλφαβητικό Ευρετήριο Όρων (Alphabetical Index of Terms)
 

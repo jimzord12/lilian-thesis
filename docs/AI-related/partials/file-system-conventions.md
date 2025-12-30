@@ -6,6 +6,7 @@ Adhere strictly to the project's file structure and naming conventions.
 
 - **[`chapters/`](../../file-system-conventions/01-chapters.md)**: Source materials and outputs.
 - **[`docs/`](../../file-system-conventions/03-docs.md)**: Project documentation.
+- **[`typst/`](../../file-system-conventions/05-typst.md)**: Typst typesetting source.
 - **[`.gemini/`](../../file-system-conventions/04-gemini.md)**: CLI tools and config.
 
 ### **Chapter Structure (`chapters/Chapter-N/`)**

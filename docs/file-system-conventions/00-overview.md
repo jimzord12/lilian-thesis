@@ -10,5 +10,6 @@ This document outlines the high-level file structure of the project.
 - [`.gemini/`](./04-gemini.md): Configuration and tools for the Gemini CLI.
 - [`chapters/`](./01-chapters.md): Contains all chapter source materials and outputs.
 - [`final-document/`](./02-final-document.md): Contains the assembled thesis and master assets.
+- [`typst/`](./05-typst.md): Contains the Typst source files for typesetting the thesis.
 - [`docs/`](./03-docs.md): Documentation for the project workflows and conventions.
 
