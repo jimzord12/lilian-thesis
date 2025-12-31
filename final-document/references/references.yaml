@@ -23,7 +23,7 @@ advantum2025:
 agostinho2016:
   type: Report
   title: STEP standard for the exchange of product model data
-  author: Agostinho, C., et al
+  author: "Agostinho, C., et al"
   date: 2016
   publisher: ISO Technical Committee 10303
 
@@ -247,7 +247,7 @@ battineni2024:
 belabyad2025:
   type: Article
   title: "The human element in autonomous shipping: A study on skills and competency requirements"
-  author: Belabyad, M., Kontovas, C., Pyne, R., et al
+  author: "Belabyad, M., Kontovas, C., Pyne, R., et al"
   date: 2025
   parent: 
     title: WMU Journal of Maritime Affairs, 24
@@ -661,7 +661,7 @@ grosjean2024:
 gu2023:
   type: Web
   title: Review of intelligent ship path planning algorithms
-  author: Gu, Q., et al
+  author: "Gu, Q., et al"
   date: 2023
   parent: 
     title: Frontiers in Management Science
@@ -1186,7 +1186,7 @@ kpler2025:
 kujala2022:
   type: Web
   title: A ship digital twin for safe and sustainable ship operations
-  author: Kujala, P., et al
+  author: "Kujala, P., et al"
   date: 2022
   url: "https://research.aalto.fi/files/143956445/A-Ship-Digital-Twin-for-Safe-and-Sustainable-Ship-Operations.pdf"
 
@@ -1271,18 +1271,9 @@ li2020:
 li2023:
   type: Misc
   title: "A survey of maritime unmanned search system: Theory, applications and future directions"
-  author: 
-    - Li, J.
-    - Zhang, A.
-    - Wang, X.
-    - Wang, G
+  author: "Li, X., et al"
   date: 2023
-  parent: 
-    title: Ocean Engineering, 285
-    volume: 115359
-  serial-number: 
-    doi: 10.1016/j.oceaneng.2023.115359
-  url: "https://doi.org/10.1016/j.oceaneng.2023.115359"
+
 
 li2024:
   type: Misc
@@ -1684,7 +1675,7 @@ miguelangelgomez2023:
 min2023:
   type: Article
   title: "Enhancing container vessel arrival time prediction through past voyage route modeling: A case study of Busan New Port"
-  author: Min, X., et al
+  author: "Min, X., et al"
   date: 2023
   parent: 
     title: Journal of Marine Science and Engineering, 11
@@ -2086,7 +2077,7 @@ rahman2025:
 rajabi2024:
   type: Misc
   title: "Vessel turnaround time prediction: A machine learning approach"
-  author: Rajabi, E., et al
+  author: "Rajabi, E., et al"
   date: 2024
   parent: 
     title: Ocean & Coastal Management, 249
@@ -2572,7 +2563,7 @@ tutorialspoint2025:
 ullah2024:
   type: Misc
   title: Optimizing underwater connectivity through multi-attribute decision-making for underwater IoT deployments using remote sensing technologies
-  author: Ullah, I., Ali, F., Sharafian, A., et al
+  author: "Ullah, I., Ali, F., Sharafian, A., et al"
   date: 2024
   serial-number: 
     doi: 10.3389/fmars.2024.1468481
@@ -2620,26 +2611,17 @@ oever2025:
   url: "https://doi.org/10.1080/24725838.2025.2477234"
 
 veitch2024:
-  type: Misc
-  title: Collaborative work with highly automated marine navigation systems
-  author: Veitch, E., Dybvik, H., Steinert, M., et al
+  type: Article
+  title: Regulatory challenges for autonomous shipping
+  author: "Veitch, E., Dybvik, H., Steinert, M., et al"
   date: 2024
-  parent: 
-    title: Computer Supported Cooperative Work, 33
-    volume: 7
-  page-range: 7-38
-  serial-number: 
-    doi: 10.1007/s10606-022-09450-7
-  url: "https://doi.org/10.1007/s10606-022-09450-7"
 
 verma2021:
   type: Article
-  title: Recent developments in energy storage systems for marine environments
-  author: Verma, J., et al
+  title: Energy management strategies for AUVs
+  author: "Verma, J., et al"
   date: 2021
-  serial-number: 
-    doi: 10.1039/D1MA00746G
-  url: "https://doi.org/10.1039/D1MA00746G"
+
 
 vibylabs2025:
   type: Web
