@@ -29,4 +29,6 @@
 #include "content/chapter6.typ"
 #include "content/chapter7.typ"
 #include "content/chapter8.typ"
+#include "content/chapter9.typ"
+#include "content/chapter10.typ"
 // Add more chapters as we convert them
