@@ -27,7 +27,11 @@ You are tasked with converting Chapter {{args}} from its final Greek Markdown so
 5. **Citations**: Keep the in-text citations exactly as they appear in the source (e.g., `(Author et al., 2025)`).
 6. **Integrity**: DO NOT skip any text. The Typst file must contain the exact same content as the Markdown source.
 
+## Common Pitfalls
+- The Sections' Indexing must be removed from headings, as it is handled automatically in Typst.
+
 ## Finalization
 - After creating the file, check `typst/main.typ`.
 - If `#include "content/chapter{{args}}.typ"` is missing or commented out, add/uncomment it to ensure the chapter is included in the final compilation.
+- Confirm that everything is OK by running a Typst build, you can use this script: `.gemini/scripts/compile_typst.sh`.
 """

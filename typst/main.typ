@@ -24,4 +24,9 @@
 #include "content/chapter1.typ"
 #include "content/chapter2.typ"
 #include "content/chapter3.typ"
+#include "content/chapter4.typ"
+#include "content/chapter5.typ"
+#include "content/chapter6.typ"
+#include "content/chapter7.typ"
+#include "content/chapter8.typ"
 // Add more chapters as we convert them
