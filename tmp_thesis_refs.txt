@@ -1,8 +1,3 @@
-= Βιβλιογραφία (References)
-
-#set list(indent: 0em, body-indent: 1.5em)
-#set par(spacing: 0.65em)
-
 - Abu Dhabi Ports. (2018, June 2). _Abu Dhabi ports launches blockchain technology for trade community_. https://www.adports.ae/abu-dhabi-ports-launches-blockchain-technology-for-trade-community/
 - Advantum. (2025, April 29). The risks of legacy systems in logistics operations. _Caribbean Maritime Magazine_. https://advantumpcs.com/2025/01/risk-of-legacy-systems-in-logistics-operations/
 - Agostinho, C., et al. (2016). _STEP standard for the exchange of product model data_. ISO Technical Committee 10303.
@@ -48,7 +43,7 @@
 - Gabel, E. (2025, May 7). Integrating IoT with legacy equipment: Retrofitting existing machines for smart operations. _IoT For All_. https://www.iotforall.com/retrofitting-legacy-equipment-iot
 - GEF-UNDP-IMO GloMEEP Project & Global Industry Alliance to Support Low Carbon Shipping. (2020). _Just in time arrival guide: Barriers and potential solutions_. International Maritime Organization. https://greenvoyage2050.imo.org/wp-content/uploads/2021/01/GIA-just-in-time-hires.pdf
 - Ghafoor, H., & Koo, I. (2020). Cognitive routing in software-defined maritime networks. _Wireless Communications and Mobile Computing, 2020_, 1-15. https://doi.org/10.1155/2020/8820838
-- UN Trade and Development. (2025, June 4). _Global trade update (June 2025): Sustainable ocean economy: A key and fast-growing sector at risk_. UNCTAD. https://unctad.org/publication/global-trade-update-june-2025-sustainable-ocean-economy
+- Global Trade Update (June 2025): Sustainable ocean economy: A key and fast-growing sector at risk. UN Trade and Development (UNCTAD). (2025a, June 4). https://unctad.org/publication/global-trade-update-june-2025-sustainable-ocean-economy
 - González-Cancelas, N., Martínez Martínez, P., Vaca-Cabrero, J., & Camarero-Orive, A. (2025). Optimization of port asset management using digital twin and BIM/GIS in the context of Industry 4.0: A case study of Spanish ports. _Processes, 13_(3), 705. https://doi.org/10.3390/pr13030705
 - Grasso, F. W., Consi, T. R., Mountain, D. C., & Atema, J. (2000). Biomimetic robot lobster performs chemo-orientation in turbulence using a pair of spatially separated sensors: Progress and challenges. _Robotics and Autonomous Systems, 30_, 115-131. https://www.semanticscholar.org/paper/Biomimetic-robot-lobster-performs-chemo-orientation-Grasso-Consi/c42ac2272ee730cccbe20d50b00aee59bf3c2a01
 - Grosjean, V. (2024, October 17). Advanced sensors to provide real-time data for marine technology test ranges. _Ocean Science Technology News_. https://www.oceansciencetechnology.com/news/advanced-sensors-to-provide-real-time-data-for-marine-technology-test-ranges/
@@ -178,16 +173,16 @@
 - Saidu, Y., Shuhidan, S. M., Aliyu, D. A., Abdul Aziz, I., & Adamu, S. (2025). Convergence of blockchain, IoT, and AI for enhanced traceability systems: A comprehensive review. _IEEE Access, 13_, 16838–16865. https://doi.org/10.1109/access.2025.3528035
 - Sangprasert, N. (2025). A Smart Marine Debris Management System for a sustainable coastal city: An IoT-based application Author links open overlay panel. _Cleaner Waste Systems_, 11, 100262. https://doi.org/10.1016/j.clwas.2025.100262
 - Sanikommu, V., Marripudi, S. P., Yekkanti, H. R., Divi, R., Chandrakanth, R., & Mahindra, P. (2025). Edge computing for detection of ship and ship port from remote sensing images using YOLO. _Frontiers in Artificial Intelligence_, Article 1508664. https://doi.org/10.3389/frai.2025.1508664
-- Savva, C., Koidis, C., Achillas, C., Mertzanakis, C., Koumpakis, D.-A., Michailidou, A. V., & Vlachokostas, C. (2025). User-Friendly, Real-Time LCA Tool for Dynamic Sustainability Assessment and Support of EPD Schemes Towards Circular Bioenergy Pathways. Sustainability, 17(18), 8106. #link("https://doi.org/10.3390/su17188106")[https://doi.org/10.3390/su17188106]
+- Savva, C., Koidis, C., Achillas, C., Mertzanakis, C., Koumpakis, D.-A., Michailidou, A. V., & Vlachokostas, C. (2025). User-Friendly, Real-Time LCA Tool for Dynamic Sustainability Assessment and Support of EPD Schemes Towards Circular Bioenergy Pathways. Sustainability, 17(18), 8106. [https://doi.org/10.3390/su17188106](https://doi.org/10.3390/su17188106)
 - SCOR (Scientific Committee on Oceanic Research). (2024). _Global environmental risks of underwater acoustic data: Towards a biofriendly underwater Internet of Things (uIoT)_. https://scor-int.org/wp-content/uploads/2024/05/SAFE-uIoT_Proposal_2024.pdf
 - Sea Machines. (2024). _Collision & obstacle avoidance systems for autonomous vessels_. https://sea-machines.com/why-sea-machines/solutions/collision-obstacle-avoidance/
 - Sedna. (n.d.). _Big data in the maritime industry: Use cases and challenges_. https://sedna.com/resources/big-data-in-the-maritime-industry-use-cases-and-challenges
 - Shang, Z., Wang, J., & Yang, Y. (2025). Maritime communication networks: A survey on architecture, key technologies, and challenges. _Computer Communications, 216_, 189–213. https://doi.org/10.1016/j.comcom.2025.108255
 - Shaukat, M. S., Käckenmeister, Y., Bader, S., & Kirste, T. (2024). Towards training-free underwater 3D object detection from sonar point clouds: A comparison of traditional and deep learning approaches. _arXiv_. https://arxiv.org/abs/2508.18293
-- Allianz Global Corporate & Specialty. (n.d.). _Shipping safety: Human error comes in many forms_. https://commercial.allianz.com/news-and-insights/expert-risk-articles/human-error-shipping-safety.html
+- Shipping safety - human error comes in many forms | AGCS. (n.d.). https://commercial.allianz.com/news-and-insights/expert-risk-articles/human-error-shipping-safety.html
 - ShipUniverse. (2024, July 31). _Biofouling detection sensors made simple: 2025 update_. https://www.shipuniverse.com/tech/biofouling-detection-sensors-made-simple-2025-update/
 - Song, Y., & Cao, X. (2024). Review of intelligent ship path planning algorithms. _Frontiers in Management Science, 3_(1), 90-99. https://doi.org/10.56397/FMS.2024.02.10
-- Kirchner, S. (2022). 2. Marine pollution: B. Vessel source pollution. _Yearbook of International Environmental Law, 32_(1), 69–72. https://doi.org/10.1093/yiel/yvac011
+- Stefan Kirchner, 2. Marine Pollution: B. Vessel Source Pollution, Yearbook of International Environmental Law, Volume 32, Issue 1, 2021, Pages 69–72, https://doi.org/10.1093/yiel/yvac011
 - Stouffer, K., Pillitteri, V., Lightman, S., Abrams, M., & Hahn, A. (2023). _Guide to operational technology (OT) security_ (NIST Special Publication 800-82r3). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.SP.800-82r3
 - Sudip Chandra, G., Md Maruf, H., Bishozit Chandra, D., Palash, R., Md. Abdur, R., & Saiful, A. (2024). _VESBELT: An energy-efficient and low-latency aware task offloading in Maritime Internet-of-Things networks using ensemble neural networks_. https://doi.org/10.1016/j.future.2024.07.034
 - Sun, X., Cai, M., & Ding, J. (2023). A GPU-accelerated method for 3D nonlinear Kelvin ship wake patterns simulation. _Applied Sciences, 13_(22), 12148. https://doi.org/10.3390/app132212148
@@ -196,7 +191,7 @@
 - Templin, F., Pohlchuck, W., Prakash, B. R. S., Dudukovich, R., Raible, D., Tomko, B., Burleigh, S., & Herbert, T. (2024, March 25). _Delay-tolerant networking performance_. APNIC Blog. https://blog.apnic.net/2024/03/25/delay-tolerant-networking-performance/
 - Tett, P., Gowen, R. J., Painting, S. J., Elliott, M., Forster, R., Mills, D. K., Bresnan, E., Capuzzo, E., Fernandes, T. F., Foden, J., Geider, R. J., Gilpin, L., Huxham, M., Lancelot, C., McQuatters-Gollop, A., Malcolm, S., Saux-Picart, S., Platt, T., & Skjoldal, H. R. (2020). Marine monitoring in Europe: Is it adequate to address environmental threats and pressures? _Ocean Science, 16_(1), 235–252. https://doi.org/10.5194/os-16-235-2020
 - Tijan, E., et al. (2019). The single window concept in international trade, transport and seaports. _Scientific Journal of Maritime Research, 33_, 130–139.
-- UN Trade and Development. (2022). _Trade and development report 2022_. UNCTAD. https://unctad.org/tdr2022
+- Trade and Development Report 2022. UN Trade and Development (UNCTAD). (n.d.). https://unctad.org/tdr2022
 - Tran, T., Nguyen, Q., Kua, J., Tran, M., Luu, T., Hoang, T., & Jin, J. (2025). Leveraging cloud-fog automation for autonomous collision detection and classification in intelligent unmanned surface vehicles. In _Proceedings of the 23rd IEEE International Conference on Industrial Informatics (INDIN)_. https://doi.org/10.48550/arXiv.2506.18024
 - TutorialsPoint. (2025). Neuromorphic Computing - For Autonomous Systems. https://www.tutorialspoint.com/neuromorphic-computing/neuromorphic-computing-autonomous-systems.htm
 - Ullah, I., Ali, F., Sharafian, A., et al. (2024). Optimizing underwater connectivity through multi-attribute decision-making for underwater IoT deployments using remote sensing technologies. Frontiers in Marine Science, 11, 1468481. https://doi.org/10.3389/fmars.2024.1468481
@@ -211,8 +206,8 @@
 - Wang, C., & Peng, G. (2015). Application of Internet of Things in Development of e-Navigation architecture. In Advances in Computer Science Research. 2015 International Symposium on Computers & Informatics. Atlantis Press. https://doi.org/10.2991/isci-15.2015.77
 - Wang, H., et al. (2019). Data-driven ship digital twin for estimating the speed loss caused by the marine fouling. Ocean Engineering. https://www.sciencedirect.com/science/article/abs/pii/S0029801819302616
 - Wang, X., Zhao, X., Wang, G., Wang, Q., & Feng, K. (2022). _Weather Route Optimization Method of Unmanned Ship Based on Continuous Dynamic Optimal Control_. Sustainability, 14(4), 2165. https://doi.org/10.3390/su14042165
-- Wang, T., Ma, X., Ma, L., & Zhao, Y. (2023). An Emergency Port Decision-Making Method for Maritime Accidents in Arctic Waters. Journal of Marine Science and Engineering, 11(7), 1330. #link("https://doi.org/10.3390/jmse11071330")[https://doi.org/10.3390/jmse11071330]
-- Wei Li, Farrell, J. A., Shuo Pang, & Arrieta, R. M. (2006). Moth-inspired chemical plume tracing on an autonomous underwater vehicle. IEEE Transactions on Robotics, 22(2), 292–307. #link("https://doi.org/10.1109/tro.2006.870627")[https://doi.org/10.1109/tro.2006.870627]
+- Wang, T., Ma, X., Ma, L., & Zhao, Y. (2023). An Emergency Port Decision-Making Method for Maritime Accidents in Arctic Waters. Journal of Marine Science and Engineering, 11(7), 1330. [https://doi.org/10.3390/jmse11071330](https://doi.org/10.3390/jmse11071330)
+- Wei Li, Farrell, J. A., Shuo Pang, & Arrieta, R. M. (2006). Moth-inspired chemical plume tracing on an autonomous underwater vehicle. IEEE Transactions on Robotics, 22(2), 292–307. [https://doi.org/10.1109/tro.2006.870627](https://doi.org/10.1109/tro.2006.870627)
 - Western Sydney University. (2025). _Maritime situational awareness using neuromorphic sensor processors_. https://www.westernsydney.edu.au/icns/research_projects/current_projects/maritime_situational_awareness_using_neuromorphic_sensor_processors
 - Whitt, C., Pearlman, J., Polagye, B., et al. (2020). Future vision for autonomous ocean observations. Frontiers in Marine Science, 7. https://doi.org/10.3389/fmars.2020.00697
 - Wireless Logic. (2025). _Maritime connectivity: Essential for the future of shipping_. https://www.wirelesslogic.com/sectors/maritime/
@@ -237,3 +232,26 @@
 - Zheng, Y., Liu, H., & Wang, J. (2023). _Cognitive radio applications in maritime environments_. Sensors, 23(8), 3456. https://doi.org/10.3389/fmars.2025.1702294
 - Zhou, F., Yu, K., Xie, W., Lyu, J., Zheng, Z., & Zhou, S. (2024). Digital twin-enabled smart maritime logistics management in the context of Industry 5.0. _IEEE Access, 12_, 10920–10931. https://doi.org/10.1109/ACCESS.2024.3354838
 - Zhu, R., Qian, Y., & Wang, W. (2024). Delay-aware and reliable medium access control protocols for UWSNs: Features, protocols, and classification. _Computer Networks_, 252, Article 110631. https://doi.org/10.1016/j.comnet.2024.110631
+- **Αλυσίδα Μπλοκ (Blockchain):** Τεχνολογία κατανεμημένου καθολικού για την εξασφάλιση της ακεραιότητας των δεδομένων.
+- **Αυτόνομα Ναυτιλιακά Πλοία Επιφανείας (MASS):** Πλοία που μπορούν να λειτουργήσουν ανεξάρτητα από την ανθρώπινη παρέμβαση σε διάφορα επίπεδα.
+- **Αυτόνομο Υποβρύχιο Όχημα (AUV):** Ρομποτικό όχημα που κινείται υποβρυχίως χωρίς σύνδεση με σκάφος επιφανείας.
+- **Βαθιά Μάθηση (Deep Learning):** Υποσύνολο της μηχανικής μάθησης που βασίζεται σε πολυεπίπεδα νευρωνικά δίκτυα.
+- **Βιορρύπανση (Biofouling):** Η συσσώρευση θαλάσσιων οργανισμών σε υποβρύχιες επιφάνειες και αισθητήρες.
+- **Δίκτυα 6G (6G Networks):** Η επόμενη γενιά ασύρματων επικοινωνιών που υπόσχεται υπερ-συνδεσιμότητα και μηδενική καθυστέρηση.
+- **Δίκτυα Ανεκτικά σε Καθυστερήσεις (DTN):** Αρχιτεκτονική δικτύου σχεδιασμένη για περιβάλλοντα με διακοπτόμενη συνδεσιμότητα.
+- **Δίκτυα Οριζόμενα από Λογισμικό (SDN):** Προσέγγιση στη δικτύωση που επιτρέπει τον κεντρικό, προγραμματιζόμενο έλεγχο της κίνησης.
+- **Δυναμική Τοποθέτηση (Dynamic Positioning):** Σύστημα ελέγχου που διατηρεί τη θέση και την πορεία ενός πλοίου χρησιμοποιώντας τους δικούς του προωθητήρες.
+- **Επαυξημένη Πραγματικότητα (Augmented Reality):** Τεχνολογία που υπερθέτει ψηφιακές πληροφορίες στο φυσικό οπτικό πεδίο του χρήστη.
+- **Θαλάσσιο Διαδίκτυο των Πραγμάτων (MIoT):** Το δίκτυο των διασυνδεδεμένων αντικειμένων και συστημάτων στον ναυτιλιακό τομέα.
+- **Κυβερνοασφάλεια (Cybersecurity):** Το σύνολο των πρακτικών και τεχνολογιών για την προστασία δικτύων και δεδομένων από επιθέσεις.
+- **Μη Επίγεια Δίκτυα (NTN):** Επικοινωνιακά δίκτυα που περιλαμβάνουν δορυφόρους και εναέρια μέσα (UAVs).
+- **Μη Επανδρωμένο Όχημα Επιφανείας (USV):** Σκάφος που λειτουργεί στην επιφάνεια του νερού χωρίς πλήρωμα.
+- **Μηδενική Εμπιστοσύνη (Zero Trust):** Μοντέλο ασφαλείας που απαιτεί συνεχή επαλήθευση για κάθε αίτημα πρόσβασης.
+- **Μηχανική Μάθηση (Machine Learning):** Κλάδος της τεχνητής νοημοσύνης που επιτρέπει στα συστήματα να μαθαίνουν από δεδομένα.
+- **Ναυτιλία 4.0 (Maritime 4.0):** Ο ψηφιακός μετασχηματισμός της ναυτιλίας μέσω του αυτοματισμού και της ανταλλαγής δεδομένων.
+- **Νευρομορφική Υπολογιστική (Neuromorphic Computing):** Σχεδιασμός υπολογιστικών συστημάτων που μιμούνται τη δομή του ανθρώπινου εγκεφάλου.
+- **Σύστημα Αποφυγής Σύγκρουσης (Collision Avoidance System):** Τεχνολογία που βοηθά τα πλοία να εντοπίζουν και να αποφεύγουν εμπόδια.
+- **Τεχνητή Νοημοσύνη (Artificial Intelligence):** Η προσομοίωση της ανθρώπινης νοημοσύνης από υπολογιστικά συστήματα.
+- **Υποβρύχιο Ασύρματο Δίκτυο Αισθητήρων (UWSN):** Δίκτυο αισθητήρων που επικοινωνούν ασύρματα κάτω από την επιφάνεια της θάλασσας.
+- **Υπολογιστική Άκρων (Edge Computing):** Επεξεργασία δεδομένων κοντά στην πηγή παραγωγής τους (π.χ. επί του πλοίου).
+- **Ψηφιακό Δίδυμο (Digital Twin):** Εικονικό αντίγραφο ενός φυσικού αντικειμένου ή συστήματος που ενημερώνεται σε πραγματικό χρόνο.

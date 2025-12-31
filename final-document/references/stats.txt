@@ -1,0 +1,63 @@
+Reference Analytics
+===================
+Generated: 2025-12-31
+Source: References_Final.md
+
+SUMMARY
+-------
+Total References: 234
+
+DISTRIBUTION BY SOURCE TYPE
+---------------------------
+Journal Article:      52  (22.2%)
+Conference Paper:     9   (3.8%)
+Book:                 95  (40.6%)
+Book Chapter:         4   (1.7%)
+Website/Online:       52  (22.2%)
+Technical Report:     7   (3.0%)
+Thesis/Dissertation:  2   (0.9%)
+Standard/Regulation:  13  (5.6%)
+Other:                0   (0.0%)
+
+TEMPORAL ANALYSIS
+-----------------
+Recent (≤5 years):    202 (86.3%)
+Older (>5 years):     32  (13.7%)
+
+Yearly Breakdown:
+  2025: 59
+  2024: 64
+  2023: 35
+  2022: 16
+  2021: 14
+  2020: 14
+  2019: 8
+  2018: 5
+  2017: 3
+  2016: 1
+  2015: 1
+  2014: 1
+  2011: 2
+  2010: 3
+  2007: 2
+  2006: 1
+  2000: 1
+
+Oldest: 2000 - [Grasso, F. W., Consi, T. R., Mountain, D. C., & Atema, J. (2000). Biomimetic robot lobster performs ...]
+Newest: 2025 - [Advantum. (2025, April 29). The risks of legacy systems in logistics operations. _Caribbean Maritime...]
+
+AUTHOR ANALYSIS
+---------------
+Unique First Authors: 208
+Top Authors:
+  1. International Maritime Organization (4 references)
+  2. Li (4 references)
+  3. Wang (4 references)
+  4. Wu (4 references)
+  5. Liu (3 references)
+
+SOURCE QUALITY
+--------------
+With DOI:             154 (65.8%)
+URL Only:             73  (31.2%)
+Potentially Outdated: 10  (>10 years old)

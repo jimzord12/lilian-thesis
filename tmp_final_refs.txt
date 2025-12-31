@@ -1,8 +1,3 @@
-= Βιβλιογραφία (References)
-
-#set list(indent: 0em, body-indent: 1.5em)
-#set par(spacing: 0.65em)
-
 - Abu Dhabi Ports. (2018, June 2). _Abu Dhabi ports launches blockchain technology for trade community_. https://www.adports.ae/abu-dhabi-ports-launches-blockchain-technology-for-trade-community/
 - Advantum. (2025, April 29). The risks of legacy systems in logistics operations. _Caribbean Maritime Magazine_. https://advantumpcs.com/2025/01/risk-of-legacy-systems-in-logistics-operations/
 - Agostinho, C., et al. (2016). _STEP standard for the exchange of product model data_. ISO Technical Committee 10303.
@@ -178,7 +173,7 @@
 - Saidu, Y., Shuhidan, S. M., Aliyu, D. A., Abdul Aziz, I., & Adamu, S. (2025). Convergence of blockchain, IoT, and AI for enhanced traceability systems: A comprehensive review. _IEEE Access, 13_, 16838–16865. https://doi.org/10.1109/access.2025.3528035
 - Sangprasert, N. (2025). A Smart Marine Debris Management System for a sustainable coastal city: An IoT-based application Author links open overlay panel. _Cleaner Waste Systems_, 11, 100262. https://doi.org/10.1016/j.clwas.2025.100262
 - Sanikommu, V., Marripudi, S. P., Yekkanti, H. R., Divi, R., Chandrakanth, R., & Mahindra, P. (2025). Edge computing for detection of ship and ship port from remote sensing images using YOLO. _Frontiers in Artificial Intelligence_, Article 1508664. https://doi.org/10.3389/frai.2025.1508664
-- Savva, C., Koidis, C., Achillas, C., Mertzanakis, C., Koumpakis, D.-A., Michailidou, A. V., & Vlachokostas, C. (2025). User-Friendly, Real-Time LCA Tool for Dynamic Sustainability Assessment and Support of EPD Schemes Towards Circular Bioenergy Pathways. Sustainability, 17(18), 8106. #link("https://doi.org/10.3390/su17188106")[https://doi.org/10.3390/su17188106]
+- Savva, C., Koidis, C., Achillas, C., Mertzanakis, C., Koumpakis, D.-A., Michailidou, A. V., & Vlachokostas, C. (2025). User-Friendly, Real-Time LCA Tool for Dynamic Sustainability Assessment and Support of EPD Schemes Towards Circular Bioenergy Pathways. Sustainability, 17(18), 8106. [https://doi.org/10.3390/su17188106](https://doi.org/10.3390/su17188106)
 - SCOR (Scientific Committee on Oceanic Research). (2024). _Global environmental risks of underwater acoustic data: Towards a biofriendly underwater Internet of Things (uIoT)_. https://scor-int.org/wp-content/uploads/2024/05/SAFE-uIoT_Proposal_2024.pdf
 - Sea Machines. (2024). _Collision & obstacle avoidance systems for autonomous vessels_. https://sea-machines.com/why-sea-machines/solutions/collision-obstacle-avoidance/
 - Sedna. (n.d.). _Big data in the maritime industry: Use cases and challenges_. https://sedna.com/resources/big-data-in-the-maritime-industry-use-cases-and-challenges
@@ -211,8 +206,8 @@
 - Wang, C., & Peng, G. (2015). Application of Internet of Things in Development of e-Navigation architecture. In Advances in Computer Science Research. 2015 International Symposium on Computers & Informatics. Atlantis Press. https://doi.org/10.2991/isci-15.2015.77
 - Wang, H., et al. (2019). Data-driven ship digital twin for estimating the speed loss caused by the marine fouling. Ocean Engineering. https://www.sciencedirect.com/science/article/abs/pii/S0029801819302616
 - Wang, X., Zhao, X., Wang, G., Wang, Q., & Feng, K. (2022). _Weather Route Optimization Method of Unmanned Ship Based on Continuous Dynamic Optimal Control_. Sustainability, 14(4), 2165. https://doi.org/10.3390/su14042165
-- Wang, T., Ma, X., Ma, L., & Zhao, Y. (2023). An Emergency Port Decision-Making Method for Maritime Accidents in Arctic Waters. Journal of Marine Science and Engineering, 11(7), 1330. #link("https://doi.org/10.3390/jmse11071330")[https://doi.org/10.3390/jmse11071330]
-- Wei Li, Farrell, J. A., Shuo Pang, & Arrieta, R. M. (2006). Moth-inspired chemical plume tracing on an autonomous underwater vehicle. IEEE Transactions on Robotics, 22(2), 292–307. #link("https://doi.org/10.1109/tro.2006.870627")[https://doi.org/10.1109/tro.2006.870627]
+- Wang, T., Ma, X., Ma, L., & Zhao, Y. (2023). An Emergency Port Decision-Making Method for Maritime Accidents in Arctic Waters. Journal of Marine Science and Engineering, 11(7), 1330. [https://doi.org/10.3390/jmse11071330](https://doi.org/10.3390/jmse11071330)
+- Wei Li, Farrell, J. A., Shuo Pang, & Arrieta, R. M. (2006). Moth-inspired chemical plume tracing on an autonomous underwater vehicle. IEEE Transactions on Robotics, 22(2), 292–307. [https://doi.org/10.1109/tro.2006.870627](https://doi.org/10.1109/tro.2006.870627)
 - Western Sydney University. (2025). _Maritime situational awareness using neuromorphic sensor processors_. https://www.westernsydney.edu.au/icns/research_projects/current_projects/maritime_situational_awareness_using_neuromorphic_sensor_processors
 - Whitt, C., Pearlman, J., Polagye, B., et al. (2020). Future vision for autonomous ocean observations. Frontiers in Marine Science, 7. https://doi.org/10.3389/fmars.2020.00697
 - Wireless Logic. (2025). _Maritime connectivity: Essential for the future of shipping_. https://www.wirelesslogic.com/sectors/maritime/
