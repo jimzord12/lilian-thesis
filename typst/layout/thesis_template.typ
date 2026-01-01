@@ -19,15 +19,52 @@
   // Set document metadata
   set document(title: title, author: author)
   
-  // Page setup
+  // Page setup with running footers
   set page(
     paper: "a4",
     margin: (top: 2.5cm, bottom: 2.5cm, left: 3cm, right: 2.5cm),
-    numbering: "1",
-    number-align: center,
+    footer: context {
+      let page_idx = counter(page).at(here()).first()
+      let page_label = counter(page).display()
+      let h1 = query(selector(heading.where(level: 1)).before(here()))
+      let h2 = query(selector(heading.where(level: 2)).before(here()))
+      
+      if h1.len() > 0 {
+        let last_h1 = h1.last()
+        let is_chapter_start = last_h1.location().page() == page_idx
+        
+        if is_chapter_start {
+          align(center, text(size: 10pt, weight: "bold")[#page_label])
+        } else {
+          // Use level 2 if available and from the current chapter, otherwise level 1
+          let current_info = last_h1.body
+          if h2.len() > 0 {
+            let last_h2 = h2.last()
+            if last_h2.location().page() >= last_h1.location().page() {
+              current_info = last_h2.body
+            }
+          }
+          
+          block(width: 100%)[
+            #line(length: 100%, stroke: 0.5pt + gray)
+            #v(-4pt)
+            #set text(size: 9pt, fill: gray.darken(30%), style: "italic")
+            #grid(
+              columns: (1fr, auto, 1fr),
+              align: (left, center, right),
+              titleGreek,
+              pad(x: 1.5em, text(size: 10pt, weight: "bold", fill: black, style: "normal")[#page_label]),
+              current_info
+            )
+          ]
+        }
+      } else {
+        align(center, text(size: 10pt, weight: "bold")[#page_label])
+      }
+    }
   )
 
-  // Text setup (Times New Roman 11pt, 1.5 line spacing)
+  // Text setup (Times New Roman 11pt, 1.5 line spacing equivalent)
   set text(
     font: "Times New Roman",
     size: 11pt,
@@ -35,80 +72,111 @@
     region: "GR"
   )
   
-  // 1.5 line spacing: leading is the space between lines.
-  // For 11pt font, 1.5 line height is 16.5pt. Leading = 16.5 - 11 = 5.5pt.
-  set par(leading: 0.65em, justify: true)
+  // Professional paragraph styling: Indentation for academic flow
+  set par(
+    leading: 0.65em, 
+    justify: true, 
+    first-line-indent: 1.5em,
+    spacing: 0.65em
+  )
   
+  // Link and Reference styling
+  show link: set text(fill: blue.darken(20%))
+  show ref: set text(fill: blue.darken(20%))
+
   // Heading styles
   show heading.where(level: 1): it => {
     pagebreak(weak: true)
-    set text(size: 14pt, weight: "bold")
-    v(12pt)
-    it
-    v(12pt)
+    v(3cm)
+    if it.numbering != none {
+      let count = counter(heading).get()
+      set align(right)
+      text(size: 16pt, weight: "light", fill: gray)[Κεφάλαιο #count.first()]
+      v(0.5em)
+      text(size: 24pt, weight: "bold")[#it.body]
+      v(1em)
+      line(length: 100%, stroke: 1.5pt + black)
+    } else {
+      set align(left)
+      text(size: 24pt, weight: "bold")[#it.body]
+      v(1em)
+      line(length: 100%, stroke: 1.5pt + black)
+    }
+    v(2cm)
   }
   
   show heading.where(level: 2): it => {
-    set text(size: 12pt, weight: "bold")
-    v(6pt)
+    set text(size: 14pt, weight: "bold")
+    v(1em)
     it
-    v(6pt)
+    v(0.5em)
   }
   
   show heading.where(level: 3): it => {
-    set text(size: 11pt, weight: "bold")
+    set text(size: 12pt, weight: "bold")
+    v(0.5em)
     it
   }
 
-  // Caption setup
-  // Figures: Below, Table: Above
+  // Caption setup: Figures below, Tables above
   show figure.where(kind: table): set figure.caption(position: top)
   show figure.where(kind: image): set figure.caption(position: bottom)
+  show figure: set block(spacing: 2em)
   
-  // Title Page (Greek)
-  page(numbering: none)[
+  // --- Title Page (Greek) ---
+  page(numbering: none, header: none)[
     #set align(center)
-    #v(2cm)
-    #text(size: 16pt, weight: "bold")[#university]
     #v(1cm)
+    #text(size: 16pt, weight: "bold")[#university]
+    #v(0.5cm)
     #text(size: 14pt, weight: "bold")[#program]
     #v(3cm)
-    #text(size: 18pt, weight: "bold")[#titleGreek]
+    #line(length: 90%, stroke: 0.5pt)
+    #v(0.5cm)
+    #text(size: 22pt, weight: "bold")[#titleGreek]
+    #v(0.5cm)
+    #line(length: 90%, stroke: 0.5pt)
     #v(2cm)
     #text(size: 14pt)[Διπλωματική Εργασία]
     #v(1cm)
-    #text(size: 14pt, weight: "bold")[#author]
-    #v(2cm)
+    #text(size: 16pt, weight: "bold")[#author]
+    #v(1fr)
     #grid(
       columns: (1fr, 1fr),
       align: (left, right),
-      [Επιβλέπων:], [#supervisor]
+      gutter: 2em,
+      [#text(weight: "bold")[Επιβλέπων:]\ #supervisor],
+      [#text(weight: "bold")[Ημερομηνία:]\ #submissionDate]
     )
-    #v(1fr)
-    #submissionDate
+    #v(1cm)
   ]
 
-  // Title Page (English)
-  page(numbering: none)[
+  // --- Title Page (English) ---
+  page(numbering: none, header: none)[
     #set align(center)
-    #v(2cm)
-    #text(size: 16pt, weight: "bold")[#university]
     #v(1cm)
+    #text(size: 16pt, weight: "bold")[#university]
+    #v(0.5cm)
     #text(size: 14pt, weight: "bold")[#program]
     #v(3cm)
-    #text(size: 18pt, weight: "bold")[#title]
+    #line(length: 90%, stroke: 0.5pt)
+    #v(0.5cm)
+    #text(size: 22pt, weight: "bold")[#title]
+    #v(0.5cm)
+    #line(length: 90%, stroke: 0.5pt)
     #v(2cm)
     #text(size: 14pt)[Master Thesis]
     #v(1cm)
-    #text(size: 14pt, weight: "bold")[#author]
-    #v(2cm)
+    #text(size: 16pt, weight: "bold")[#author]
+    #v(1fr)
     #grid(
       columns: (1fr, 1fr),
       align: (left, right),
-      [Supervisor:], [#supervisor]
+      gutter: 2em,
+      [#text(weight: "bold")[Supervisor:]\ #supervisor],
+      [#text(weight: "bold")[Date:]\ #submissionDate]
     )
-    #v(1fr)
-    #submissionDate
+    #v(1cm)
   ]
 
   // Front Matter numbering (roman)
@@ -139,6 +207,11 @@
   }
 
   // TOC
+  show outline.entry.where(level: 1): it => {
+    v(1em, weak: true)
+    strong(it)
+  }
+  
   heading(outlined: false, bookmarked: true, numbering: none)[Πίνακας Περιεχομένων]
   outline(title: none, indent: auto)
   
