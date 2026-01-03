@@ -4,4 +4,6 @@ The research investigates the critical connectivity layer, evaluating the integr
 
 By synthesizing state-of-the-art developments across communication, sensing, and data analytics, this thesis contributes a novel taxonomy and a strategic roadmap for the seamless integration of IoT technologies in maritime environments. The findings underscore that the successful implementation of MIoT requires a holistic approach that balances technical innovation with rigorous standardization and cybersecurity. Ultimately, this work serves as a foundational resource for researchers and industry stakeholders navigating the complexities of the digital ocean, providing insights into emerging trends such as neuromorphic computing and quantum communications that will define the future of maritime operations.
 
+#v(2em)
+#set par(first-line-indent: 0pt)
 *Keywords:* Maritime Internet of Things (MIoT), Autonomous Ships, Cybersecurity, 6G Networks, Digital Twins, Maritime 4.0, Sustainability.
