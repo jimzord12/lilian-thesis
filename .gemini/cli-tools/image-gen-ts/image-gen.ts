@@ -63,10 +63,21 @@ async function main() {
   // Use test prompt if specified
   if (options.test) promptFile = path.resolve(__dirname, 'test/test-prompt.txt');
 
+  if (!promptFile) {
+    console.error('Error: Prompt file argument is required unless --test is specified.');
+    program.help();
+  }
+
   // Read prompt from file
   if (!fs.existsSync(promptFile)) {
     console.error(`Error: Prompt file not found: ${promptFile}`);
     process.exit(1);
+  }
+
+  // Set default output path if not provided
+  if (!outputPath) {
+    const promptDir = path.dirname(promptFile);
+    outputPath = path.join(promptDir, 'generated-img.png');
   }
 
   const prompt = fs.readFileSync(promptFile, 'utf-8').trim();
