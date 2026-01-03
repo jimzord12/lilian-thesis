@@ -1,11 +1,24 @@
-// metadata.typ
-#let titleEnglish = "Maritime Internet of Things: A Comprehensive Analysis of Communication Networks, Autonomous Systems, and Emerging Technologies"
-#let titleGreek = "Θαλάσσιο Διαδίκτυο των Πραγμάτων: Μια Ολοκληρωμένη Ανάλυση Δικτύων Επικοινωνίας, Αυτόνομων Συστημάτων και Αναδυόμενων Τεχνολογιών"
-#let author = "[Placeholder for Author Name]"
-#let supervisor = "[Placeholder for Supervisor Name]"
-#let university = "[Placeholder for University Name]"
-#let degree = "[Placeholder for Degree]"
-#let program = "[Placeholder for Program]"
-#let startDate = "Δεκέμβριος 2025"
-#let submissionDate = "Δεκέμβριος 2025"
-#let examiner = "[Placeholder for Examiner Name]"
+#let titleEnglish = "Maritime Internet of Things (MIoT) and WSN Applications with Extensions to Automatic Navigation Systems"
+#let titleGreek = "Maritime Internet of Things (MIoT) και WSN Εφαρμογές με Επεκτάσεις στα Συστήματα Αυτόματης Πλοήγησης"
+
+#let author = "ΔΕΔΕ ΕΥΑΓΓΕΛΙΑ-ΔΗΜΗΤΡΑ (ΑΜ: ICE21390048)"
+#let authorEnglish = "EVANGELIA-DIMITRA DEDE"
+
+#let supervisor = "ΚΩΝΣΤΑΝΤΙΝΟΣ Ι. ΜΑΥΡΟΜΜΑΤΗΣ"
+#let supervisorEnglish = "KONSTANTINOS I. MAVROMMATIS"
+
+#let university = "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ"
+#let universityEnglish = "UNIVERSITY OF WEST ATTICA"
+
+#let degree = "Διπλωματική Εργασία"
+#let degreeEnglish = "Master Thesis"
+
+#let program = "ΠΟΛΥΤΕΧΝΙΚΗ ΣΧΟΛΗ
+ΤΜΗΜΑ ΜΗΧΑΝΙΚΩΝ ΠΛΗΡΟΦΟΡΙΚΗΣ ΚΑΙ ΥΠΟΛΟΓΙΣΤΩΝ"
+#let programEnglish = "SCHOOL OF ENGINEERING DEPARTMENT
+OF INFORMATICS AND COMPUTER ENGINEERING"
+
+#let startDate = "Ιανουάριος 2026"
+#let submissionDate = "Ιανουάριος 2026"
+#let submissionDateEnglish = "January 2026"
+#let examiner = ""

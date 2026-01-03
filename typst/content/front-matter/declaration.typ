@@ -10,6 +10,8 @@
 
 #v(4cm)
 #align(right)[
+  #image("../../assets/images/frontmatter/author-signature.png", width: 4cm)
+  #v(-1.5em)
   #line(length: 6cm, stroke: 0.5pt)
-  [Ονοματεπώνυμο]
+  ΔΕΔΕ ΕΥΑΓΓΕΛΙΑ-ΔΗΜΗΤΡΑ
 ]

@@ -3,17 +3,25 @@
   title: "",
   titleGreek: "",
   author: "",
+  authorEnglish: "",
   supervisor: "",
+  supervisorEnglish: "",
   university: "",
+  universityEnglish: "",
   degree: "",
+  degreeEnglish: "",
   program: "",
+  programEnglish: "",
   startDate: "",
   submissionDate: "",
+  submissionDateEnglish: "",
   abstract_en: none,
   abstract_gr: none,
   acknowledgements: none,
   declaration: none,
   abbreviations: none,
+  cover_gr: none,
+  cover_en: none,
   body
 ) = {
   // Set document metadata
@@ -143,66 +151,15 @@
     [: ]
     it.body
   }
-
   // --- Title Page (Greek) ---
-  page(numbering: none, header: none, footer: none)[
-    #set align(center)
-    #v(1cm)
-    #text(size: 16pt, weight: "bold")[#university]
-    #v(0.5cm)
-    #text(size: 14pt, weight: "bold")[#program]
-    #v(1cm)
-    #image("../assets/images/frontmatter/university-logo.png", width: 5cm)
-    #v(1.5cm)
-    #line(length: 90%, stroke: 0.5pt)
-    #v(0.5cm)
-    #text(size: 22pt, weight: "bold")[#titleGreek]
-    #v(0.5cm)
-    #line(length: 90%, stroke: 0.5pt)
-    #v(2cm)
-    #text(size: 14pt)[Διπλωματική Εργασία]
-    #v(1cm)
-    #text(size: 16pt, weight: "bold")[#author]
-    #v(1fr)
-    #grid(
-      columns: (1fr, 1fr),
-      align: (left, right),
-      gutter: 2em,
-      [#text(weight: "bold")[Επιβλέπων:]\ #supervisor],
-      [#text(weight: "bold")[Ημερομηνία:]\ #submissionDate]
-    )
-    #v(1cm)
-  ]
+  if cover_gr != none {
+    cover_gr
+  }
 
   // --- Title Page (English) ---
-  page(numbering: none, header: none, footer: none)[
-    #set align(center)
-    #v(1cm)
-    #text(size: 16pt, weight: "bold")[#university]
-    #v(0.5cm)
-    #text(size: 14pt, weight: "bold")[#program]
-    #v(1cm)
-    #image("../assets/images/frontmatter/university-logo.png", width: 5cm)
-    #v(1.5cm)
-    #line(length: 90%, stroke: 0.5pt)
-    #v(0.5cm)
-    #text(size: 22pt, weight: "bold")[#title]
-    #v(0.5cm)
-    #line(length: 90%, stroke: 0.5pt)
-    #v(2cm)
-    #text(size: 14pt)[Master Thesis]
-    #v(1cm)
-    #text(size: 16pt, weight: "bold")[#author]
-    #v(1fr)
-    #grid(
-      columns: (1fr, 1fr),
-      align: (left, right),
-      gutter: 2em,
-      [#text(weight: "bold")[Supervisor:]\ #supervisor],
-      [#text(weight: "bold")[Date:]\ #submissionDate]
-    )
-    #v(1cm)
-  ]
+  if cover_en != none {
+    cover_en
+  }
 
   // Front Matter numbering (roman)
   set page(numbering: "i")
