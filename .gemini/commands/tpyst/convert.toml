@@ -10,7 +10,7 @@ You are tasked with converting Chapter {{args}} from its final Greek Markdown so
 
 ## Source and Destination
 - **Source**: `chapters/Chapter-{{args}}/gr/Chapter-{{args}}-Final-no-refs.md`
-- **Destination**: `typst/content/chapter{{args}}.typ`
+- **Destination**: `typst/content/chapters/chapter{{args}}.typ`
 
 ## Conversion Rules
 1. **Headings**: Map Markdown `#` levels to Typst `=` levels.
@@ -32,6 +32,6 @@ You are tasked with converting Chapter {{args}} from its final Greek Markdown so
 
 ## Finalization
 - After creating the file, check `typst/main.typ`.
-- If `#include "content/chapter{{args}}.typ"` is missing or commented out, add/uncomment it to ensure the chapter is included in the final compilation.
+- If `#include "content/chapters/chapter{{args}}.typ"` is missing or commented out, add/uncomment it to ensure the chapter is included in the final compilation.
 - Confirm that everything is OK by running a Typst build, you can use this script: `.gemini/scripts/compile_typst.sh`.
 """
