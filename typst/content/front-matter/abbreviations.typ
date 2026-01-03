@@ -1,7 +1,8 @@
 #table(
   columns: (1fr, 3fr),
   stroke: none,
-  gutter: 1em,
+  row-gutter: 1em,
+  fill: (col, row) => if calc.odd(row) { luma(240) } else { none },
   [*Συντομογραφία*], [*Περιγραφή*],
   [*AIS*], [Automatic Identification System (Σύστημα Αυτόματης Αναγνώρισης)],
   [*AUV*], [Autonomous Underwater Vehicle (Αυτόνομο Υποβρύχιο Όχημα)],

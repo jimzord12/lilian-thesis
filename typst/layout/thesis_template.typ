@@ -145,7 +145,7 @@
   }
 
   // --- Title Page (Greek) ---
-  page(numbering: none, header: none)[
+  page(numbering: none, header: none, footer: none)[
     #set align(center)
     #v(1cm)
     #text(size: 16pt, weight: "bold")[#university]
@@ -175,7 +175,7 @@
   ]
 
   // --- Title Page (English) ---
-  page(numbering: none, header: none)[
+  page(numbering: none, header: none, footer: none)[
     #set align(center)
     #v(1cm)
     #text(size: 16pt, weight: "bold")[#university]
