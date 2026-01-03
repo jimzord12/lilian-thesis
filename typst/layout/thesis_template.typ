@@ -93,6 +93,8 @@
   show ref: set text(fill: blue.darken(20%))
 
   // Heading styles
+  show heading: set text(hyphenate: false)
+
   show heading.where(level: 1): it => {
     counter(figure.where(kind: image)).update(0)
     counter(figure.where(kind: table)).update(0)
@@ -141,6 +143,8 @@
     let n = nums.pos().first()
     [#chapter.#n]
   })
+
+  set table(align: center + horizon)
 
   // Caption styling: Bold label, normal body
   show figure.caption: it => {
@@ -226,7 +230,9 @@
   // Content
   // Global hyphenation settings
   show heading: set text(hyphenate: false)
+  show heading: set par(justify: false)
   show table: set text(hyphenate: false)
+  show table: set par(justify: false, first-line-indent: 0pt)
 
   body
 }
