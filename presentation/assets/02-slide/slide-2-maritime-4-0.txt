@@ -1,0 +1,7 @@
+A sophisticated, dual-pane conceptual visualization for a technical maritime engineering presentation. 
+
+Left Pane (Current Industry State): A minimalist architectural schematic of a conventional vessel bridge. Overlaid icons represent "Human-Centric Vulnerabilities," with subtle heatmaps indicating cognitive load and fatigue points. Statistical data callouts (75-96% human-error coefficient) are integrated into the design using clean, professional typography. The color palette uses muted greys and cautionary ambers to signify systemic inefficiency and digital fragmentation.
+
+Right Pane (Maritime 4.0 Ecosystem): A high-fidelity technical rendering of an autonomous-ready vessel within a "Connected Sea" framework. The image features a complex mesh of digital twin overlays, real-time telemetry nodes, and satellite-to-ship data links (VDES/6G icons). The visual emphasis is on "Systemic Optimization" and "Data-Driven Safety." The color palette is composed of deep navies, precision whites, and technological cyans, conveying a sense of stability, precision, and environmental stewardship.
+
+Style: Technical blueprint aesthetic combined with realistic 3D rendering. Clean, flat design elements; high-contrast but professional; 8k resolution; suitable for a high-level academic defense or industry whitepaper. No cinematic drama; focus on structural clarity and information density.
