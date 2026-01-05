@@ -1,0 +1,8 @@
+A professional 2D flat-design technical diagram for a maritime engineering thesis, showing the methodological workflow of a Collision Avoidance System (CAS). The image has a **4:3 aspect ratio** and uses a clean, minimalist 2D style with no 3D elements.
+
+The diagram follows a logical 3-step horizontal flow:
+1. **Left Box (Situation Awareness):** Labeled "SITUATION AWARENESS". Icons for Radar, AIS, and LiDAR feeding into a central node.
+2. **Middle Box (Threat Assessment):** Labeled "THREAT ASSESSMENT". Mentions "CPA / TCPA" and "Vessel Domain". Use a caution/amber color theme.
+3. **Right Box (Maneuver Planning):** Labeled "MANEUVER PLANNING". Lists four sub-modules: "Velocity Obstacle (VO)", "Potential Fields (APF)", "Model Predictive Control (MPC)", and "Deep Reinforcement Learning (DRL)". Use a success/green color theme.
+
+Bold arrows connect the boxes from left to right. The background is pure white. The aesthetic is highly organized, academic, and professional, similar to an IEEE conference paper figure. High-contrast, sharp lines, sans-serif font.

@@ -2,8 +2,11 @@
   "name": "image-gen",
   "version": "1.0.0",
   "description": "Image generation CLI using OpenRouter SDK",
-  "main": "index.js",
+  "main": "image-gen.ts",
   "type": "module",
+  "bin": {
+    "image-gen": "./image-gen.ts"
+  },
   "scripts": {
     "start": "tsx image-gen.ts",
     "build": "tsc"

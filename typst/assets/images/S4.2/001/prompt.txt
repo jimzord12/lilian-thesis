@@ -1,0 +1,9 @@
+A professional horizontal technical infographic illustrating the "IMO 4 Levels of Maritime Autonomy" for a university thesis. The image has a **4:3 aspect ratio**. The design is clean, minimalist, and uses a maritime engineering aesthetic with a white background.
+
+Four distinct panels arranged left-to-right:
+1. **Level 1 (Decision Support):** A modern cargo ship icon with visible human silhouettes on the bridge. Steel blue color theme.
+2. **Level 2 (Remotely Controlled with Crew):** A ship icon with a wireless antenna symbol above it, showing both a remote link and humans on board. Ocean blue theme.
+3. **Level 3 (Remotely Controlled Unmanned):** An unmanned ship icon with a strong glowing satellite/remote link to a shore-based control center. Deep sea navy theme.
+4. **Level 4 (Fully Autonomous):** An unmanned ship icon with a glowing AI brain/circuitry symbol on the bridge, representing independent machine intelligence. Electric teal and cyber green accents.
+
+Each panel includes a bold title "LEVEL 1", "LEVEL 2", etc., and a small progress bar below showing the shift from human to AI control. Connecting the levels is a sleek dashed arrow line. High resolution, vector illustration style, professional typography, technical schematic look.

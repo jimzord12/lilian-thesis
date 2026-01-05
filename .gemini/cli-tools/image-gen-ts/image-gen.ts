@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 
 import { program } from 'commander';
 import * as dotenv from 'dotenv';
@@ -210,3 +210,4 @@ function mimeTypeToExt(mimeType: string): string {
 }
 
 main();
+
