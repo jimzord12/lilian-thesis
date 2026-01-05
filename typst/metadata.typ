@@ -1,7 +1,7 @@
 #let titleEnglish = "Maritime Internet of Things (MIoT) and WSN Applications with Extensions to Automatic Navigation Systems"
 #let titleGreek = "Maritime Internet of Things (MIoT) και WSN Εφαρμογές με Επεκτάσεις στα Συστήματα Αυτόματης Πλοήγησης"
 
-#let author = "ΔΕΔΕ ΕΥΑΓΓΕΛΙΑ-ΔΗΜΗΤΡΑ (ΑΜ: ICE21390048)"
+#let author = [ΔΕΔΕ ΕΥΑΓΓΕΛΙΑ-ΔΗΜΗΤΡΑ \ (ΑΜ: ICE21390048)]
 #let authorEnglish = "EVANGELIA-DIMITRA DEDE"
 
 #let supervisor = "ΚΩΝΣΤΑΝΤΙΝΟΣ Ι. ΜΑΥΡΟΜΜΑΤΗΣ"

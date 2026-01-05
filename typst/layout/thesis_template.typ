@@ -25,7 +25,7 @@
   body
 ) = {
   // Set document metadata
-  set document(title: title, author: author)
+  set document(title: title, author: authorEnglish)
 
   // Page setup with running footers
   set page(
